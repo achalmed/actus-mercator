@@ -1,0 +1,36 @@
+{
+  "index.qmd": {
+    "index.html": "8bbda8e7"
+  },
+  "inteligencia-comercial/2024-03-31-por-editar/index.qmd": {
+    "index.html": "83a53519",
+    "index.tex": "db19a388",
+    "index.docx": "7160b28a"
+  },
+  "inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.qmd": {
+    "index.html": "3d651480",
+    "index.tex": "de11998c",
+    "index.docx": "db3c8b18"
+  },
+  "posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.qmd": {
+    "index.html": "925f6559",
+    "index.tex": "18d0646a",
+    "index.docx": "35af70e4"
+  },
+  "posts/2022-01-23-cadena de suministros/index.qmd": {
+    "index.html": "59a87db5",
+    "index.tex": "dc4b0804",
+    "index.docx": "054e013f"
+  },
+  "posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.qmd": {
+    "index.html": "ccb8a511",
+    "index.tex": "731356ac",
+    "index.docx": "9d477a40"
+  },
+  "SECURITY.md": {
+    "SECURITY.html": "4eb65dea"
+  },
+  "404.qmd": {
+    "404.html": "fc1b5f80"
+  }
+}
