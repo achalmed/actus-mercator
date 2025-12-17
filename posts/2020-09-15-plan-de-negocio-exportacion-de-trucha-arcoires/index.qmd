@@ -162,11 +162,11 @@ Debido a la nueva visión que debe tiene Aquazul, se ha realizado una prueba de 
 
 Nuestro producto para ofrecer es filete de trucha Filetes frescos o refrigerados de truchas empacados al vacío en paquetes de 1000 gr. cada uno el cual será comercializado en los mercados mayoristas de Estados Unidos.
 
--   ​ **Características y propiedades de la materia prima**
+-  **Características y propiedades de la materia prima**
 
 Es una especie de pescado de agua dulce cultivada de manera intensiva en estanques y jaulas flotantes en la margen de los ríos y en lagunas de la sierra del Perú. Las truchas son familias de la subfamilia salmoninae. En el Perú crían la variante trucha arco iris (Oncorhynchus myskiss). Ministerio de Agricultura y Riego (2019).
 
--   ​ **Propiedades de la materia prima**
+-   **Propiedades de la materia prima**
 
 Gracias a su bajo contenido en sal, es ideal para las personas que padecen de hipertensión arterial. Además, cuenta con un alto valor proteico que fortalece y acelera el crecimiento de los músculos. Un superalimento peruano que sirve para el desarrollo del cerebro y que previene enfermedades cardiacas y mentales, debido a su rico contenido en omega 3.
 
@@ -180,7 +180,7 @@ Gracias a su bajo contenido en sal, es ideal para las personas que padecen de hi
 
 : Valor nutricional de la trucha 
 
--   ​ **Beneficios de la salud**
+-   **Beneficios de la salud**
 
 La trucha cuenta con un alto valor proteico que fortalece y acelera el crecimiento de los músculos. Contribuye, también, con el desarrollo del cerebro y previene enfermedades cardiacas y mentales, debido a su rico contenido en omega 3.
 
@@ -381,13 +381,13 @@ Esta persona tendrá que trabajar con bastante innovación porque debe lograr el
 
 ### Tipos de reclutamiento
 
--   ​ **Reclutamiento interno:** Se desarrollará un programa de desarrollo personal para los empleados, procesamiento y exportación de truchas.
--   **​ Reclutamiento externo:** El reclutamiento externo de personal se realizará de dos formas, el primero será mediante el uso de agencias de reclutamiento y la segunda forma será mediante carteles públicos u avisos en los periódicos.
+-    **Reclutamiento interno:** Se desarrollará un programa de desarrollo personal para los empleados, procesamiento y exportación de truchas.
+-   ** Reclutamiento externo:** El reclutamiento externo de personal se realizará de dos formas, el primero será mediante el uso de agencias de reclutamiento y la segunda forma será mediante carteles públicos u avisos en los periódicos.
 
 ### Tipos de selección
 
--   ​ Se realizará una entrevista de trabajo con prueba de conocimiento específico, porque creemos que la especialización es de primordial importancia para el mejor desenvolvimiento de las labores.
--   ​ Por último, para considerar que el postulante es apto para el puesto al que aspira se tomara una prueba psicotécnica de aptitud, esto para medir las habilidades, competencias y capacidad del postulante.
+-   Se realizará una entrevista de trabajo con prueba de conocimiento específico, porque creemos que la especialización es de primordial importancia para el mejor desenvolvimiento de las labores.
+-   Por último, para considerar que el postulante es apto para el puesto al que aspira se tomara una prueba psicotécnica de aptitud, esto para medir las habilidades, competencias y capacidad del postulante.
 
 ### Tipos de inducción
 
@@ -582,7 +582,7 @@ a)  Demanda de productos sustitutos:
 
 El salmón que es directamente un sustituto de la trucha del otro lado, tenemos los productos de comida marítima en lata que es una forma de consumo muy importante en los hábitos de consumo de los estadounidenses.
 
--   ​ *El salmón:* La buena noticia es que el salmón ha ido escalando paulatinamente hasta sentarse en el segundo lugar de los productos del mar más importados por la nación norteamericana.
+-    *El salmón:* La buena noticia es que el salmón ha ido escalando paulatinamente hasta sentarse en el segundo lugar de los productos del mar más importados por la nación norteamericana.
 
 En los últimos años el consumo de salmón ha sido como la mostrada en la tabla 3.11.
 
@@ -602,7 +602,7 @@ En los últimos años el consumo de salmón ha sido como la mostrada en la tabla
 
 : Consumo per cápita de salmón 2009-2019 (En libras)
 
--   ​ *Comida marítima en lata*: el atún y sus productos derivados se ubicaron en un tercer lugar, con US\$1.570 millones y 385.825 toneladas; mientras que la tilapia se escaló hasta el cuarto puesto, al significar US\$673 millones y 172.546 toneladas.
+-    *Comida marítima en lata*: el atún y sus productos derivados se ubicaron en un tercer lugar, con US\$1.570 millones y 385.825 toneladas; mientras que la tilapia se escaló hasta el cuarto puesto, al significar US\$673 millones y 172.546 toneladas.
 
     ![Productos sustitutos de la trucha en el mercado norteamericano](index_files/figure-html/lu137401d6rd_tmp_8ae05c66.png)
 
@@ -703,11 +703,11 @@ La tabla muestra la demanda anual de trucha en el mercado estadounidense, para e
 
 ### Mix de marketing
 
--   ​ **Producto**
+-   **Producto**
 
 La trucha es un alimento de alto valor nutritivo para el ser humano en todas sus etapas de desarrollo, especialmente durante la formación de un nuevo ser y las primeras etapas de su crecimiento. Es una fuente rica en componentes minerales como el calcio, fósforo, sodio y potasio. Contiene omega 3 para el correcto funcionamiento de las actividades cerebrales, capacidad del aprendizaje, reduce la viscosidad de la sangre, controla los niveles de colesterol y de grasa, mejora la función del sistema inmunológico.
 
--   ​ **Precio**
+-   **Precio**
 
 El precio final de exportación de los filetes de trucha de 1000 gr. será de US\$ 8.40. En este, se considera que el mercado de Estados Unidos registra una alta preferencia por productos nutritivos y saludables.
 
@@ -715,11 +715,11 @@ Para poder llegar a este precio sugerido en el punto de venta, nuestra empresa t
 
 Precio FCA Callao: US\$ 8.40 y forma de pago: carta de crédito confirmada irrevocable
 
--   ​ **Plaza**
+-   **Plaza**
 
 El canal de distribución que se va a utilizar será indirecto, conformado por el productor, exportador, supermercados y el consumidor final.
 
--   ​ **Promoción**
+-   **Promoción**
 
 Para dar a conocer nuestro producto se va a participar en ferias, también se va a crear una página web, en la cual los consumidores podrán verificar la información acerca de la procedencia del producto, propiedades, beneficios, atributos, recetas, entre otros.
 
@@ -778,33 +778,33 @@ En lo que respecta a Marketing se va a invertir el 0,3% con respecto a los ingre
 
 *Flujo del proceso productivo.*
 
-​Adquisición de la trucha
+Adquisición de la trucha
 
-​Recepción del producto
+Recepción del producto
 
-​**¿La trucha tiene el tamaño comercial?**
+**¿La trucha tiene el tamaño comercial?**
 
-​Descarta
+Descarta
 
-​Lavado y descamado
+Lavado y descamado
 
-​Eviscerado y descabezado
+Eviscerado y descabezado
 
-​Deshuesado
+Deshuesado
 
-​Pesado Envasado
+Pesado Envasado
 
-​Lavado II
+Lavado II
 
-​Fileteado
+Fileteado
 
-​Sellado
+Sellado
 
-​Refrigerado
+Refrigerado
 
-​Empacado
+Empacado
 
-​Almacenado
+Almacenado
 
 ## Costos de producción
 
@@ -932,9 +932,9 @@ Para el cálculo del precio FCA de exportación se tomó en cuenta un envió de 
 
 Para realizar el cálculo se consideran lo siguiente:
 
--   ​ Tipo de cambio 3.61
--   ​ Contenedor de 20 pies
--   ​ Envío de 1000 Kg. De filete, 1kg por unidad.
+-   Tipo de cambio 3.61
+-   Contenedor de 20 pies
+-   Envío de 1000 Kg. De filete, 1kg por unidad.
 
 Para obtener el costo total de fabricación se multiplicó el costo de producción unitaria (S/.12.00) por la cantidad de envío. Además, se hizo uso del simulador financiero LATE que Promperú nos brinda, el cual se muestra en el Anexo No 1 y Anexo No 2.
 
@@ -1607,11 +1607,13 @@ c: Flujo de Efectivo Acumulado del año inmediato en el que se recupera la inver
 
 d: Flujo de efectivo del año en el que se recupera la inversión.
 
-​
 
-# Appendix
+
+# Anexo {#apx-a}
 
 ![Datos generales del proceso de exportación en el simulador financiero LATE](index_files/figure-html/lu137401d6rd_tmp_d9f9220d.png)
+
+
 
 ![Determinación de costos y el precio de exportación mediante el simulador financiero LATE.](index_files/figure-html/lu137401d6rd_tmp_bd7c7d98.png)
 
@@ -1644,6 +1646,8 @@ Ministerio de Comercio Exterior y Turismo. (2020). *Informes y Publicaciones*: O
 Ministerio de la Producción. (2020). *Informes y Publicaciones*: Obtenido de https://www.gob.pe/produce
 
 U.S. FOOD & DRUG. (2020). *U.S. FOOD & DRUG*. Obtenido de Información para Consumidores ¨Consejos utiles para los consumidores de la FDA¨: https://www.fda.gov/about-fda/fda-en-espanol
+
+
 
 {{< include ../../_contenido-inicio.qmd >}}
 

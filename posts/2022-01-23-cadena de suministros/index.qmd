@@ -92,16 +92,11 @@ Conjunto de empresas eficientemente integradas por los proveedores, los fabrican
 
 ## Etapas de la Cadena de Suministro
 
-
-![Etapas de la cadena de Abastecimiento](index_files/figure-html/image-20250330132806207.png){
-  #fig-myimportedimage 
-  fig-alt="Etapas de la cadena de Abastecimiento" 
-  apa-note="Adaptación de acuerdo a Chopra y Meindel (2008)"
-  }
+![Etapas de la cadena de Abastecimiento](index_files/figure-html/image-20250330132806207.png){#fig-myimportedimage fig-alt="Etapas de la cadena de Abastecimiento" apa-note="Adaptación de acuerdo a Chopra y Meindel (2008)"}
 
 ### Abastecimiento o suministro:
 
-Se encarga del cómo y dónde obtener las materias primas, dónde almacenarlas, cómo movilizarlas y qué criterios emplear en su selección. 
+Se encarga del cómo y dónde obtener las materias primas, dónde almacenarlas, cómo movilizarlas y qué criterios emplear en su selección.
 
 La etapa de abastecimiento se concentra en cómo, donde y cuando se consiguen y suministran las materias primas para fabricación de los productos terminados. Es la etapa relacionada con la función de compra, adquisición o abastecimiento de materias primas, insumos y soluciones complejas para el desarrollo de las actividades de fabricación o producción Bowersox et al., (2007).
 
@@ -139,12 +134,12 @@ Estas cuentan con cadenas muy cortas. Es más, una cadena jerárquica y depende 
 
 ## Ejemplo de las cadenas de suministro del atún
 
-La gran mayoría del atún en lata se produce para los mercados de Europa y Estados Unidos. Por ende, el consumo de atún en Estados Unidos y Europa depende de las cadenas de suministro mundiales en las que participan: 
+La gran mayoría del atún en lata se produce para los mercados de Europa y Estados Unidos. Por ende, el consumo de atún en Estados Unidos y Europa depende de las cadenas de suministro mundiales en las que participan:
 
-- Las flotas encargadas de la pesca.  
-- Los comerciantes que actúan como intermediarios entre las flotas pesqueras y los fabricantes.  
-- Los fabricantes que procesan y envasan el pescado.  
-- Los minoristas que venden el pescado al consumidor final
+-   Las flotas encargadas de la pesca.\
+-   Los comerciantes que actúan como intermediarios entre las flotas pesqueras y los fabricantes.\
+-   Los fabricantes que procesan y envasan el pescado.\
+-   Los minoristas que venden el pescado al consumidor final
 
 ![Cadenas de suministro del atún](index_files/figure-html/image-20250330133145909.png)
 
@@ -166,14 +161,10 @@ Lambert, D.M., Cooper, M.C., Pagh, J.D., (1998). *Supply opportunities.En: The i
 
 Lambert, Douglas M. y Pohlen, Terrance (2001). *Supply Chain Metric. The International Journal of Logistics Management,* Volume 12, Number 1.
 
-
-
 {{< include ../../_contenido-inicio.qmd >}}
 
 {{< include ../_contenido_posts.qmd >}}
 
 {{< include ../../_contenido-final.qmd >}}
 
-
 # Referencias
-

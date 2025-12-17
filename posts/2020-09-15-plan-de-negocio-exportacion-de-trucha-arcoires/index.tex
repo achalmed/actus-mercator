@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,13 +114,11 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
@@ -220,14 +217,14 @@ Huamanga, Portla Independencia N
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -244,7 +241,7 @@ Huamanga, Portla Independencia N
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -290,14 +287,17 @@ Huamanga, Portla Independencia N
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
 \section[Introduction]{Plan De Exportación De Trucha Arcoiris}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
+
+
 
 
 \section{Resumen Ejecutivo}\label{resumen-ejecutivo}
@@ -390,8 +390,7 @@ Unidos.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Características y propiedades de la materia
-  prima}
+  \textbf{Características y propiedades de la materia prima}
 \end{itemize}
 
 Es una especie de pescado de agua dulce cultivada de manera intensiva en
@@ -403,7 +402,7 @@ Ministerio de Agricultura y Riego (2019).
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Propiedades de la materia prima}
+  \textbf{Propiedades de la materia prima}
 \end{itemize}
 
 Gracias a su bajo contenido en sal, es ideal para las personas que
@@ -435,7 +434,7 @@ en omega 3.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Beneficios de la salud}
+  \textbf{Beneficios de la salud}
 \end{itemize}
 
 La trucha cuenta con un alto valor proteico que fortalece y acelera el
@@ -1012,14 +1011,14 @@ ventas.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Reclutamiento interno:} Se desarrollará un
-  programa de desarrollo personal para los empleados, procesamiento y
-  exportación de truchas.
+  \textbf{Reclutamiento interno:} Se desarrollará un programa de
+  desarrollo personal para los empleados, procesamiento y exportación de
+  truchas.
 \item
-  \textbf{\hspace{0pt} Reclutamiento externo:} El reclutamiento externo
-  de personal se realizará de dos formas, el primero será mediante el
-  uso de agencias de reclutamiento y la segunda forma será mediante
-  carteles públicos u avisos en los periódicos.
+  ** Reclutamiento externo:** El reclutamiento externo de personal se
+  realizará de dos formas, el primero será mediante el uso de agencias
+  de reclutamiento y la segunda forma será mediante carteles públicos u
+  avisos en los periódicos.
 \end{itemize}
 
 \subsubsection{Tipos de selección}\label{tipos-de-selecciuxf3n}
@@ -1027,14 +1026,13 @@ ventas.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} Se realizará una entrevista de trabajo con prueba de
-  conocimiento específico, porque creemos que la especialización es de
-  primordial importancia para el mejor desenvolvimiento de las labores.
+  Se realizará una entrevista de trabajo con prueba de conocimiento
+  específico, porque creemos que la especialización es de primordial
+  importancia para el mejor desenvolvimiento de las labores.
 \item
-  \hspace{0pt} Por último, para considerar que el postulante es apto
-  para el puesto al que aspira se tomara una prueba psicotécnica de
-  aptitud, esto para medir las habilidades, competencias y capacidad del
-  postulante.
+  Por último, para considerar que el postulante es apto para el puesto
+  al que aspira se tomara una prueba psicotécnica de aptitud, esto para
+  medir las habilidades, competencias y capacidad del postulante.
 \end{itemize}
 
 \subsubsection{Tipos de inducción}\label{tipos-de-inducciuxf3n}
@@ -1073,7 +1071,7 @@ toneladas)}{\label{fig-myimportedimage}}}}
 
 \includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_71aa4fe1.png}
 
-{\noindent \emph{Nota.} Inteligencia de Mercados-PROMPERU, 2018}
+\noindent \emph{Nota.} Inteligencia~de Mercados-PROMPERU, 2018
 
 \end{figure}
 
@@ -1218,8 +1216,7 @@ mercado & 3 & 3 & 3 \\
 \textbf{Total} & \textbf{8} & \textbf{8} & \textbf{6} \\
 \end{longtable}
 
-{\noindent \emph{Nota.} No/Nunca = 1; Algunos/A veces = 2; Si/Siempre =
-3}
+\noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
 \end{table}
 
@@ -1255,8 +1252,7 @@ pagador de las empresas del país es buena & 3 & 3 & 3 \\
 \textbf{Total} & \textbf{9} & \textbf{9} & \textbf{9} \\
 \end{longtable}
 
-{\noindent \emph{Nota.} No/Nunca = 1; Algunos/A veces = 2; Si/Siempre =
-3}
+\noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
 \end{table}
 
@@ -1293,8 +1289,7 @@ necesario, sin mayor dificultad & 3 & 2 & 3 \\
 \textbf{Total} & \textbf{9} & \textbf{7} & \textbf{9} \\
 \end{longtable}
 
-{\noindent \emph{Nota.} No/Nunca = 1; Algunos/A veces = 2; Si/Siempre =
-3}
+\noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
 \end{table}
 
@@ -1404,7 +1399,7 @@ marzo, 5 de mayo, 26 de mayo, 4 de julio, 1 de setiembre, 13 de octubre,
 \textbf{Códigos telefónicos:} & 00 + 1 + Ciudad + Número \\
 \end{longtable}
 
-{\noindent \emph{Nota.} The World Fatbook-CIA}
+\noindent \emph{Nota.} The~World Fatbook-CIA
 
 \end{table}
 
@@ -1438,8 +1433,8 @@ origen. \\
 productos nutritivos y educación (NLEA) \\
 \end{longtable}
 
-{\noindent \emph{Nota.} Ministerio de Comercio Exterior y Turismo
-(2019), Ministerio de La Producción (2019), FDA.}
+\noindent \emph{Nota.} Ministerio~de Comercio Exterior y Turismo (2019),
+Ministerio de La Producción (2019), FDA.
 
 \end{table}
 
@@ -1582,9 +1577,9 @@ consumo muy importante en los hábitos de consumo de los estadounidenses.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \emph{El salmón:} La buena noticia es que el salmón ha
-  ido escalando paulatinamente hasta sentarse en el segundo lugar de los
-  productos del mar más importados por la nación norteamericana.
+  \emph{El salmón:} La buena noticia es que el salmón ha ido escalando
+  paulatinamente hasta sentarse en el segundo lugar de los productos del
+  mar más importados por la nación norteamericana.
 \end{itemize}
 
 En los últimos años el consumo de salmón ha sido como la mostrada en la
@@ -1617,23 +1612,17 @@ AÑO & CANTIDAD \\
 \end{longtable}
 
 \begin{itemize}
+\tightlist
 \item
-  \hspace{0pt} \emph{Comida marítima en lata}: el atún y sus productos
-  derivados se ubicaron en un tercer lugar, con US\$1.570 millones y
-  385.825 toneladas; mientras que la tilapia se escaló hasta el cuarto
-  puesto, al significar US\$673 millones y 172.546 toneladas.
-
-  \begin{figure}[H]
-
-  \caption{Productos sustitutos de la trucha en el mercado
-  norteamericano}
-
-  {\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_8ae05c66.png}}
-
-  }
-
-  \end{figure}%
+  \emph{Comida marítima en lata}: el atún y sus productos derivados se
+  ubicaron en un tercer lugar, con US\$1.570 millones y 385.825
+  toneladas; mientras que la tilapia se escaló hasta el cuarto puesto,
+  al significar US\$673 millones y 172.546 toneladas.
 \end{itemize}
+
+\begin{verbatim}
+![Productos sustitutos de la trucha en el mercado norteamericano](index_files/figure-html/lu137401d6rd_tmp_8ae05c66.png)
+\end{verbatim}
 
 \begin{enumerate}
 \def\labelenumi{\alph{enumi})}
@@ -1817,7 +1806,7 @@ impidan la participación en el mercado internacional.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Producto}
+  \textbf{Producto}
 \end{itemize}
 
 La trucha es un alimento de alto valor nutritivo para el ser humano en
@@ -1832,7 +1821,7 @@ inmunológico.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Precio}
+  \textbf{Precio}
 \end{itemize}
 
 El precio final de exportación de los filetes de trucha de 1000 gr. será
@@ -1849,7 +1838,7 @@ confirmada irrevocable
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Plaza}
+  \textbf{Plaza}
 \end{itemize}
 
 El canal de distribución que se va a utilizar será indirecto, conformado
@@ -1858,7 +1847,7 @@ por el productor, exportador, supermercados y el consumidor final.
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} \textbf{Promoción}
+  \textbf{Promoción}
 \end{itemize}
 
 Para dar a conocer nuestro producto se va a participar en ferias,
@@ -1933,7 +1922,7 @@ una dieta siempre y cuando esta sea combinada con un poco de ejercicios
 diarios. \\
 \end{longtable}
 
-{\noindent \emph{Nota.} Ministerio de comercio exterior y turismo}
+\noindent \emph{Nota.} Ministerio~de comercio exterior y turismo
 
 \end{table}
 
@@ -2012,33 +2001,33 @@ horas.} & \\
 
 \emph{Flujo del proceso productivo.}
 
-\hspace{0pt}Adquisición de la trucha
+Adquisición de la trucha
 
-\hspace{0pt}Recepción del producto
+Recepción del producto
 
-\hspace{0pt}\textbf{¿La trucha tiene el tamaño comercial?}
+\textbf{¿La trucha tiene el tamaño comercial?}
 
-\hspace{0pt}Descarta
+Descarta
 
-\hspace{0pt}Lavado y descamado
+Lavado y descamado
 
-\hspace{0pt}Eviscerado y descabezado
+Eviscerado y descabezado
 
-\hspace{0pt}Deshuesado
+Deshuesado
 
-\hspace{0pt}Pesado Envasado
+Pesado Envasado
 
-\hspace{0pt}Lavado II
+Lavado II
 
-\hspace{0pt}Fileteado
+Fileteado
 
-\hspace{0pt}Sellado
+Sellado
 
-\hspace{0pt}Refrigerado
+Refrigerado
 
-\hspace{0pt}Empacado
+Empacado
 
-\hspace{0pt}Almacenado
+Almacenado
 
 \subsection{Costos de producción}\label{costos-de-producciuxf3n}
 
@@ -2329,7 +2318,7 @@ FCA Total & \$5,766.89 & S/.20818.47 \\
 \textbf{FCA Unitario} & \textbf{\$8.40} & \textbf{30.32} \\
 \end{longtable}
 
-{\noindent \emph{Nota.} LATE-Simulador financiero (Promperú)}
+\noindent \emph{Nota.} LATE-Simulador~financiero (Promperú)
 
 \end{table}
 
@@ -2342,11 +2331,11 @@ Para realizar el cálculo se consideran lo siguiente:
 \begin{itemize}
 \tightlist
 \item
-  \hspace{0pt} Tipo de cambio 3.61
+  Tipo de cambio 3.61
 \item
-  \hspace{0pt} Contenedor de 20 pies
+  Contenedor de 20 pies
 \item
-  \hspace{0pt} Envío de 1000 Kg. De filete, 1kg por unidad.
+  Envío de 1000 Kg. De filete, 1kg por unidad.
 \end{itemize}
 
 Para obtener el costo total de fabricación se multiplicó el costo de
@@ -2391,7 +2380,7 @@ DICIEMBRE & 6.19 & DICIEMBRE & 7.15 \\
 \textbf{TOTAL PROMEDIO} & \textbf{8.398} & & \\
 \end{longtable}
 
-{\noindent \emph{Nota.} SIICEX SUNAT}
+\noindent \emph{Nota.} SIICEX~SUNAT
 
 \end{table}
 
@@ -3583,8 +3572,8 @@ NÚMERO DE PAGOS & 5 & & \\
 5 & S/19,555.55 & S/40,529.64 & S/60,085.18 \\
 \end{longtable}
 
-{\noindent \emph{Nota.} Elaboración Propia, a partir del simulador de
-crédito ProEmpresa}
+\noindent \emph{Nota.} Elaboración~Propia, a partir del simulador de
+crédito ProEmpresa
 
 \end{table}
 
@@ -4229,9 +4218,11 @@ la inversión
 
 d: Flujo de efectivo del año en el que se recupera la inversión.
 
-\hspace{0pt}
+\appendix
 
-\section{Appendix}\label{appendix}
+\section{}\label{}
+
+\section{}\label{apx-a}
 
 \begin{figure}[H]
 
@@ -4312,7 +4303,7 @@ U.S. FOOD \& DRUG. (2020). \emph{U.S. FOOD \& DRUG}. Obtenido de
 Información para Consumidores ¨Consejos utiles para los consumidores de
 la FDA¨: https://www.fda.gov/about-fda/fda-en-espanol
 
-\section{Publicaciones Similares}\label{publicaciones-similares}
+\section{Publicaciones Similares}\label{apx-publicaciones-similares}
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y
 recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo

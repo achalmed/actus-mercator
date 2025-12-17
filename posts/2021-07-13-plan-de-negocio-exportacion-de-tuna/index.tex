@@ -6,6 +6,7 @@
   nolmodern,
   notxfonts,
   notimes,
+  12pt,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -17,8 +18,6 @@
 \babelprovide[main,import]{spanish}
 
 
-\babelfont{rm}[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -115,13 +114,11 @@ Roman}
 
 
 
-\usepackage{fontspec} 
+\usepackage{newtx}
 
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 
-  \setmainfont[,RawFeature={fallback=mainfontfallback}]{Latin Modern
-Roman}
 
 
 
@@ -218,14 +215,14 @@ Huamanga, Portla Independencia N
   \newcommand\contentsname{Tabla de contenidos}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Lista de Figuras}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Lista de Figuras}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Lista de Tablas}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Lista de Tablas}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -242,7 +239,7 @@ Huamanga, Portla Independencia N
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
 \makeatother
 \makeatletter
 \makeatother
@@ -288,23 +285,26 @@ Huamanga, Portla Independencia N
 
 \maketitle
 
+
 \hypertarget{toc}{}
 \tableofcontents
 \newpage
 \section[Introduction]{Exportación de Tuna desde Ayacucho}
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{3}
 
 \setlength\LTleft{0pt}
 
 
-\section{Capítulo 1. Antecedentes de la
-empresa}\label{capuxedtulo-1.-antecedentes-de-la-empresa}
 
-\subsection{Historia de la empresa}\label{historia-de-la-empresa}
+
+\section{Capítulo 1. Antecedentes de la
+Empresa}\label{capuxedtulo-1.-antecedentes-de-la-empresa}
+
+\subsection{Historia de la Empresa}\label{historia-de-la-empresa}
 
 LA EMPRESA ECOTUNA S.C.R.L. es una empresa peruana dedicada a la
-exportación de tuna, de la más alta calidad, saludable y buen sabor. Fue
+exportación de tuna de la más alta calidad, saludable y buen sabor. Fue
 creada y fundada el 23 de enero del 2020, registrada dentro de las
 sociedades mercantiles y comerciales como una sociedad comercial de
 responsabilidad limitada.
@@ -321,10 +321,10 @@ Nuestro equipo está comprometido con la calidad del producto, proceso de
 mejora continua y en la construcción de lazos comerciales a largo plazo
 con nuestros clientes y stakeholders.
 
-\subsection{Descripción de producto}\label{descripciuxf3n-de-producto}
+\subsection{Descripción de Producto}\label{descripciuxf3n-de-producto}
 
-La tuna, cuyo nombre científico es Opuntia ficus-indica, es una planta
-de la familia de las cactáceas la cual crece en los valles secos
+La tuna, cuyo nombre científico es \emph{Opuntia ficus-indica}, es una
+planta de la familia de las cactáceas la cual crece en los valles secos
 interandinos de Ayacucho.
 
 Especialmente adaptada a la escasez de agua y cuya exportación no
@@ -334,7 +334,7 @@ mercado. La partida arancelaria es 0810909000.
 
 \begin{figure}
 
-\caption{\label{fig-figura1}}
+\caption{\label{fig-figura1}Imagen Ilustrativa de la Tuna}
 
 \centering{
 
@@ -346,7 +346,7 @@ mercado. La partida arancelaria es 0810909000.
 
 \textbf{NOMBRE:} Tuna, nopal, chumbera, penca
 
-\textbf{DESCRIPCIÓN}: Tuna
+\textbf{DESCRIPCIÓN:} Tuna
 
 \textbf{PRESENTACIÓN:} Principalmente como fresco, también puede
 industrializarse con la perspectiva de procesar agroindustrialmente a la
@@ -357,20 +357,20 @@ mermeladas y néctares.
 siguientes variedades: tuna rosada.
 
 \textbf{ZONAS DE PRODUCCIÓN:} La tuna en nuestro país es producida
-principalmente en los departamentos de \textbf{Ayacucho}, Huancavelica,
-Lima y Cusco
+principalmente en los departamentos de Ayacucho, Huancavelica, Lima y
+Cusco.
 
 \textbf{ORIGEN:} La tuna es originaria de los Andes del Perú, Bolivia y
 de las planicies de México.
 
 \textbf{USOS Y APLICACIONES:} Proviene de una planta con 1.5 - 2.5 m. de
 altura, flores color amarillo claro, pencas de 20 - 25 cm de diámetro.
-Es una planta susceptible a plagas y enfermedades
+Es una planta susceptible a plagas y enfermedades.
 
-\section{Capítulo 2. Plan estratégico y plan
-organizacional}\label{capuxedtulo-2.-plan-estratuxe9gico-y-plan-organizacional}
+\section{Capítulo 2. Plan Estratégico y Plan
+Organizacional}\label{capuxedtulo-2.-plan-estratuxe9gico-y-plan-organizacional}
 
-\subsection{Gestión administrativa}\label{gestiuxf3n-administrativa}
+\subsection{Gestión Administrativa}\label{gestiuxf3n-administrativa}
 
 El objetivo de la administración es aumentar la productividad como medio
 para incrementar las posibilidades de competir con éxito en el mercado
@@ -382,6 +382,7 @@ En el Organigrama de la empresa ECOTUNA, se deben destacar las
 siguientes instancias:
 
 \begin{itemize}
+\tightlist
 \item
   Asamblea General de delegados.
 \item
@@ -392,8 +393,8 @@ siguientes instancias:
   Comités Consultivos.
 \end{itemize}
 
-\subsection{Gestión de los mercados internacionales y logística
-exportadora}\label{gestiuxf3n-de-los-mercados-internacionales-y-loguxedstica-exportadora}
+\subsection{Gestión de los Mercados Internacionales y Logística
+Exportadora}\label{gestiuxf3n-de-los-mercados-internacionales-y-loguxedstica-exportadora}
 
 \subsubsection{Proceso Logístico País
 Exportador}\label{proceso-loguxedstico-pauxeds-exportador}
@@ -402,43 +403,55 @@ Se desarrollará la compra de tunas al por mayor de regiones estratégicas
 que producen la tuna con lo cual tendremos la capacidad necesaria para
 abastecer el mercado internacional.
 
-\textbf{Protocolo del producto}. Después se realiza la cadena de
-embalaje del producto Tuna, el cual va a hacer embalado en cajas para
-frutas con ranura de ventilación y circulación a frío.
+\paragraph{Protocolo del Producto.}\label{protocolo-del-producto}
 
-\textbf{Protocolo de Embalaje.} El embalado de tuna será en cajas para
-frutas, que llevara una ranura de ventilación y circulación a frio.
+Después se realiza la cadena de embalaje del producto Tuna, el cual va a
+hacer embalado en cajas para frutas con ranura de ventilación y
+circulación a frío.
 
-\begin{figure}[H]
+\paragraph{Protocolo de Embalaje.}\label{protocolo-de-embalaje}
 
-\caption{Protocolo de Embalaje}
+El embalado de tuna será en cajas para frutas, que llevara una ranura de
+ventilación y circulación a frio.
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura2.png}}
+\begin{figure}
 
-}
+\caption{\label{fig-figura2}Protocolo de Embalaje}
 
-\end{figure}%
+\centering{
 
-\textbf{Protocolo de Embarque}. La mercancía será cargada en el almacén
-de nuestra empresa ECOTUNA en el departamento de Ayacucho, que luego
-será llevado en camiones con destino al aeropuerto internacional del
-Perú donde será la carga de la mercancía de 1500 cajas a un contenedor.
-
-\begin{figure}[H]
-
-\caption{Protocolo de Embarque}
-
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura3.png}}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura2.png}}
 
 }
 
 \end{figure}%
 
-\begin{figure}[H]
+\paragraph{Protocolo de Embarque.}\label{protocolo-de-embarque}
 
-\caption{Alt text}
+La mercancía será cargada en el almacén de nuestra empresa ECOTUNA en el
+departamento de Ayacucho, que luego será llevado en camiones con destino
+al aeropuerto internacional del Perú donde será la carga de la mercancía
+de 1500 cajas a un contenedor.
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura4.png}}
+\begin{figure}
+
+\caption{\label{fig-figura3}Protocolo de Embarque - Vista 1}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura3.png}}
+
+}
+
+\end{figure}%
+
+\begin{figure}
+
+\caption{\label{fig-figura4}Protocolo de Embarque - Vista 2}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura4.png}}
 
 }
 
@@ -448,24 +461,29 @@ Perú donde será la carga de la mercancía de 1500 cajas a un contenedor.
 Origen}\label{loguxedstica-del-trayecto-de-origen}
 
 Para la exportación de Tuna, el vendedor debe entregarle al agente de
-adunas la siguiente información previamente diligenciada:
+aduanas la siguiente información previamente diligenciada:
 
-· Factura de venta
+\begin{itemize}
+\tightlist
+\item
+  Factura de venta
+\item
+  Lista de empaque
+\item
+  Certificado de origen
+\item
+  Mandato aduanero
+\end{itemize}
 
-· Lista de empaque
-
-· Certificado de origen
-
-· Mandato aduanero
-
-\paragraph{Trayecto internacional.}\label{trayecto-internacional}
+\paragraph{Trayecto Internacional.}\label{trayecto-internacional}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
-  Obtención de la fecha del zarpe del avion desde el aeropuerto
-  internacional y certificación de la fecha del ETA (Stimetion time
-  arrive) del avion a Beijin.
+  Obtención de la fecha del zarpe del avión desde el aeropuerto
+  internacional y certificación de la fecha del ETA (Estimated Time of
+  Arrival) del avión a Beijing.
 \item
   Reclamación de los documentos originales en la línea aérea.
 \item
@@ -475,28 +493,31 @@ adunas la siguiente información previamente diligenciada:
   de acuerdo con nuestro INCOTERM.
 \end{enumerate}
 
-\paragraph{Trayecto destino.}\label{trayecto-destino}
+\paragraph{Trayecto Destino.}\label{trayecto-destino}
 
-El destino es Beijín
+El destino es Beijing.
 
-\begin{figure}[H]
+\begin{figure}
 
-\caption{Trayecto destino}
+\caption{\label{fig-figura5}Trayecto Destino}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura5.jpg}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura5.jpg}}
 
 }
 
 \end{figure}%
 
-\subsubsection{Gestión económica y
-financiera}\label{gestiuxf3n-econuxf3mica-y-financiera}
+\subsubsection{Gestión Económica y
+Financiera}\label{gestiuxf3n-econuxf3mica-y-financiera}
 
 Como base para cualquier negocio, es necesario disponer de una fuente de
 capital que ayude en el inicio y posterior comienzo de la actividad. Se
 podrá exportar con la ayuda de las siguientes fuentes:
 
 \begin{itemize}
+\tightlist
 \item
   Fuentes ajenas: Préstamos financieros, del banco Interbank.
 \item
@@ -505,7 +526,7 @@ podrá exportar con la ayuda de las siguientes fuentes:
   Ayudas públicas: Financiación por parte de los organismos públicos.
 \end{itemize}
 
-\subsection{Plan estratégico}\label{plan-estratuxe9gico}
+\subsection{Plan Estratégico}\label{plan-estratuxe9gico}
 
 \subsubsection{Misión}\label{misiuxf3n}
 
@@ -523,152 +544,140 @@ mundo, caracterizándonos por la alta calidad y frescura de nuestros
 productos, generando valor y bienestar a nuestros colaboradores, a
 nuestros proveedores y a nuestros clientes.
 
-\subsection{Plan de marketing}\label{plan-de-marketing}
+\subsection{Plan de Marketing}\label{plan-de-marketing}
 
-\section{Capítulo 3. Estudio de mercado internacional y plan de
-marketing}\label{capuxedtulo-3.-estudio-de-mercado-internacional-y-plan-de-marketing}
+\section{Capítulo 3. Estudio de Mercado Internacional y Plan de
+Marketing}\label{capuxedtulo-3.-estudio-de-mercado-internacional-y-plan-de-marketing}
 
-\subsection{Análisis de la oferta}\label{anuxe1lisis-de-la-oferta}
+\subsection{Análisis de la Oferta}\label{anuxe1lisis-de-la-oferta}
 
 \begin{table}
 
-{\caption{{Principales países exportadores}{\label{tbl-mytableppe}}}}
+{\caption{{Principales Países
+Exportadores}{\label{tbl-paises-exportadores}}}}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\begin{longtable}[]{@{}ccccc@{}}
 \toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Nº}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{País}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{\%Var 18-17}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{\%Part 18}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Total Exp. 2018 (millon US\$)}
-\end{minipage} \\
+Nº & País & \%Var 18-17 & \%Part 18 & Total Exp. 2018 (millon US\$) \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-1 & Mexico & 106\% & 79\% & 200.22 \\
+1 & México & 106\% & 79\% & 200.22 \\
 2 & Italia & 29\% & 12\% & 272.47 \\
 \end{longtable}
 
-{\noindent \emph{Nota.} COMTRADE}
+\noindent \emph{Nota.} COMTRADE
 
 \end{table}
 
-\begin{figure}[!htbp]
+\begin{figure}
 
-{\caption{{Participación en la produción de
-tuna}{\label{fig-myimportedimage}}}}
+\caption{\label{fig-figura6}Participación en la Producción de Tuna}
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/figura6.png}
+\centering{
 
-{\noindent \emph{Nota.} ASERCA - Universidad de Chapingo}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura6.png}}
 
-\end{figure}
+}
+
+\end{figure}%
 
 México al ser el país de origen de este fruto cuenta con la ventaja de
 tener un depositario nacional con más de 400 variedades de tuna. De un
-total de 40.000 toneladas de~\textbf{tuna}~que se exportan
-aproximadamente, Puebla aporta 8.000. Por tanto, se considera como una
-competencia para nuestra empresa.
+total de 40,000 toneladas de tuna que se exportan aproximadamente,
+Puebla aporta 8,000. Por tanto, se considera como una competencia para
+nuestra empresa.
 
 \begin{table}
 
-{\caption{{Principales empresas exportadoras}{\label{tbl-mytablepee}}}}
+{\caption{{Principales Empresas
+Exportadoras}{\label{tbl-empresas-exportadoras}}}}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5507}}
-  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2319}}
-  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2174}}@{}}
+\begin{longtable}[]{@{}lcc@{}}
 \toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Empresa}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{\%Var 20-19}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{\%Part. 20}
-\end{minipage} \\
+Empresa & \%Var 20-19 & \%Part. 20 \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
 Empresa Mexbest Mexico & 20\% & 17\% \\
 Empresa TunaMex & & \\
-Pomica Perú sociedad anónima cerrada & 7\% & 7 \\
+Pomica Perú sociedad anónima cerrada & 7\% & 7\% \\
 \end{longtable}
 
 \end{table}
 
-\subsection{Mercado objetivo}\label{mercado-objetivo}
+\subsection{Mercado Objetivo}\label{mercado-objetivo}
 
-Nuestro mercado de destino será China específicamente su capital Beijín,
-este país es uno de los principales importadores de tuna (partida frutas
-frescas), pues importa el 41\% de tuna a nivel mundial, dicha ciudad
-cuenta con un estimado de 18,827,069 de habitantes al 2020 de acuerdo
-con los datos de la CEPAL con un aumento de 0, 47\% promedio anual.
+Nuestro mercado de destino será China específicamente su capital
+Beijing, este país es uno de los principales importadores de tuna
+(partida frutas frescas), pues importa el 41\% de tuna a nivel mundial,
+dicha ciudad cuenta con un estimado de 18,827,069 de habitantes al 2020
+de acuerdo con los datos de la CEPAL con un aumento de 0.47\% promedio
+anual.
 
-\subsection{Ficha país}\label{ficha-pauxeds}
+\subsection{Ficha País}\label{ficha-pauxeds}
+
+\begin{table}
+
+{\caption{{Información General del País
+Objetivo}{\label{tbl-ficha-pais}}}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4225}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5775}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7778}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{País objetivo}
+País Objetivo
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{CHINA}
+CHINA
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textbf{Área} & 9.562.910 Km2 \\
+Área & 9,562,910 Km² \\
 Capital & Beijing - Pekín \\
-Población & 1.400.050.000 \\
-\textbf{Idioma oficial} & Mandarín \\
-Ubicación geográfica & Asia \\
+Población & 1,400,050,000 \\
+Idioma Oficial & Mandarín \\
+Ubicación Geográfica & Asia \\
 Moneda & Yuanes chinos \\
-\textbf{Tipo de cambio} & 0.15 USD -0.61 PEN \\
-Pbi & 12.901.904 M.€ - 15255791.88 Mill USD \\
-\textbf{Pbi per cápita} & 9.215€ - 10.89 USD \\
-Tasa de crecimiento anual & 18,3\% \\
+Tipo de Cambio & 0.15 USD - 0.61 PEN \\
+PIB & 12,901,904 M.€ - 15,255,791.88 Mill USD \\
+PIB per Cápita & 9,215€ - 10.89 USD \\
+Tasa de Crecimiento Anual & 18.3\% \\
 Clima & En China, los veranos son largos, tórridos, opresivos y
 ventosos; los inviernos son cortos, frescos y secos y está parcialmente
 nublado durante todo el año. Durante el transcurso del año, la
 temperatura generalmente varía de 10 °C a 37 °C y rara vez baja a menos
 de 4 °C o sube a más de 39 °C. \\
-\textbf{Pesos y medidas} & Jin \\
-\textbf{Días festivos} & 01 de enero, El día de año nuevo \\
-& 12- 17 de febrero, Año nuevo chino \\
-& 3 -- 5 de abril, Festival Qing Ming \\
+Pesos y Medidas & Jin \\
+Días Festivos & 01 de enero, El día de año nuevo \\
+& 12-17 de febrero, Año nuevo chino \\
+& 3-5 de abril, Festival Qing Ming \\
 & 14 al 16 de junio, Festival del barco del dragón \\
-& El 21 de setiembre, Festival de mediados de otoño \\
-& De 1- 7 de octubre, Dia nacional de la semana dorada \\
+& El 21 de septiembre, Festival de mediados de otoño \\
+& De 1-7 de octubre, Día nacional de la semana dorada \\
 \end{longtable}
 
-\subsection{Exigencias del producto}\label{exigencias-del-producto}
+\end{table}
+
+\subsection{Exigencias del Producto}\label{exigencias-del-producto}
 
 \subsubsection{Requisitos de
-importación}\label{requisitos-de-importaciuxf3n}
+Importación}\label{requisitos-de-importaciuxf3n}
 
 Para las exportaciones realizadas desde/a China se deben presentar los
 siguientes documentos:
 
 \begin{itemize}
+\tightlist
 \item
-  declaración de aduanas, contrato original (con sello), factura
+  Declaración de aduanas, contrato original (con sello), factura
   comercial original (con sello), lista de empaque original (con sello),
   certificado de salida y certificación de cuarentena, documentos de
-  transporte, documentos de seguro, Documentos legales
+  transporte, documentos de seguro, documentos legales.
 \item
   Código de Registro de Aduanas (Código CR): Para todos los envíos
   (excepto documento y efectos personales) deben estar identificados con
@@ -682,8 +691,9 @@ Todas las empresas de los países autorizados para exportar a China deben
 registrarse ante AQSIQ. Los documentos de recomendación incluyen:
 
 \begin{itemize}
+\tightlist
 \item
-  Información de la compañía. Nombre/dirección/ n° aprobación
+  Información de la compañía: Nombre/dirección/n° aprobación
 \item
   Información del producto: Nombre/materias primas/aplicación
 \item
@@ -695,6 +705,7 @@ Los productos que arriben a China podrán ser destruidos o devueltos si
 se encuentra cualquiera de las siguientes condiciones:
 
 \begin{itemize}
+\tightlist
 \item
   El país de origen se encuentra prohibido de exportar a China
 \item
@@ -705,26 +716,26 @@ se encuentra cualquiera de las siguientes condiciones:
 \item
   La mercancía no corresponde con el documento/licencia china
 \item
-  Etiquetado inapropiado del empaque de forma que no puede ser
-  corregido.
+  Etiquetado inapropiado del empaque de forma que no puede ser corregido
 \item
-  La fecha expiración a vencido y la calidad ha sido afectada
+  La fecha expiración ha vencido y la calidad ha sido afectada
 \item
   La mercancía ha sido contaminada con excremento animal, organismos
-  patógenos.
+  patógenos
 \end{itemize}
 
-\subsubsection{Barreras arancelarias}\label{barreras-arancelarias}
+\subsubsection{Barreras Arancelarias}\label{barreras-arancelarias}
 
-\subsubsection{Barreras no arancelarias}\label{barreras-no-arancelarias}
+\subsubsection{Barreras No Arancelarias}\label{barreras-no-arancelarias}
 
-\paragraph{Regulaciones sanitarias y
-fitosanitarias.}\label{regulaciones-sanitarias-y-fitosanitarias}
+\paragraph{Regulaciones Sanitarias y
+Fitosanitarias.}\label{regulaciones-sanitarias-y-fitosanitarias}
 
 Los requisitos fitosanitarios para la república popular China en cuanto
 a los cítricos son:
 
 \begin{itemize}
+\tightlist
 \item
   Certificación sanitaria de lugar de producción
 \item
@@ -736,10 +747,13 @@ a los cítricos son:
   obligatoriamente en inglés.
 \end{itemize}
 
-\textbf{Inspección:} El Departamento de Inspección y Cuarentena llevará
-a cabo las inspecciones de acuerdo con las disposiciones siguientes:
+\subparagraph{Inspección.}\label{inspecciuxf3n}
+
+El Departamento de Inspección y Cuarentena llevará a cabo las
+inspecciones de acuerdo con las disposiciones siguientes:
 
 \begin{itemize}
+\tightlist
 \item
   Verificación de Documentos
 \item
@@ -748,39 +762,47 @@ a cabo las inspecciones de acuerdo con las disposiciones siguientes:
   Comprobación Sensorial
 \end{itemize}
 
-\textbf{Plaguicidas:} La norma estipula 322 límites máximos de residuos
-de pesticidas
+\subparagraph{Plaguicidas.}\label{plaguicidas}
 
-\textbf{Micotoxinas:} La norma GB2761-2011 ``Niveles máximos de
-micotoxinas en alimentos'' estipula los niveles máximos de Aflatoxina
-B1, Aflatoxina M1, Deoxynivalenol, Patulina, Ochratoxina A and
-zearalenona en alimentos.
+La norma estipula 322 límites máximos de residuos de pesticidas.
 
-\textbf{Niveles máximos de contaminantes}
+\subparagraph{Micotoxinas.}\label{micotoxinas}
 
-\begin{figure}[H]
+La norma GB2761-2011 ``Niveles máximos de micotoxinas en alimentos''
+estipula los niveles máximos de Aflatoxina B1, Aflatoxina M1,
+Deoxynivalenol, Patulina, Ochratoxina A y zearalenona en alimentos.
 
-\caption{Clases (nombres) de los alimentos}
+\subparagraph{Niveles Máximos de
+Contaminantes.}\label{niveles-muxe1ximos-de-contaminantes}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura7.png}}
+\begin{figure}
+
+\caption{\label{fig-figura7}Clases (Nombres) de los Alimentos}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura7.png}}
 
 }
 
 \end{figure}%
 
-\textbf{Químicos:} Esta norma establece los límites máximos en alimentos
-de plomo, cadmio, mercurio, arsénico, estaño, níquel, cromo, nitrito,
-nitrato, benzo (a) pireno, N- dimetilnitrosamina, Policlorobifenilos y
-3-cloro-1, 2- propanodiol.
+\subparagraph{Químicos.}\label{quuxedmicos}
 
-\paragraph{Normas de etiquetado.}\label{normas-de-etiquetado}
+Esta norma establece los límites máximos en alimentos de plomo, cadmio,
+mercurio, arsénico, estaño, níquel, cromo, nitrito, nitrato, benzo (a)
+pireno, N-dimetilnitrosamina, Policlorobifenilos y 3-cloro-1,
+2-propanodiol.
+
+\paragraph{Normas de Etiquetado.}\label{normas-de-etiquetado}
 
 El etiquetado de alimentos preenvasados (todo alimento envuelto,
-empaquetado o embalado previamente, listo para ofrecerlo al consumido)
-se rige en China por la norma GB 7718 -- 2011 ``Norma General para
-Etiquetado de Alimentos Preenvasados.
+empaquetado o embalado previamente, listo para ofrecerlo al consumidor)
+se rige en China por la norma GB 7718-2011 ``Norma General para
+Etiquetado de Alimentos Preenvasados''.
 
 \begin{itemize}
+\tightlist
 \item
   Deberá ser de conformidad con los requisitos de las leyes estatales y
   reglamentos, así como con las normas de seguridad alimentaria.
@@ -801,175 +823,181 @@ Etiquetado de Alimentos Preenvasados.
   chinos correspondientes (salvo la marca).
 \end{itemize}
 
-\paragraph{Normas de envases y
-embalajes.}\label{normas-de-envases-y-embalajes}
+\paragraph{Normas de Envases y
+Embalajes.}\label{normas-de-envases-y-embalajes}
 
 En China, los envases y embalajes están regulados por la ley de
 Seguridad Alimentaria publicada en el 2009. Los artículos N° 32 y N° 62
 prohíben la importación, uso o compra de aditivos, materiales de envases
 que no cumplan con los estándares chinos de seguridad alimentaria.
 
-\paragraph{Normas ambientales.}\label{normas-ambientales}
+\paragraph{Normas Ambientales.}\label{normas-ambientales}
 
 Dentro de las Normas que actualmente están funcionando en China en el
 ámbito ambiental (clima y biodiversidad) para frutas y verduras frescas
-y fabricación de productos alimentarios (procesados) esta:
+y fabricación de productos alimentarios (procesados) está:
 
-\textbf{IFOAM Basic Standard}/ \textbf{GB 2760 -- 2011}
+\textbf{IFOAM Basic Standard / GB 2760-2011}
 
-\subsection{Canales de distribución}\label{canales-de-distribuciuxf3n}
+\subsection{Canales de Distribución}\label{canales-de-distribuciuxf3n}
 
-\begin{figure}[H]
+\begin{figure}
 
-\caption{Canales de distribución}
+\caption{\label{fig-figura8}Canales de Distribución}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura8.png}}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura8.png}}
 
 }
 
 \end{figure}%
 
-El canal de distribución de la empresa exportadora ECO\emph{TUNA será
-por medio del \_canal mayorista,} el producto ira del exportador a manos
-del mayorista o distribuidor general, luego pasará por un minorista o
+El canal de distribución de la empresa exportadora ECOTUNA será por
+medio del canal mayorista. El producto ira del exportador a manos del
+mayorista o distribuidor general, luego pasará por un minorista o
 distribuidor local para llegar al consumidor final, de la siguiente
 forma:
 
-Exportador---------\textgreater{} Mayorista--------\textgreater{}
-Minoristas---------\textgreater{} Usuario
+Exportador → Mayorista → Minoristas → Usuario
 
-\subsection{Medio de transporte}\label{medio-de-transporte}
+\subsection{Medio de Transporte}\label{medio-de-transporte}
 
 El medio de transporte para la exportación de Tuna blanca y naranja se
 realiza a través del Transporte aéreo, se llevará el producto vía aérea
 porque es un transporte rápido, ideal para productos perecibles y con
 alto grado de fragilidad como la tuna.
 
-\subsection{Análisis de la demanda}\label{anuxe1lisis-de-la-demanda}
+\subsection{Análisis de la Demanda}\label{anuxe1lisis-de-la-demanda}
 
-\subsubsection{Tendencia general del
-consumidor}\label{tendencia-general-del-consumidor}
+\subsubsection{Tendencia General del
+Consumidor}\label{tendencia-general-del-consumidor}
 
-\begin{figure}[!htbp]
+\begin{figure}
 
-{\caption{{Segmentación demográfica}{\label{fig-myimportedimagesd}}}}
+\caption{\label{fig-figura9}Segmentación Demográfica}
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/figura9.png}
+\centering{
 
-{\noindent \emph{Nota.} Indexmundi, elaboración propia}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura9.png}}
 
-\end{figure}
+}
+
+\end{figure}%
 
 Si bien es cierto que nuestro producto puede ser consumido por todos los
 rangos de edades, nuestra población objetivo será la de 25-54 años ya
-que conforman el mayor porcentaje de la población y a su ves
+que conforman el mayor porcentaje de la población y a su vez
 consideramos que dentro de estos rangos de edades se encuentran las
 personas con más independencia económica o con familias para adquirir
 nuestro producto.
 
-\begin{figure}[!htbp]
+\begin{figure}
 
-{\caption{{Segmentación socioeconómica}{\label{fig-myimportedimagess}}}}
+\caption{\label{fig-figura10}Segmentación Socioeconómica}
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/figura10.png}
+\centering{
 
-{\noindent \emph{Nota.} Mckinsey quarterly, elaboracion propia}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura10.png}}
 
-\end{figure}
+}
 
-Nuestro producto ira dirigido a personas con ingresos de entre
-16000-34000 USD pues conforman el mayor porcentaje de la población
+\end{figure}%
 
-\begin{figure}[!htbp]
+Nuestro producto irá dirigido a personas con ingresos de entre
+16,000-34,000 USD pues conforman el mayor porcentaje de la población.
 
-{\caption{{Segmentación geográfica}{\label{fig-myimportedimagesg}}}}
+\begin{figure}
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/figura11.png}
+\caption{\label{fig-figura11}Segmentación Geográfica}
 
-{\noindent \emph{Nota.} Santader trade elaboracion propia}
+\centering{
 
-\end{figure}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura11.png}}
 
-\begin{figure}[!htbp]
+}
 
-{\caption{{Consumo percapita anual de fruta por ciudad
-(2017)}{\label{fig-myimportedimagecpadfpc}}}}
+\end{figure}%
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/figura12.png}
+\begin{figure}
 
-{\noindent \emph{Nota.} National Bureau of Statistics of China
-elaboración Propia}
+\caption{\label{fig-figura12}Consumo Per Cápita Anual de Fruta por
+Ciudad (2017)}
 
-\end{figure}
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/figura12.png}}
+
+}
+
+\end{figure}%
 
 Nuestro mercado objetivo será la población urbana centrada en la ciudad
 de Beijing ya que tiene el consumo per cápita anual más grande de fruta
-en china.
+en China.
 
-\subsection{Características generales del
-mercado}\label{caracteruxedsticas-generales-del-mercado}
+\subsection{Características Generales del
+Mercado}\label{caracteruxedsticas-generales-del-mercado}
 
-FACTOR DEMOGRÁFICO: China cuenta con una población de 1.400.050.000 de
-habitantes, ``siendo el país más poblado del mundo, tiene una densidad
-de población media, de 146 habitantes por Km2'' (Datos,2018). La
-conformación de la población no es diversa, Tan solo un 0,07\% de la
+\textbf{FACTOR DEMOGRÁFICO:} China cuenta con una población de
+1,400,050,000 de habitantes, siendo el país más poblado del mundo, tiene
+una densidad de población media, de 146 habitantes por Km². La
+conformación de la población no es diversa, tan solo un 0.07\% de la
 población de China son inmigrantes, según los últimos datos de
 inmigración publicados por la ONU.
 
-FACTOR ECONÓMICO: China es la segunda economía del mundo por volumen de
-PIB (15255791.88 mill USD). Además es el segundo país con mayor volumen
-de importaciones del ranking mundial, los compradores chinos están
-interesados en importar fruta de todo el mundo fundamentalmente del
-hemisferio sur, las que distribuye en el mercado mayorista, en tiendas
-de frutas como (Gogo Fruits) comercializada través de una plataforma de
-`e-commerce', asi también como la italiana RK Growers que busca
-posicionarse en China con un amplio catálogo de productos, producidos en
-Italia, pero también en países del hemisferio sur.
+\textbf{FACTOR ECONÓMICO:} China es la segunda economía del mundo por
+volumen de PIB (15,255,791.88 mill USD). Además es el segundo país con
+mayor volumen de importaciones del ranking mundial, los compradores
+chinos están interesados en importar fruta de todo el mundo
+fundamentalmente del hemisferio sur, las que distribuye en el mercado
+mayorista, en tiendas de frutas como Gogo Fruits comercializada través
+de una plataforma de e-commerce, así también como la italiana RK Growers
+que busca posicionarse en China con un amplio catálogo de productos,
+producidos en Italia, pero también en países del hemisferio sur.
 
-FACTOR ESTILO DE VIDA: Este es un factor clave pues a medida que mejoran
-las condiciones de vida en China, el número de pacientes de alta presión
-arterial, alto nivel de glucemia y alta grasa sanguínea se incrementa
-cada día más, por lo que se espera que los ciudadanos cambien y
-reajusten sus hábitos alimenticios, así como aumenten la variedad de
+\textbf{FACTOR ESTILO DE VIDA:} Este es un factor clave pues a medida
+que mejoran las condiciones de vida en China, el número de pacientes de
+alta presión arterial, alto nivel de glucemia y alta grasa sanguínea se
+incrementa cada día más, por lo que se espera que los ciudadanos cambien
+y reajusten sus hábitos alimenticios, así como aumenten la variedad de
 frutas que consumen. La Tuna podría satisfacer esta demanda ya que esta
 posee un alto valor nutricional, es considerado un alimento funcional ya
-que su consumo proporciona beneficios que fortalecen la salud , es alto
-en fibra ,poder antioxidante y rica en vitamina C por lo que su consumo
-evita el envejecimiento de los tejidos , ayuda a la prevención de la
-obesidad diabetes y al control del colesterol.(Organización para las
-Naciones Unidas para la Alimentación {[}FAO{]},2016),
+que su consumo proporciona beneficios que fortalecen la salud, es alto
+en fibra, poder antioxidante y rica en vitamina C por lo que su consumo
+evita el envejecimiento de los tejidos, ayuda a la prevención de la
+obesidad diabetes y al control del colesterol.
 
-FACTOR TECNOLÓGICO: Debido a que el día a día de la población China
-transcurre de una forma muy rápida, éstos buscan opciones que se acoplen
-a su velocidad, no dejando de lado la calidad de lo que desean adquirir.
-Por tal razón, las ventas por internet y aplicaciones móviles se han
-incrementado ya que esta forma de compra les garantiza el consumo
-instantáneo (Promperú, 2015).
+\textbf{FACTOR TECNOLÓGICO:} Debido a que el día a día de la población
+China transcurre de una forma muy rápida, éstos buscan opciones que se
+acoplen a su velocidad, no dejando de lado la calidad de lo que desean
+adquirir. Por tal razón, las ventas por internet y aplicaciones móviles
+se han incrementado ya que esta forma de compra les garantiza el consumo
+instantáneo.
 
-\subsection{Análisis del comportamiento del
-consumidor}\label{anuxe1lisis-del-comportamiento-del-consumidor}
+\subsection{Análisis del Comportamiento del
+Consumidor}\label{anuxe1lisis-del-comportamiento-del-consumidor}
 
 Los consumidores chinos están cada vez más concienciados hacia hábitos
 de vida más saludables, por el aumento de enfermedades vinculadas a los
 estilos de vida, actualmente se observa una preocupación entre la
 población por incluir en sus dietas alimentos más saludables, entre los
 que destacan los productos vegetales frescos y, en especial, las frutas.
-La Tuna podría satisfacer esta demanda ya que ``la tuna posee un alto
-valor en fibra ,poder antioxidante y es rica en vitamina C por lo que su
-consumo evita el envejecimiento de los tejidos , ayuda a la prevención
-de la obesidad diabetes y al control del colesterol.(Organización para
-las Naciones Unidas para la Alimentación'' (FAO,2016).Por otro lado, es
-preciso indicar que ``el consumidor Chino está dispuesto a probar
+La Tuna podría satisfacer esta demanda ya que la tuna posee un alto
+valor en fibra, poder antioxidante y es rica en vitamina C por lo que su
+consumo evita el envejecimiento de los tejidos, ayuda a la prevención de
+la obesidad diabetes y al control del colesterol. Por otro lado, es
+preciso indicar que el consumidor Chino está dispuesto a probar
 productos novedosos y de sabores regionales, ya que éstos les otorgan
 una mayor variedad al momento de elegir un alimento pero sin embargo es
-necesario que cuando una fruta es `desconocida' para el grueso de la
+necesario que cuando una fruta es desconocida para el grueso de la
 población, hay que facilitarle la tarea de comerla. Y si viene bien
-presentada, mucho mejor'' (Redagricola,2018).Por otro lado de acuerdo a
-Bain \& Company, cerca del 70\% de los compradores `online' escribe
-`reviews' sobre los productos que ha comprado, mientras que el 90\% de
-los compradores lee `reviews' antes de realizar una compra, El
-consumidor chino es cada día más exigente y cada vez pide más calidad,
-tiene predilección por frutas lustrosas, con colores vivos y uniformes.
+presentada, mucho mejor. Por otro lado de acuerdo a Bain \& Company,
+cerca del 70\% de los compradores online escribe reviews sobre los
+productos que ha comprado, mientras que el 90\% de los compradores lee
+reviews antes de realizar una compra. El consumidor chino es cada día
+más exigente y cada vez pide más calidad, tiene predilección por frutas
+lustrosas, con colores vivos y uniformes.
 
 Además, existe una demanda de fruta fresca fuertemente relacionado con
 el mercado del regalo, ya que las frutas se usan como obsequio en las
@@ -981,9 +1009,9 @@ septiembre y octubre. Durante estas fiestas se comercializa un gran
 volumen de fruta importada.
 
 \section{Capítulo 4. Plan de
-operación}\label{capuxedtulo-4.-plan-de-operaciuxf3n}
+Operación}\label{capuxedtulo-4.-plan-de-operaciuxf3n}
 
-\subsection{Ficha de insumo producto}\label{ficha-de-insumo-producto}
+\subsection{Ficha de Insumo Producto}\label{ficha-de-insumo-producto}
 
 \subsubsection{Insumos}\label{insumos}
 
@@ -993,59 +1021,63 @@ ayuda a la prevención de la obesidad diabetes y control del colesterol.
 
 \subsubsection{Personal}\label{personal}
 
+\textbf{Mano de obra indirecta}
+
 \begin{itemize}
 \tightlist
 \item
-  Mano de obra indirecta
-
-  \begin{itemize}
-  \tightlist
-  \item
-    1 gerente
-  \item
-    1 secretaria, recepcionista
-  \end{itemize}
+  1 gerente
 \item
-  mano de obra directa
+  1 secretaria, recepcionista
+\end{itemize}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    5 encargados del área de empaque
-  \end{itemize}
+\textbf{Mano de obra directa}
+
+\begin{itemize}
+\tightlist
+\item
+  5 encargados del área de empaque
 \end{itemize}
 
 En conclusión, para el normal funcionamiento de la empresa se requerirán
 7 personas en su totalidad, para administración, operación, seguridad y
-limpieza
+limpieza.
 
-\subsubsection{Costos de producción}\label{costos-de-producciuxf3n}
+\subsubsection{Costos de Producción}\label{costos-de-producciuxf3n}
 
-\begin{longtable}[]{@{}lc@{}}
+\begin{table}
+
+{\caption{{Estructura de Costos de
+Producción}{\label{tbl-costos-produccion}}}}
+
+\begin{longtable}[]{@{}lr@{}}
 \toprule\noalign{}
-\textbf{Costo variable} & \textbf{Soles} \\
+Costo Variable & Soles \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Materia prima e insumos & 12672 \\
+Materia prima e insumos & 12,672 \\
 Mano de obra & 100 \\
-\textbf{Total costo variable} & \textbf{12772} \\
-Costo total & 12772.00 \\
-Unidades & 1500 \\
+\textbf{Total costo variable} & \textbf{12,772} \\
+Costo total & 12,772.00 \\
+Unidades & 1,500 \\
 Costo variable unitario & 8.51 \\
 Costo total unitario & 8.515 \\
 Margen de ganancia 80\% & 6.8117 \\
 Precio & 15.33 \\
-Precio exportador & 22989.6 \\
+Precio exportador & 22,989.6 \\
 \end{longtable}
 
-\subsection{Cadena de producción}\label{cadena-de-producciuxf3n}
+\end{table}
 
-Flujo del proceso productivo de la tuna
+\subsection{Cadena de Producción}\label{cadena-de-producciuxf3n}
+
+Flujo del proceso productivo de la tuna:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   Recepción de la tuna cosechada
 \item
@@ -1053,7 +1085,7 @@ Flujo del proceso productivo de la tuna
 \item
   Inspección y selección
 \item
-  clasificación
+  Clasificación
 \item
   Colocación del papel enserado
 \item
@@ -1067,15 +1099,15 @@ Flujo del proceso productivo de la tuna
 \end{enumerate}
 
 \section{Capítulo 5. Gestión
-exportadora}\label{capuxedtulo-5.-gestiuxf3n-exportadora}
+Exportadora}\label{capuxedtulo-5.-gestiuxf3n-exportadora}
 
-\subsection{Análisis de Costos y precios de
-exportación}\label{anuxe1lisis-de-costos-y-precios-de-exportaciuxf3n}
+\subsection{Análisis de Costos y Precios de
+Exportación}\label{anuxe1lisis-de-costos-y-precios-de-exportaciuxf3n}
 
 \begin{table}
 
-{\caption{{Plan para la internacionalización del
-nopal}{\label{tbl-mytablePPLIDN}}}}
+{\caption{{Plan para la Internacionalización del
+Nopal}{\label{tbl-plan-internacionalizacion}}}}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2297}}
@@ -1084,13 +1116,13 @@ nopal}{\label{tbl-mytablePPLIDN}}}}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2297}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Detalles}
+Detalles
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{I}
+I
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Producto: nombre técnico o comercial}
+Producto: nombre técnico o comercial
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{TUNA O NOPAL}
+TUNA O NOPAL
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
@@ -1102,15 +1134,15 @@ exportador & 810909000 \\
 & III & Unidad comercial de venta & KILO \\
 & IV & Valor por unidad comercial & \$0.63 \\
 & V & Empaque & CAJAS \\
-& & Dimensiones de cajas & 0.60\emph{0.38}0.16 \\
+& & Dimensiones de cajas & 0.60×0.38×0.16 \\
 Información básica del embarque & VI & Origen/país punto de carga &
 Ayacucho/Callao \\
 & VII & Destino /país punto de desembarque & Beijing/China \\
-& VIII & Peso total & 55000 \\
+& VIII & Peso total & 55,000 \\
 & IX & Unidad de carga & CAJAS \\
 & X & Unitarización & UNITARIZADO 1 CONT.X40''RF \\
-& XI & Cantidad total de cajas & 2500 \\
-& XII & Unidades comerciales & 52500 \\
+& XI & Cantidad total de cajas & 2,500 \\
+& XII & Unidades comerciales & 52,500 \\
 Otra información de importancia & XIII & Valor total mercancía &
 \$33,011.36 \\
 & XIV & Forma de pago y tiempo & Anticipado giro directo \\
@@ -1121,17 +1153,17 @@ Otra información de importancia & XIII & Valor total mercancía &
 
 \begin{table}
 
-{\caption{{FCA}{\label{tbl-mytableFCA}}}}
+{\caption{{Cotización FCA}{\label{tbl-cotizacion-fca}}}}
 
-\begin{longtable}[]{@{}lc@{}}
+\begin{longtable}[]{@{}lr@{}}
 \toprule\noalign{}
-& \textbf{FCA} \\
+& FCA \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Total exportador & 167704 \\
-Total importador & 1401434 \\
+Total exportador & 167,704 \\
+Total importador & 1,401,434 \\
 Costo unitario exportador & 67.082 \\
 Precio unitario al importador & 134.163 \\
 Precio total al importador (Valor Factura) & 335,408 \\
@@ -1139,17 +1171,22 @@ Precio total al importador (Valor Factura) & 335,408 \\
 
 \end{table}
 
-\subsection{Modalidades de pago}\label{modalidades-de-pago}
+\subsection{Modalidades de Pago}\label{modalidades-de-pago}
 
-\subsubsection{Forma de pago}\label{forma-de-pago}
+\subsubsection{Forma de Pago}\label{forma-de-pago}
 
 La empresa ECOTUNA tendrá la modalidad de pago por adelantado del 50\% y
 como institución intermediaria será INTERBANK, en vista de que esta
 forma de pago es la más segura teniendo en cuenta aspectos de riesgo.
 
+\begin{table}
+
+{\caption{{Evaluación de Riesgos por Modalidad de
+Pago}{\label{tbl-riesgos-pago}}}}
+
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
-\textbf{Medio/forma de pago} & \textbf{Riesgo exportador} \\
+Medio/forma de pago & Riesgo exportador \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1161,7 +1198,9 @@ Cobranza simple & Solvencia del importador \\
 Cuenta & Máximo \\
 \end{longtable}
 
-\subsubsection{Entrega de mercancía}\label{entrega-de-mercancuxeda}
+\end{table}
+
+\subsubsection{Entrega de Mercancía}\label{entrega-de-mercancuxeda}
 
 Según el ministerio de desarrollo agrario y riego con el incoterm FCA,
 Free Carrier (Libre Transportista) el exportador entrega la mercancía en
@@ -1172,7 +1211,7 @@ obligaciones como exportador.
 
 La modalidad de cobro de la empresa ECOTUNA que corresponde al 50\% se
 realizara de forma efectiva después de la transferencia de la mercancía
-a nuestro cliente y en el mismo lugar
+a nuestro cliente y en el mismo lugar.
 
 \subsection{Riesgos}\label{riesgos}
 
@@ -1186,24 +1225,22 @@ contrata a COFACE for trade una compañía Aseguradora para obtener un
 seguro de crédito a la exportación, el cual cubrirá los riesgos de
 rescisión o resolución del contrato y el riesgo de impago.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{10}
-\tightlist
-\item
-  Información adicional:
-\end{enumerate}
+\subsection{Información Adicional}\label{informaciuxf3n-adicional}
 
-Datos de importadores:
+\subsubsection{Datos de Importadores}\label{datos-de-importadores}
+
+\begin{table}
+
+{\caption{{Perfil Importador 1}{\label{tbl-importador1}}}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3889}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6111}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Empresa}
+Empresa
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{SOUSA RIBEIRO AGRAO TRADE EXPORT}
+SOUSA RIBEIRO AGRAO TRADE EXPORT
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
@@ -1214,58 +1251,59 @@ Industria & Comercio de frutas y plantas medicinales \\
 Escala comercial & Empresas líderes de alto potencial \\
 Dirección & Av. Stanislas Pryl, 11145435-000 Ituberá / BA Brasil \\
 Productos & Guaraná, cacao, pimentón brasileño, pasiflora, secula de
-topioca, pupunha, nuez de Brasil y aceites esenciales. \\
-Código hs & 020714SUDU817722700 \\
-Cantidad de empleados & 1001 \\
+topioca, pupunha, nuez de Brasil y aceites esenciales \\
+Código HS & 020714SUDU817722700 \\
+Cantidad de empleados & 1,001 \\
 Teléfono fax & +55 73 3256-2705 \\
-Sitio web &
-\href{mailto:atendimento@sousaribeiro.com.br}{Atendimento@sousaribeiro.com.br} \\
-Ranking de mercados top & \\
-& Estados unidos \\
-& Argentina \\
-& Reino unido \\
-Volumen de importación & USD\$125 millones \\
+Sitio web & atendimento@sousaribeiro.com.br \\
+Ranking de mercados top & Estados Unidos, Argentina, Reino Unido \\
+Volumen de importación & USD \$125 millones \\
 \end{longtable}
 
+\end{table}
+
+\begin{table}
+
+{\caption{{Perfil Importador 2}{\label{tbl-importador2}}}}
+
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3889}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6111}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Empresa}
+Empresa
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Maripa Importacao e Exportacao}
+Maripa Importacao e Exportacao
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
 Representante & Tatiana amaral torrinha balducci 22-sócio \\
-Industria & Concervas de frutas y frutas \\
+Industria & Conservas de frutas y frutas \\
 Escala comercial & Líderes de alto potencial \\
 Dirección & Extensión Unifap Y / N KM 02 Highway jk Barrio: Jardim Marco
 Zero Municipio: Macapa Estado: AP \\
-Productos & Cereza, mango, manzana, quiwi, pomelos \\
-Código hs & 24.283.272/0001-04 \\
-Cantidad de empleados & 1123 \\
+Productos & Cereza, mango, manzana, kiwi, pomelos \\
+Código HS & 24.283.272/0001-04 \\
+Cantidad de empleados & 1,123 \\
 Teléfono fax & (96) 9181-3939 / (96) 9135-0324 \\
 Sitio web &
-\url{Https://cnpjs.rocks/cnpj/24283272000104/maripa-importacao-e-exportacao-ltda.html} \\
-Ranking de mercados top & \\
-& Argentina \\
-& Perú \\
-& México \\
+https://cnpjs.rocks/cnpj/24283272000104/maripa-importacao-e-exportacao-ltda.html \\
+Ranking de mercados top & Argentina, Perú, México \\
 Volumen de importación & US\$ 138 millones \\
 \end{longtable}
+
+\end{table}
 
 \subsection{Ferias}\label{ferias}
 
 \subsubsection{Fruit \& Tech}\label{fruit-tech}
 
-Fruit \& Tech~brinda al mercado productor de~frutas, verduras y
-derivados, tecnología y logística~todas las condiciones para
-la~generación de negocios, ampliación de contactos comerciales, apertura
-al mercado externo y aumento de ventas.
+Fruit \& Tech brinda al mercado productor de frutas, verduras y
+derivados, tecnología y logística todas las condiciones para la
+generación de negocios, ampliación de contactos comerciales, apertura al
+mercado externo y aumento de ventas.
 
 Con amplia presencia de compradores internacionales, el evento destaca
 las rondas de negocios, seminarios, lanzamiento de productos, difusión
@@ -1273,16 +1311,16 @@ de técnicas y nuevas tecnologías, entre otras atracciones.
 
 \subsubsection{Frutal}\label{frutal}
 
-\textbf{Frutal}~se celebra anualmente en diciembre y atrae a visitantes
-de todo Brasil~y de otros países, que asisten al evento para~conocer
-las~últimas novedades del sector de las frutas, las flores y la
-agroindustria. El evento reúne~productores, importadores y proveedores
-de servicios para el sector, además de técnicos, entidades públicas,
-maquinaria y demás profesionales de la cadena de suministro.
+Frutal se celebra anualmente en diciembre y atrae a visitantes de todo
+Brasil y de otros países, que asisten al evento para conocer las últimas
+novedades del sector de las frutas, las flores y la agroindustria. El
+evento reúne productores, importadores y proveedores de servicios para
+el sector, además de técnicos, entidades públicas, maquinaria y demás
+profesionales de la cadena de suministro.
 
 \subsubsection{Expo Fruit}\label{expo-fruit}
 
-El~Exprofuit~es una de las ferias más importantes en el sector de las
+El Exprofruit es una de las ferias más importantes en el sector de las
 frutas que está sucediendo en Brasil. Pretende reunir a los productores
 de frutas de regadío y de otros eslabones de la cadena, como
 importadores, exportadores, distribuidores, proveedores, y las
@@ -1290,90 +1328,88 @@ delegaciones de países como Francia, Italia, Alemania, España, Países
 Bajos, República Checa, Bélgica, Noruega, EE.UU., Rusia, entre otros
 para realizar negocios.
 
-\section{Capítulo 6}\label{capuxedtulo-6}
+\section{Capítulo 6. Análisis Comparativo de Precios de
+Brasil}\label{capuxedtulo-6.-anuxe1lisis-comparativo-de-precios-de-brasil}
 
-\subsection{Análisis comparativos de precios de
-Brasil}\label{anuxe1lisis-comparativos-de-precios-de-brasil}
+\subsection{Análisis Comparativo de Precios de
+Brasil}\label{anuxe1lisis-comparativo-de-precios-de-brasil}
 
 \begin{table}
 
-{\caption{{Valor de exportación con incoterm
-CPT}{\label{tbl-mytableVDECI}}}}
+{\caption{{Valor de Exportación con Incoterm
+CPT}{\label{tbl-valor-exportacion-cpt}}}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4722}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2778}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5541}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2838}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1622}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Costos}
+Costos
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Documentación}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{CPT}
+Documentación
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+CPT
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Costos de producción & \textsc{\textbf{FACTURA COMERCIAL}} & 22,990 \\
-Flete terrestre 40's (17 unidades) & \textsc{\textbf{CARTA PORTE}} &
-1,000 \\
-Derechos de trámite aduanero & \textsc{\textbf{DTA-PEDIMIENTO DE X}} &
-1,839 \\
-Honorarios de AA Exp & \textsc{\textbf{CUENTA DE GASTOS AA}} & 395 \\
-Maniobras de carga & \textsc{\textbf{TICKET DE MANIOBRAS}} & 700 \\
-Total exportador & & 26,924 \\
+Costos de producción & FACTURA COMERCIAL & 22,990 \\
+Flete terrestre 40's (17 unidades) & CARTA PORTE & 1,000 \\
+Derechos de trámite aduanero & DTA-PEDIMIENTO DE X & 1,839 \\
+Honorarios de AA Exp & CUENTA DE GASTOS AA & 395 \\
+Maniobras de carga & TICKET DE MANIOBRAS & 700 \\
+\textbf{Total exportador} & & \textbf{26,924} \\
 Costo unitario exportador & & 17.9491787 \\
-Precio total al importador precio total. & & 35.8983573 \\
-& & \\
+Precio total al importador precio total & & 35.8983573 \\
+\end{longtable}
+
+\noindent \emph{Nota.} Cálculos~basados en cotizaciones actuales
+
+\end{table}
+
+\begin{table}
+
+{\caption{{Valor de Exportación CIF - Costo de la Tuna en el Puerto de
+Sao Paulo}{\label{tbl-valor-cif-sao-paulo}}}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3333}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+DESCRIPCIÓN
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+PRECIO UNITARIO CPT BRASIL US\$
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+CANTIDADES UNIDADES
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+TOTAL CPT
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+MODELO A & 17.94917867 & 1,500 & 26,923.77 \\
+& & TOTAL CPT Brasil & 26,923.77 \\
+& & FLETE AÉREO & 1,154.74 \\
+& & SEGURO & 592.5 \\
+& & TOTAL CIF & \$28,671.01 \\
 \end{longtable}
 
 \end{table}
 
 \begin{table}
 
-{\caption{{Valor de exportación CIF -- costo de la tuna en el puerto de
-Sao Paulo}{\label{tbl-mytable}}}}
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{DESCRIPCIÓN}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{PRECIO UNITARIO CPT BRASIL US\$}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{CANTIDADES UNIDADES}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{TOTAL CPT}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-MODELO A & 17.94917867 & 1500 & 26923.77 \\
-& & TOTAL CPT Brasil & 26923.77 \\
-& & FLETE AÉREO & 1154.74 \\
-& & SEGURO & 592.5 \\
-& & TOTAL CIF & \$ 28,671.01 \\
-\end{longtable}
-
-\end{table}
-
-\_
+{\caption{{Costos de Importación en
+Brasil}{\label{tbl-costos-importacion-brasil}}}}
 
 \begin{longtable}[]{@{}ll@{}}
-\caption{Costos de importación en Brasil\_}\tabularnewline
 \toprule\noalign{}
-\textbf{CTM(US\$)} & \textbf{\$ 39,959.09} \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-\textbf{CTM(US\$)} & \textbf{\$ 39,959.09} \\
+CTM (US\$) & \$39,959.09 \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1381,7 +1417,15 @@ MODELO A & 17.94917867 & 1500 & 26923.77 \\
 FACTOR DE CALCULO & 1.48 \\
 \end{longtable}
 
-El costo de la tuna se incremento en 0.48 céntimos de soles
+\noindent \emph{Nota.} El~costo de la tuna se incrementó en 0.48
+centavos de soles
+
+\end{table}
+
+\begin{table}
+
+{\caption{{Precio en Dólares en
+Brasil}{\label{tbl-precio-dolares-brasil}}}}
 
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
@@ -1390,48 +1434,33 @@ El costo de la tuna se incremento en 0.48 céntimos de soles
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}@{}}
-\caption{Precio en dólares en Brasil}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
-\textbf{Factor de distribución}
+Factor de Distribución
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Costo unitario de importación}
+Costo Unitario de Importación
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{P margen de ganancia 30\%}
+P Margen de Ganancia 30\%
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Iva 19\%}
+IVA 19\%
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Precio soles}
+Precio Soles
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Precio-dólares}
-\end{minipage} \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\centering
-\textbf{Factor de distribución}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Costo unitario de importación}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{P margen de ganancia 30\%}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Iva 19\%}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Precio soles}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Precio-dólares}
+Precio Dólares
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
 1.48 & 26.64 & 34.63 & 6.58 & 41.21 & 10.43 \\
-& & & Precio promedio & 41.21 & \$ 10.43 \\
+& & & Precio promedio & 41.21 & \$10.43 \\
 Precio internacional & 11.7721519 & & & & \\
 \end{longtable}
 
+\end{table}
+
 Si sería rentable pues nuestro precio promedio es 10.43 dólares el cual
-es menor al precio del mercado internacional de 11.72 dólares , por lo
+es menor al precio del mercado internacional de 11.72 dólares, por lo
 que somos competitivos en el exterior con un margen de ganancia de
 100\%.
 
