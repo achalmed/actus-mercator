@@ -33,5 +33,10 @@
   },
   "404.qmd": {
     "404.html": "fc1b5f80"
+  },
+  "posts/2022-01-23-cadena-de-suministros/index.qmd": {
+    "index.html": "8e796a90",
+    "index.tex": "2e79f07f",
+    "index.docx": "1cf5ee3a"
   }
 }

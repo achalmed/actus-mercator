@@ -73,7 +73,7 @@ date: "05/15/2025"
 draft: false # Modo de borrador (false = final, true = borrador)
 ---
 
-## Plataformas de Inteligencia Comercial
+# Plataformas de Inteligencia Comercial
 
 - [Trade Map - ITC](https://www.trademap.org/Index.aspx)
 - [Trade Map (Link con parámetros)](https://www.trademap.org/Index.aspx?nvpm=3%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c%7c)
@@ -87,7 +87,7 @@ draft: false # Modo de borrador (false = final, true = borrador)
 - [ecommercedb](https://ecommercedb.com/)
 - [Veritrade](https://www.veritradecorp.com/es/)
 
-## Comercio y Exportación en Perú
+# Comercio y Exportación en Perú
 
 - [PeruMarketplace](https://www.perumarketplace.com/en)
 - [Exportemos.pe](https://exportemos.pe/)
@@ -109,7 +109,7 @@ draft: false # Modo de borrador (false = final, true = borrador)
 - [Ecommerce PROMPERÚ](https://ecommerce.promperu.gob.pe/)
 - [IIRSA Norte](https://www.iirsanorte.com.pe/)
 
-## Normas, Reglamentos y Requisitos Técnicos
+# Normas, Reglamentos y Requisitos Técnicos
 
 - [Consulta de Requisitos - SENASA](https://servicios.senasa.gob.pe/consultaRequisitos/consultarRequisitos.action)
 - [DIGESA - MINSA](http://www.digesa.minsa.gob.pe/)
@@ -119,14 +119,14 @@ draft: false # Modo de borrador (false = final, true = borrador)
 - [ALADI - Normas y Reglamentos Técnicos](https://www.aladi.org/sitioaladi/normas-y-reglamentos-tecnicos/)
 - [Food Safety - Novel Food (UE)](https://food.ec.europa.eu/food-safety/novel-food_en)
 
-## Mapas y Herramientas Especializadas
+# Mapas y Herramientas Especializadas
 
 - [Market Access Map (EPA)](https://m.macmap.org/es/learn/epa)
 - [Sustainability Map](https://www.sustainabilitymap.org/home)
 - [Global Trade Helpdesk (ITC)](https://globaltradehelpdesk.org/es)
 - [Standards Map (ITC)](https://www.standardsmap.org/es/home)
 
-## Alertas y Regulaciones Internacionales
+# Alertas y Regulaciones Internacionales
 
 - [ePing - Alertas de Regulaciones Técnicas](https://epingalert.org/)
 - [MRL Global - LMR Internacionales](https://www.mrlglobal.com/)
