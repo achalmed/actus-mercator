@@ -7,13 +7,16 @@ project:
 website:
   title: "Edison Achalma B.Sc. Econ."
   description: "Investigador y educador que aplica la ciencia de datos de forma que se dé prioridad a la equidad social."
+  favicon: assets/img/favicon.png 
+  # Previews Images
+  image: /assets/img/default-preview.jpg  # Usada cuando ninguna página tiene su propia imagen
 
   # Anuncio
   announcement:
     # Contenido obligatorio (puede incluir markdown)
-    content: "**¡Atención!** - Esto es un anuncio importante. [Más info](/blog)"
+    content: "¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄"
     # Apariencia (opcional)
-    icon: info-circle           # Icono de Bootstrap
+    icon: gift         # Icono de Bootstrap
     type: primary               # Color del anuncio
     dismissable: true           # Si se puede cerrar
     position: below-navbar      # Ubicación
@@ -23,7 +26,7 @@ website:
 
   # Google Analytics con opciones avanzadas
   google-analytics:
-    tracking-id: "G-XXXXXXXXXX"  # O "UA-XXXXXXXX" para versión antigua
+    tracking-id: "GTM-MN9MT747"  # O "UA-XXXXXXXX" para versión antigua
     storage: cookies              # "cookies" o "none"
     anonymize-ip: true            # true o false
     # version: 4                  # Opcional: 3 o 4 (se detecta automáticamente)
@@ -49,6 +52,7 @@ website:
 
   twitter-card:
     creator: "@achalmaedison"
+    card-style: summary_large_image
   comments:
     utterances:
       repo: achalmed/actus-mercator

@@ -12,6 +12,11 @@
 Incluye notas y tutoriales para mi futuro y espero que también para ti.&lt;br&gt;&lt;br&gt;
 {{&lt; fa envelope &gt;}} Sign up for my [newsletter](https://achalmaedison.netlify.app/contact#buttondown) to receive updates about new posts.
 </description>
+<image>
+<url>https://actus-mercator.netlify.app/assets/img/default-preview.jpg</url>
+<title>Edison Achalma B.Sc. Econ.</title>
+<link>https://actus-mercator.netlify.app/</link>
+</image>
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Thu, 15 May 2025 05:00:00 GMT</lastBuildDate>
 <item>
@@ -2388,7 +2393,7 @@ Figura&nbsp;1: Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)
 </tr>
 </tbody>
 </table>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-tbl-colwidths="[55,15,15,15]" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[55,15,15,15]" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;1: Medición de la intensidad de la competencia
@@ -2439,7 +2444,7 @@ Tabla&nbsp;1: Medición de la intensidad de la competencia
 </div>
 </figure>
 </div>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;2: Medición de riesgo
@@ -2490,7 +2495,7 @@ Tabla&nbsp;2: Medición de riesgo
 </div>
 </figure>
 </div>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;3: Medición de la distancia sicológica
@@ -2576,7 +2581,7 @@ Tabla&nbsp;3: Medición de la distancia sicológica
 </section>
 <section id="ficha-país" class="level2">
 <h2 class="anchored" data-anchor-id="ficha-país">Ficha país</h2>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="The World Fatbook-CIA">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="The World Fatbook-CIA" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;4: Ficha país de Estados Unidos de Norteamérica
@@ -2666,7 +2671,7 @@ Tabla&nbsp;4: Ficha país de Estados Unidos de Norteamérica
 </section>
 <section id="exigencias-del-producto" class="level2">
 <h2 class="anchored" data-anchor-id="exigencias-del-producto">Exigencias del producto</h2>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="Ministerio de Comercio Exterior y Turismo (2019), Ministerio de La Producción (2019), FDA.">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Ministerio de Comercio Exterior y Turismo (2019), Ministerio de La Producción (2019), FDA." data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;5: Exigencias del producto a exportar
@@ -3078,7 +3083,7 @@ Tabla&nbsp;5: Exigencias del producto a exportar
 <h2 class="anchored" data-anchor-id="ficha-de-insumo-producto">Ficha de insumo producto</h2>
 <section id="insumos" class="level3">
 <h3 class="anchored" data-anchor-id="insumos">Insumos</h3>
-<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="Ministerio de comercio exterior y turismo">
+<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Ministerio de comercio exterior y turismo" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;6: Ficha de insumo producto
@@ -3746,7 +3751,7 @@ Tabla&nbsp;7: Cálculo de costos estimados y precio FCA en USD
 <h3 class="anchored" data-anchor-id="selección-del-precio-de-exportación">Selección del precio de exportación</h3>
 <p>El precio que se seleccionó fue en función al mercado, es decir, en base a los precios fijados por la competencia.</p>
 <p>Para ello se tomó como referencia el promedio del precio FOB de exportación de los dos últimos dos años de exportación, estos se muestran en la Tabla 5.3.</p>
-<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="SIICEX SUNAT">
+<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="SIICEX SUNAT" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;8: Precio FOB promedio de las exportaciones de PERÚ en los últimos 2 años hacia EE. UU
@@ -5829,7 +5834,7 @@ Tabla&nbsp;9: Presupuesto de construcción para la planta procesadora
 </div>
 <p>Fuente: Elaboración Propia, a partir del simulador de crédito ProEmpresa</p>
 <p>En base a la información anterior se realiza los siguientes cálculos: Intereses, amortización y cuota</p>
-<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="Elaboración Propia, a partir del simulador de crédito ProEmpresa">
+<div id="tbl-mytable2" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración Propia, a partir del simulador de crédito ProEmpresa" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;10: Tabla de Amortizaciones
