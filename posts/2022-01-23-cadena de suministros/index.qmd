@@ -25,14 +25,11 @@ keywords:
   - global coordination  
 categories:
   - Posts
-  - Gestión Empresarial  
-  - Logística y Operaciones
+  - Economía internacional
 tags:
-  - Cadena de suministros  
-  - Procesos operativos  
-  - Transporte  
-  - Coordinación global  
-  - Empresas modernas
+  - gestion_empresarial
+  - economia_internacional
+  - cadena_de_suministros
 
 # Nota del Autor
 author-note:

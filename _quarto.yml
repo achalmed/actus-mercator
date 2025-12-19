@@ -29,6 +29,32 @@ website:
       - text: About
         aria-label: "About Me"
         href: https://achalmaedison.netlify.app/about/
+      - text: "More"
+        aria-label: "More"
+        icon: ellipsis-h
+        menu:
+          - text: "Econometria"
+            href: https://epsilon-y-beta.netlify.app/
+          - text: "Filosofía"
+            href: https://dialectica-y-mercado.netlify.app/
+          - text: "Finanzas"
+            href: https://pecunia-fluxus.netlify.app/
+          - text: "Gestión empresarial"
+            href: https://actus-mercator.netlify.app/
+          - text: "Gestión pública"
+            href: https://res-publica.netlify.app/
+          - text: "Metodología de la investigación"
+            href: https://methodica.netlify.app/
+          - text: "Macroeconomía"
+            href: https://aequilibria.netlify.app/
+          - text: "Matemáticas"
+            href: https://axiomata.netlify.app/
+          - text: "Microeconomía"
+            href: https://optimums.netlify.app/
+          - text: "Programación y Software"
+            href: https://numerus-scriptum.netlify.app/
+          - text: "Seguridad informática"
+            href: https://chaska-x.netlify.app/
       - icon: github
         href: https://github.com/achalmed
       - icon: twitter
@@ -62,5 +88,3 @@ format:
       - cosmo
       - achalma.scss
     css: styles.css
-
-

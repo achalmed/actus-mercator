@@ -26,15 +26,11 @@ keywords:
   - Financial Feasibility
 categories:
   - Posts
-  - International Trade
-  - Aquaculture
-  - Market Analysis
+  - Economía internacional
 tags:
-  - Rainbow Trout Fillets
-  - Export Strategy
-  - Market Opportunities
-  - Logistics
-  - Financial Planning
+  - gestion_empresarial
+  - economia_internacional
+  - exportacion
 
 author:
   - name: Edison Achalma

@@ -20,14 +20,12 @@ shorttitle: "Recursos para Comercio Exterior"
 abstract: "This article provides a comprehensive overview of essential resources for international trade and exports, focusing on tools, platforms, and regulations relevant in 2025. It includes commercial intelligence platforms like Trade Map and Statista, Peru-specific export resources such as PROMPERÚ and ADEX Data Trade, and technical requirement portals like SENASA and VUCE. Additionally, it covers specialized tools for market access, sustainability, and international regulation alerts. The resources are categorized to assist exporters, policymakers, and researchers in navigating global trade challenges, with an emphasis on Peruvian export opportunities. The article aims to equip readers with actionable tools to enhance export strategies, comply with international standards, and leverage data-driven insights for market expansion."
 keywords: [international trade, export resources, commercial intelligence, technical regulations, Peruvian exports]
 categories:
-  - Comercio Internacional
-  - Macroeconomía
+  - Economía internacional
+  - Inteligencia comercial
 tags:
-  - comercio exterior
-  - exportaciones
-  - inteligencia comercial
-  - requisitos técnicos
-  - exportaciones peruanas
+  - gestion_empresarial
+  - inteligencia_comercial
+  - economia_internacional
 
 # Nota del Autor
 author-note:
@@ -74,7 +72,6 @@ citation:
 date: "05/15/2025"
 draft: false # Modo de borrador (false = final, true = borrador)
 ---
-
 
 ## Plataformas de Inteligencia Comercial
 

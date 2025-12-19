@@ -26,16 +26,11 @@ keywords:
   - sustainable agriculture
 categories:
   - Posts
-  - Comercio Internacional
-  - Economía
-  - Agricultura Sostenible
-  - Desarrollo Local
+  - Economía internacional
 tags:
-  - Tuna (prickly pear)
-  - Export logistics
-  - Market analysis
-  - Ethical trade
-  - Consumer behavior
+  - gestion_empresarial
+  - economia_internaciona
+  - expotacion
 
 author:
   - name: Edison Achalma
