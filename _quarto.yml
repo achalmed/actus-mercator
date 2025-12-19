@@ -26,19 +26,19 @@ website:
 
   # Google Analytics con opciones avanzadas
   #google-analytics:
-  #  tracking-id: "G-XGH6TP6RB3"  # O "UA-XXXXXXXX" para versión antigua
-  #  storage: cookies              # "cookies" o "none"
-  #  anonymize-ip: true            # true o false
+   # tracking-id: "G-XGH6TP6RB3"  # O "UA-XXXXXXXX" para versión antigua
+   # storage: cookies              # "cookies" o "none"
+   # anonymize-ip: true            # true o false
     # version: 4                  # Opcional: 3 o 4 (se detecta automáticamente)
 
   # Cookie Consent personalizado
-  cookie-consent:
-    type: express                 # "implied" (notificación) o "express" (bloqueo hasta consentimiento)
-    style: simple                 # "simple", "headline", "interstitial", "standalone"
-    palette: light                # "light" o "dark"
-    language: es                  # Código de idioma (ej: "es", "en", "fr")
-    policy-url: https://achalmaedison.netlify.app/license  # URL de tu política de privacidad
-    prefs-text: "Preferencias de Cookies"  # Texto del enlace
+  #cookie-consent:
+   # type: express                 # "implied" (notificación) o "express" (bloqueo hasta consentimiento)
+   # style: simple                 # "simple", "headline", "interstitial", "standalone"
+   # palette: light                # "light" o "dark"
+   # language: es                  # Código de idioma (ej: "es", "en", "fr")
+   # policy-url: https://achalmaedison.netlify.app/  # URL de tu política de privacidad
+   # prefs-text: "Preferencias de Cookies"  # Texto del enlace
 
   # Open graph
   open-graph:
