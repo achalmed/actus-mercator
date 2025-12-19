@@ -25,10 +25,10 @@ website:
     # warning, info, light, dark
 
   # Google Analytics con opciones avanzadas
-  google-analytics:
-    tracking-id: "G-XGH6TP6RB3"  # O "UA-XXXXXXXX" para versión antigua
-    storage: cookies              # "cookies" o "none"
-    anonymize-ip: true            # true o false
+  #google-analytics:
+  #  tracking-id: "G-XGH6TP6RB3"  # O "UA-XXXXXXXX" para versión antigua
+  #  storage: cookies              # "cookies" o "none"
+  #  anonymize-ip: true            # true o false
     # version: 4                  # Opcional: 3 o 4 (se detecta automáticamente)
 
   # Cookie Consent personalizado
@@ -42,7 +42,7 @@ website:
 
   # Open graph
   open-graph:
-    title: "achalmaedison"            # Título por defecto
+    title: "Edison Achalma B.Sc. Econ."            # Título por defecto
     description: "Investigador y educador que aplica la ciencia de datos de forma que se dé prioridad a la equidad social." # Descripción por defecto
     image: /assets/img/sidebar.jpg    # Imagen por defecto
     image-width: 1200                # Ancho de imagen recomendado
