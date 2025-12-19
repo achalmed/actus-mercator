@@ -90,3 +90,4 @@ format:
         - assets/theme_light.scss
         - assets/colors.scss
         - assets/fonts.scss
+    css: assets/styles.css
