@@ -26,7 +26,7 @@ website:
 
   # Google Analytics con opciones avanzadas
   google-analytics:
-    tracking-id: "GTM-MN9MT747"  # O "UA-XXXXXXXX" para versión antigua
+    tracking-id: "G-XGH6TP6RB3"  # O "UA-XXXXXXXX" para versión antigua
     storage: cookies              # "cookies" o "none"
     anonymize-ip: true            # true o false
     # version: 4                  # Opcional: 3 o 4 (se detecta automáticamente)
@@ -130,3 +130,7 @@ format:
         - assets/colors.scss
         - assets/fonts.scss
     css: assets/styles.css
+
+    # Google Tag Manager
+    include-in-header: assets/gtm-head.html
+    include-after-body: assets/gtm-body.html
