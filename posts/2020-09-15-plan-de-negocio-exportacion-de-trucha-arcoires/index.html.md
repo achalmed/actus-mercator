@@ -85,6 +85,7 @@ author:
   role:
   - editing
   - funding acquistion
+image: ../featured.jpg
 ---
 
 # Resumen Ejecutivo

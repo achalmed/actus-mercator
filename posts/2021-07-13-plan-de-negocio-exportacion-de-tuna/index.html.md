@@ -86,6 +86,7 @@ author:
   role:
   - editing
   - funding acquistion
+image: ../featured.jpg
 ---
 
 # Capítulo 1. Antecedentes de la Empresa

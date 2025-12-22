@@ -52,6 +52,7 @@ citation:
   pdf-url: https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf
 date: 01/23/2022
 draft: false
+image: ../featured.jpg
 ---
 
 # Cadena de suministros

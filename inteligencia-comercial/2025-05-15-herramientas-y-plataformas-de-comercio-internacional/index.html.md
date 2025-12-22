@@ -50,6 +50,7 @@ citation:
   pdf-url: https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf
 date: 05/15/2025
 draft: false
+image: ../featured.jpg
 ---
 
 # Plataformas de Inteligencia Comercial
