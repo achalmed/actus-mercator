@@ -1,127 +1,90 @@
 ---
-documentmode: stu  # Modo de documento: Can be jou (journal), man (manuscript), stu (student), or doc (document)
-    # - man (Manuscrito): Similar al formato .docx
-    # - jou (Revista): Un formato pulido de dos columnas similar a muchas revistas APA.
-    # - doc (Documento): Similar al predeterminado LaTex artículos.
-    # - stu (Estudiante): Formateado para trabajos de estudiantes
-# MODO ESTUDIANTE (STU)
+documentmode: stu
 course: Economía Internacional II
 professor: Econ. Richard Atao Quispe
-# duedate: 09/15/2020
-# MODO REVISTA (JOU)
-# journal: Psychological Review
-# volume: 2025, Vol. 131, No. 2, 10--60
+duedate: 09/15/2020
 copyrightnotice: 2020
 copyrightext: All rights reserved
-# image: featured.png
-title: Plan De Exportación De Trucha Arcoiris
-subtitle: Estrategia de Exportación a los Estados Unidos y Otras Regiones
-shorttitle: "Exportación de Trucha Arcoíris"
-abstract: "The present research aims to design an export plan for rainbow trout fillets to the US market, following the methodology of PROMPERÚ and the guidelines for an export business plan. AQUAZUL SCRL, a Peruvian company located in Ayacucho, specializes in producing and marketing rainbow trout. The region of Ayacucho has a suitable climate for trout farming, with small centers already in place. The company plans to produce 2000 kg of fresh or refrigerated trout fillets monthly, to be sold at a price of $8.40/kg. The US market offers significant opportunities due to its accessible market conditions, availability for business, specialized fairs, excellent logistics infrastructure, and stable economy. The study includes a detailed analysis of the market, production costs, logistics, and financial feasibility, concluding that the project is economically and financially viable with a net present value (NPV) of $69,519 and an internal rate of return (IRR) of 21%."
+title: Plan de exportación de trucha arcoíris
+shorttitle: EXPORTACIÓN DE TRUCHA ARCOÍRIS
+abstract: The present research aims to design an export plan for rainbow trout fillets
+  to the US market, following the methodology of PROMPERÚ and the guidelines for an
+  export business plan. AQUAZUL SCRL, a Peruvian company located in Ayacucho, specializes
+  in producing and marketing rainbow trout. The region of Ayacucho has a suitable
+  climate for trout farming, with small centers already in place. The company plans
+  to produce 2000 kg of fresh or refrigerated trout fillets monthly, to be sold at
+  a price of $8.40/kg. The US market offers significant opportunities due to its accessible
+  market conditions, availability for business, specialized fairs, excellent logistics
+  infrastructure, and stable economy. The study includes a detailed analysis of the
+  market, production costs, logistics, and financial feasibility, concluding that
+  the project is economically and financially viable with a net present value (NPV)
+  of $69,519 and an internal rate of return (IRR) of 21%.
 keywords:
-  - Rainbow Trout
-  - Export Plan
-  - United States Market
-  - Aquaculture
-  - Financial Feasibility
+- Rainbow Trout
+- Export Plan
+- United States Market
+- Aquaculture
+- Financial Feasibility
 categories:
-  - Posts
-  - Economía internacional
+- Economía internacional
 tags:
-  - gestion_empresarial
-  - economia_internacional
-  - exportacion
-
-author:
-  - name: Edison Achalma
-    corresponding: true
-    orcid: 0000-0001-6996-3364
-    email: elmer.achalma.09@unsch.edu.pe
-    affiliations:
-      - id: unsch
-      - name: Universidad Nacional de San Cristóbal de Huamanga
-        department: Economía
-        address: Portla Independencia N 57
-        city: Ayacucho
-        region: PE
-        postal-code:
-    role:
-      - writing
-      - conceptualization
-  - name: Félix Bermudo
-    affiliations:
-      - ref: unsch
-    role:
-      - formal anlaysis
-      - visualization
-      - editin
-  - name: Luis De La Cruz
-    affiliations:
-      - ref: unsch
-    role:
-      - editing
-      - funding acquistion
-  - name: Diana Gutierrez
-    affiliations:
-      - ref: unsch
-    role:
-      - editing
-      - funding acquistion
-  - name: Brenda Huiza
-    affiliations:
-      - ref: unsch
-    role:
-      - editing
-      - funding acquistion
-
-# Nota del Autor
+- gestion_empresarial
+- economia_internacional
+- exportacion
+- exportacion_piscicola
 author-note:
-  status-changes: 
-    # Ejemplo: [Nombre del autor] está ahora en [afiliación].
-    affiliation-change: ~
-    # Ejemplo: [Nombre del autor] ha fallecido.
-    deceased: ~
-  # Las divulgaciones se condensan en un párrafo, pero puede iniciar un campo con dos saltos de línea para separarlas: \n\nNew 
+  status-changes:
+    affiliation-change: null
+    deceased: null
   disclosures:
-    # Ejemplo: Este estudio se registró en X (Identificador Y).
-    study-registration: ~
-    # Reconozca y cite los datos/materiales que se van a compartir.
-    data-sharing: ~
-    # Ejemplo: Este artículo se basa en datos publicados en [Referencia].
-    # Ejemplo: Este artículo se basa en la disertación realizada por [cita].
-    related-report: ~
-    # Ejemplo: [Nombre del autor] ha sido consultor remunerado de la Corporación X, que ha financiado este estudio.
+    study-registration: null
+    data-sharing: null
+    related-report: null
     conflict-of-interest: Los autores no tienen conflictos de intereses que revelar.
-    # Ejemplo: Este estudio ha contado con el apoyo de la subvención [Número de subvención] de [Fuente de financiación].
-    financial-support: ~
-    # Ejemplo: Los autores agradecen a [Persona] por [Motivo].
-    gratitude: ~
-    # Ejemplo. Dado que los autores contribuyen por igual, el orden de autoría se determinó mediante el lanzamiento de una moneda al aire.
-    authorship-agreements: ~
-
-description: '' # Texto que se muestra debajo de las etiquetas, no en la página del listado
-# links:
-# - icon: pin-map-fill
-#   name: Collection of maps
-#   url: /project/2024-06-16-ccd-sips #./../talk/2021-03-16-xaringan-deploy-demo/
-# - icon: github
-#   icon_pack: fab
-#   name: R-Ladies template files
-#   url: https://github.com/spcanelon/RLadies-xaringan-template
-eval: false # true(predeterminado): evaluar celda de código, false: no evaluar la celda de código
-# Google Scholar
-# bibliography: mybibliography.bib
+    financial-support: null
+    gratitude: null
+    authorship-agreements: null
+description: Análisis detallado de un plan de negocio para la exportación de trucha
+  arcoíris, incluyendo mercado objetivo, logística, costos y estrategias comerciales
+  viables.
+eval: false
 citation:
   type: article-journal
   author:
-    - Edison Achalma
-    - Félix Bermudo
-    - Luis De La Cruz
-    - Diana Gutierrez
-    - Brenda Huiza
-  pdf-url: https://achalmaedison.netlify.app/blog/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf
+  - Edison Achalma
+  - Félix Bermudo
+  - Luis De La Cruz
+  - Diana Gutierrez
+  - Brenda Huiza
+  pdf-url: https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf
 date: 09/15/2020
 draft: false
+author:
+- name: Edison Achalma
+  corresponding: true
+  orcid: 0000-0001-6996-3364
+  email: elmer.achalma.09@unsch.edu.pe
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+    department: Economía
+    city: Ayacucho
+    region: PE
+  role:
+  - writing
+  - conceptualization
+- name: Félix Bermudo
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - formal anlaysis
+  - visualization
+  - editin
+- name: Luis De La Cruz
+  affiliations:
+  - name: Universidad Nacional de San Cristóbal de Huamanga
+  role:
+  - editing
+  - funding acquistion
 ---
 
 # Resumen Ejecutivo
@@ -1650,9 +1613,9 @@ U.S. FOOD & DRUG. (2020). *U.S. FOOD & DRUG*. Obtenido de Información para Cons
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
-1. [{{< fa regular file-pdf >}}](https://achalmaedison.netlify.app/gestion-empresarial/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://achalmaedison.netlify.app/gestion-empresarial/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
-2. [{{< fa regular file-pdf >}}](https://achalmaedison.netlify.app/gestion-empresarial/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://achalmaedison.netlify.app/gestion-empresarial/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
-3. [{{< fa regular file-pdf >}}](https://achalmaedison.netlify.app/gestion-empresarial/posts/2022-01-23-cadena de suministros/index.pdf) [Cadena De Suministros](https://achalmaedison.netlify.app/gestion-empresarial/posts/2022-01-23-cadena de suministros)
+1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
+2. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
+3. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf) [Cadena De Suministros](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros)
 
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
