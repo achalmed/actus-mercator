@@ -221,7 +221,7 @@ De acuerdo al Plan Regional de Acuicultura de Ayacucho 2017-2021, en su fase est
 
 La matriz cuenta con 15 factores determinantes de éxito, ocho fortalezas y siete debilidades. La calificación ponderada, que se obtuvo para la MEFI fue de 2.48; valor que se halla ligeramente por debajo del promedio de la calificación que es de 2.5. Esto significa el sector acuicultura presenta internamente cierto déficit que le impide competir con éxito tanto en el mercado nacional e internacional, por lo tanto, debe ponerse mayor atención a las debilidades, desarrollando estrategias internas para superarlas.
 
-![img](index_files/figure-html/lu137401d6rd_tmp_c6f73789.png)
+![Matriz de evaluación de los factores internos](index_files/figure-html/lu137401d6rd_tmp_c6f73789.png)
 
 **Aplicación de la evaluación de los factores internos (Matriz EFI)**
 

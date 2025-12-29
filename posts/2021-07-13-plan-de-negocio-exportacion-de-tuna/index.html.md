@@ -21,18 +21,18 @@ abstract: This study explores the strategic and ethical considerations of export
   while fostering local development. The study concludes by outlining key challenges
   and opportunities for sustainable export growth.
 keywords:
-- prickly pear export
-- international trade
-- Ayacucho Peru
-- China market
-- sustainable agriculture
+  - prickly pear export
+  - international trade
+  - Ayacucho Peru
+  - China market
+  - sustainable agriculture
 categories:
-- Economía internacional
+  - Economía internacional
 tags:
-- gestion_empresarial
-- economia_internaciona
-- expotacion
-- exportacion_tuna
+  - gestion_empresarial
+  - economia_internaciona
+  - expotacion
+  - exportacion_tuna
 author-note:
   status-changes:
     affiliation-change: null
@@ -52,40 +52,40 @@ eval: false
 citation:
   type: article-journal
   author:
-  - Edison Achalma
-  - Semnia Chocce
-  - July Durand
-  - Brenda Gamboa
-  - Alejandrina Galindo
+    - Edison Achalma
+    - Semnia Chocce
+    - July Durand
+    - Brenda Gamboa
+    - Alejandrina Galindo
   pdf-url: https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf
 date: 07/13/2021
 draft: false
 author:
-- name: Edison Achalma
-  corresponding: true
-  orcid: 0000-0001-6996-3364
-  email: elmer.achalma.09@unsch.edu.pe
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-    department: Economía
-    city: Ayacucho
-    region: PE
-  role:
-  - writing
-  - conceptualization
-- name: Semnia Chocce
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-  role:
-  - formal anlaysis
-  - visualization
-  - editin
-- name: July Durand
-  affiliations:
-  - name: Universidad Nacional de San Cristóbal de Huamanga
-  role:
-  - editing
-  - funding acquistion
+  - name: Edison Achalma
+    corresponding: true
+    orcid: 0000-0001-6996-3364
+    email: elmer.achalma.09@unsch.edu.pe
+    affiliations:
+      - name: Universidad Nacional de San Cristóbal de Huamanga
+        department: Economía
+        city: Ayacucho
+        region: PE
+    role:
+      - writing
+      - conceptualization
+  - name: Semnia Chocce
+    affiliations:
+      - name: Universidad Nacional de San Cristóbal de Huamanga
+    role:
+      - formal anlaysis
+      - visualization
+      - editin
+  - name: July Durand
+    affiliations:
+      - name: Universidad Nacional de San Cristóbal de Huamanga
+    role:
+      - editing
+      - funding acquistion
 image: ../featured.jpg
 ---
 
@@ -105,8 +105,7 @@ La tuna, cuyo nombre científico es *Opuntia ficus-indica*, es una planta de la 
 
 Especialmente adaptada a la escasez de agua y cuya exportación no compite con las tierras agrícolas. Esta planta produce frutos comestibles que, con el tiempo, ha llegado a tener gran aceptación en el mercado. La partida arancelaria es 0810909000.
 
-![Imagen Ilustrativa de la Tuna](index_files/figure-html/figura1.png){#fig-figura1} 
-
+![Imagen Ilustrativa de la Tuna](index_files/figure-html/figura1.png){#fig-figura1}
 
 **NOMBRE:** Tuna, nopal, chumbera, penca
 
@@ -130,10 +129,10 @@ El objetivo de la administración es aumentar la productividad como medio para i
 
 En el Organigrama de la empresa ECOTUNA, se deben destacar las siguientes instancias:
 
--   Asamblea General de delegados.
--   Consejo Directivo.
--   Gerencia.
--   Comités Consultivos.
+- Asamblea General de delegados.
+- Consejo Directivo.
+- Gerencia.
+- Comités Consultivos.
 
 ## Gestión de los Mercados Internacionales y Logística Exportadora
 
@@ -155,9 +154,7 @@ El embalado de tuna será en cajas para frutas, que llevara una ranura de ventil
 
 La mercancía será cargada en el almacén de nuestra empresa ECOTUNA en el departamento de Ayacucho, que luego será llevado en camiones con destino al aeropuerto internacional del Perú donde será la carga de la mercancía de 1500 cajas a un contenedor.
 
-
 ![Protocolo de Embarque - Vista 1](index_files/figure-html/figura3.png){#fig-figura3}
-
 
 ![Protocolo de Embarque - Vista 2](index_files/figure-html/figura4.png){#fig-figura4}
 
@@ -165,10 +162,10 @@ La mercancía será cargada en el almacén de nuestra empresa ECOTUNA en el depa
 
 Para la exportación de Tuna, el vendedor debe entregarle al agente de aduanas la siguiente información previamente diligenciada:
 
--   Factura de venta
--   Lista de empaque
--   Certificado de origen
--   Mandato aduanero
+- Factura de venta
+- Lista de empaque
+- Certificado de origen
+- Mandato aduanero
 
 #### Trayecto Internacional
 
@@ -187,9 +184,9 @@ El destino es Beijing.
 
 Como base para cualquier negocio, es necesario disponer de una fuente de capital que ayude en el inicio y posterior comienzo de la actividad. Se podrá exportar con la ayuda de las siguientes fuentes:
 
--   Fuentes ajenas: Préstamos financieros, del banco Interbank.
--   Fuentes propias: Aportación de los socios.
--   Ayudas públicas: Financiación por parte de los organismos públicos.
+- Fuentes ajenas: Préstamos financieros, del banco Interbank.
+- Fuentes propias: Aportación de los socios.
+- Ayudas públicas: Financiación por parte de los organismos públicos.
 
 ## Plan Estratégico
 
@@ -208,19 +205,18 @@ Para el año 2023, ser reconocidos internacionalmente, como una empresa exportad
 ## Análisis de la Oferta
 
 | Nº  |  País  | %Var 18-17 | %Part 18 | Total Exp. 2018 (millon US\$) |
-|:---:|:------:|:----------:|:--------:|:-----------------------------:|
+| :-: | :----: | :--------: | :------: | :---------------------------: |
 |  1  | México |    106%    |   79%    |            200.22             |
 |  2  | Italia |    29%     |   12%    |            272.47             |
 
 : Principales Países Exportadores {#tbl-paises-exportadores apa-note="COMTRADE"}
-
 
 ![Participación en la Producción de Tuna](index_files/figure-html/figura6.png){#fig-figura6}
 
 México al ser el país de origen de este fruto cuenta con la ventaja de tener un depositario nacional con más de 400 variedades de tuna. De un total de 40,000 toneladas de tuna que se exportan aproximadamente, Puebla aporta 8,000. Por tanto, se considera como una competencia para nuestra empresa.
 
 | Empresa                              | %Var 20-19 | %Part. 20 |
-|:-------------------------------------|:----------:|:---------:|
+| :----------------------------------- | :--------: | :-------: |
 | Empresa Mexbest Mexico               |    20%     |    17%    |
 | Empresa TunaMex                      |            |           |
 | Pomica Perú sociedad anónima cerrada |     7%     |    7%     |
@@ -233,26 +229,26 @@ Nuestro mercado de destino será China específicamente su capital Beijing, este
 
 ## Ficha País
 
-| País Objetivo | CHINA |
-|:---------------|:-------------------------------------------------------|
-| Área | 9,562,910 Km² |
-| Capital | Beijing - Pekín |
-| Población | 1,400,050,000 |
-| Idioma Oficial | Mandarín |
-| Ubicación Geográfica | Asia |
-| Moneda | Yuanes chinos |
-| Tipo de Cambio | 0.15 USD - 0.61 PEN |
-| PIB | 12,901,904 M.€ - 15,255,791.88 Mill USD |
-| PIB per Cápita | 9,215€ - 10.89 USD |
-| Tasa de Crecimiento Anual | 18.3% |
-| Clima | En China, los veranos son largos, tórridos, opresivos y ventosos; los inviernos son cortos, frescos y secos y está parcialmente nublado durante todo el año. Durante el transcurso del año, la temperatura generalmente varía de 10 °C a 37 °C y rara vez baja a menos de 4 °C o sube a más de 39 °C. |
-| Pesos y Medidas | Jin |
-| Días Festivos | 01 de enero, El día de año nuevo |
-|  | 12-17 de febrero, Año nuevo chino |
-|  | 3-5 de abril, Festival Qing Ming |
-|  | 14 al 16 de junio, Festival del barco del dragón |
-|  | El 21 de septiembre, Festival de mediados de otoño |
-|  | De 1-7 de octubre, Día nacional de la semana dorada |
+| País Objetivo             | CHINA                                                                                                                                                                                                                                                                                                 |
+| :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Área                      | 9,562,910 Km²                                                                                                                                                                                                                                                                                         |
+| Capital                   | Beijing - Pekín                                                                                                                                                                                                                                                                                       |
+| Población                 | 1,400,050,000                                                                                                                                                                                                                                                                                         |
+| Idioma Oficial            | Mandarín                                                                                                                                                                                                                                                                                              |
+| Ubicación Geográfica      | Asia                                                                                                                                                                                                                                                                                                  |
+| Moneda                    | Yuanes chinos                                                                                                                                                                                                                                                                                         |
+| Tipo de Cambio            | 0.15 USD - 0.61 PEN                                                                                                                                                                                                                                                                                   |
+| PIB                       | 12,901,904 M.€ - 15,255,791.88 Mill USD                                                                                                                                                                                                                                                               |
+| PIB per Cápita            | 9,215€ - 10.89 USD                                                                                                                                                                                                                                                                                    |
+| Tasa de Crecimiento Anual | 18.3%                                                                                                                                                                                                                                                                                                 |
+| Clima                     | En China, los veranos son largos, tórridos, opresivos y ventosos; los inviernos son cortos, frescos y secos y está parcialmente nublado durante todo el año. Durante el transcurso del año, la temperatura generalmente varía de 10 °C a 37 °C y rara vez baja a menos de 4 °C o sube a más de 39 °C. |
+| Pesos y Medidas           | Jin                                                                                                                                                                                                                                                                                                   |
+| Días Festivos             | 01 de enero, El día de año nuevo                                                                                                                                                                                                                                                                      |
+|                           | 12-17 de febrero, Año nuevo chino                                                                                                                                                                                                                                                                     |
+|                           | 3-5 de abril, Festival Qing Ming                                                                                                                                                                                                                                                                      |
+|                           | 14 al 16 de junio, Festival del barco del dragón                                                                                                                                                                                                                                                      |
+|                           | El 21 de septiembre, Festival de mediados de otoño                                                                                                                                                                                                                                                    |
+|                           | De 1-7 de octubre, Día nacional de la semana dorada                                                                                                                                                                                                                                                   |
 
 : Información General del País Objetivo {#tbl-ficha-pais}
 
@@ -262,25 +258,25 @@ Nuestro mercado de destino será China específicamente su capital Beijing, este
 
 Para las exportaciones realizadas desde/a China se deben presentar los siguientes documentos:
 
--   Declaración de aduanas, contrato original (con sello), factura comercial original (con sello), lista de empaque original (con sello), certificado de salida y certificación de cuarentena, documentos de transporte, documentos de seguro, documentos legales.
--   Código de Registro de Aduanas (Código CR): Para todos los envíos (excepto documento y efectos personales) deben estar identificados con dicho código.
--   Código Armonizado (Código HS): El código HS ayuda a clasificar las mercancías y acelerar el despacho de aduanas.
+- Declaración de aduanas, contrato original (con sello), factura comercial original (con sello), lista de empaque original (con sello), certificado de salida y certificación de cuarentena, documentos de transporte, documentos de seguro, documentos legales.
+- Código de Registro de Aduanas (Código CR): Para todos los envíos (excepto documento y efectos personales) deben estar identificados con dicho código.
+- Código Armonizado (Código HS): El código HS ayuda a clasificar las mercancías y acelerar el despacho de aduanas.
 
 Todas las empresas de los países autorizados para exportar a China deben registrarse ante AQSIQ. Los documentos de recomendación incluyen:
 
--   Información de la compañía: Nombre/dirección/n° aprobación
--   Información del producto: Nombre/materias primas/aplicación
--   Certificado de libre venta emitido por el organismo nacional del país de origen
+- Información de la compañía: Nombre/dirección/n° aprobación
+- Información del producto: Nombre/materias primas/aplicación
+- Certificado de libre venta emitido por el organismo nacional del país de origen
 
 Los productos que arriben a China podrán ser destruidos o devueltos si se encuentra cualquiera de las siguientes condiciones:
 
--   El país de origen se encuentra prohibido de exportar a China
--   Los proveedores (exportadores) no cuentan con aún con la licencia china
--   El producto del proveedor (exportador) no se encuentra registrado
--   La mercancía no corresponde con el documento/licencia china
--   Etiquetado inapropiado del empaque de forma que no puede ser corregido
--   La fecha expiración ha vencido y la calidad ha sido afectada
--   La mercancía ha sido contaminada con excremento animal, organismos patógenos
+- El país de origen se encuentra prohibido de exportar a China
+- Los proveedores (exportadores) no cuentan con aún con la licencia china
+- El producto del proveedor (exportador) no se encuentra registrado
+- La mercancía no corresponde con el documento/licencia china
+- Etiquetado inapropiado del empaque de forma que no puede ser corregido
+- La fecha expiración ha vencido y la calidad ha sido afectada
+- La mercancía ha sido contaminada con excremento animal, organismos patógenos
 
 ### Barreras Arancelarias
 
@@ -290,18 +286,18 @@ Los productos que arriben a China podrán ser destruidos o devueltos si se encue
 
 Los requisitos fitosanitarios para la república popular China en cuanto a los cítricos son:
 
--   Certificación sanitaria de lugar de producción
--   Certificación de plantas de empaque
--   Certificación del inicio del tratamiento cuarentenario en frío
--   Etiquetado de envases. La caja debe ser limpia y sin uso, marcada obligatoriamente en inglés.
+- Certificación sanitaria de lugar de producción
+- Certificación de plantas de empaque
+- Certificación del inicio del tratamiento cuarentenario en frío
+- Etiquetado de envases. La caja debe ser limpia y sin uso, marcada obligatoriamente en inglés.
 
 ##### Inspección
 
 El Departamento de Inspección y Cuarentena llevará a cabo las inspecciones de acuerdo con las disposiciones siguientes:
 
--   Verificación de Documentos
--   Verificación de Etiqueta
--   Comprobación Sensorial
+- Verificación de Documentos
+- Verificación de Etiqueta
+- Comprobación Sensorial
 
 ##### Plaguicidas
 
@@ -323,11 +319,11 @@ Esta norma establece los límites máximos en alimentos de plomo, cadmio, mercur
 
 El etiquetado de alimentos preenvasados (todo alimento envuelto, empaquetado o embalado previamente, listo para ofrecerlo al consumidor) se rige en China por la norma GB 7718-2011 "Norma General para Etiquetado de Alimentos Preenvasados".
 
--   Deberá ser de conformidad con los requisitos de las leyes estatales y reglamentos, así como con las normas de seguridad alimentaria.
--   Tendrá que ser claro, llamativo y duradero. Debe ser fácilmente legible e identificable por los consumidores al comprarlo.
--   Deberá ser verdadero, exacto, y no deberá presentar alimentos de manera falsa, exagerada, confundir a los consumidores ni con palabras o imágenes engañosas.
--   No deberá describirse ni presentarse con palabras, imágenes o símbolos que se refieran o se sugieran, directa o indirectamente, a cualquier otro producto.
--   Deberá utilizar los caracteres chinos estándares (salvo en la marca). Todas las lenguas extranjeras no pueden ser mayores que los caracteres chinos correspondientes (salvo la marca).
+- Deberá ser de conformidad con los requisitos de las leyes estatales y reglamentos, así como con las normas de seguridad alimentaria.
+- Tendrá que ser claro, llamativo y duradero. Debe ser fácilmente legible e identificable por los consumidores al comprarlo.
+- Deberá ser verdadero, exacto, y no deberá presentar alimentos de manera falsa, exagerada, confundir a los consumidores ni con palabras o imágenes engañosas.
+- No deberá describirse ni presentarse con palabras, imágenes o símbolos que se refieran o se sugieran, directa o indirectamente, a cualquier otro producto.
+- Deberá utilizar los caracteres chinos estándares (salvo en la marca). Todas las lenguas extranjeras no pueden ser mayores que los caracteres chinos correspondientes (salvo la marca).
 
 #### Normas de Envases y Embalajes
 
@@ -354,7 +350,6 @@ El medio de transporte para la exportación de Tuna blanca y naranja se realiza 
 ## Análisis de la Demanda
 
 ### Tendencia General del Consumidor
-
 
 ![Segmentación Demográfica](index_files/figure-html/figura9.png){#fig-figura9}
 
@@ -398,19 +393,19 @@ Materia prima: Tuna que es alto en fibra, tiene antioxidante y rica en vitamina 
 
 **Mano de obra indirecta**
 
--   1 gerente
--   1 secretaria, recepcionista
+- 1 gerente
+- 1 secretaria, recepcionista
 
 **Mano de obra directa**
 
--   5 encargados del área de empaque
+- 5 encargados del área de empaque
 
 En conclusión, para el normal funcionamiento de la empresa se requerirán 7 personas en su totalidad, para administración, operación, seguridad y limpieza.
 
 ### Costos de Producción
 
 | Costo Variable           |      Soles |
-|:-------------------------|-----------:|
+| :----------------------- | ---------: |
 | Materia prima e insumos  |     12,672 |
 | Mano de obra             |        100 |
 | **Total costo variable** | **12,772** |
@@ -442,29 +437,29 @@ Flujo del proceso productivo de la tuna:
 
 ## Análisis de Costos y Precios de Exportación
 
-| Detalles | I | Producto: nombre técnico o comercial | TUNA O NOPAL |
-|:----------------|:---------------:|:----------------------|:----------------|
-| Información básica del producto | II | Posición arancelaria del país exportador | 810909000 |
-|  |  | Posición arancelaria del país importador | 81340 |
-|  | III | Unidad comercial de venta | KILO |
-|  | IV | Valor por unidad comercial | \$0.63 |
-|  | V | Empaque | CAJAS |
-|  |  | Dimensiones de cajas | 0.60×0.38×0.16 |
-| Información básica del embarque | VI | Origen/país punto de carga | Ayacucho/Callao |
-|  | VII | Destino /país punto de desembarque | Beijing/China |
-|  | VIII | Peso total | 55,000 |
-|  | IX | Unidad de carga | CAJAS |
-|  | X | Unitarización | UNITARIZADO 1 CONT.X40"RF |
-|  | XI | Cantidad total de cajas | 2,500 |
-|  | XII | Unidades comerciales | 52,500 |
-| Otra información de importancia | XIII | Valor total mercancía | \$33,011.36 |
-|  | XIV | Forma de pago y tiempo | Anticipado giro directo |
-|  | XV | Tipo de cambio actualizado | 3.96 |
+| Detalles                        |  I   | Producto: nombre técnico o comercial     | TUNA O NOPAL              |
+| :------------------------------ | :--: | :--------------------------------------- | :------------------------ |
+| Información básica del producto |  II  | Posición arancelaria del país exportador | 810909000                 |
+|                                 |      | Posición arancelaria del país importador | 81340                     |
+|                                 | III  | Unidad comercial de venta                | KILO                      |
+|                                 |  IV  | Valor por unidad comercial               | \$0.63                    |
+|                                 |  V   | Empaque                                  | CAJAS                     |
+|                                 |      | Dimensiones de cajas                     | 0.60×0.38×0.16            |
+| Información básica del embarque |  VI  | Origen/país punto de carga               | Ayacucho/Callao           |
+|                                 | VII  | Destino /país punto de desembarque       | Beijing/China             |
+|                                 | VIII | Peso total                               | 55,000                    |
+|                                 |  IX  | Unidad de carga                          | CAJAS                     |
+|                                 |  X   | Unitarización                            | UNITARIZADO 1 CONT.X40"RF |
+|                                 |  XI  | Cantidad total de cajas                  | 2,500                     |
+|                                 | XII  | Unidades comerciales                     | 52,500                    |
+| Otra información de importancia | XIII | Valor total mercancía                    | \$33,011.36               |
+|                                 | XIV  | Forma de pago y tiempo                   | Anticipado giro directo   |
+|                                 |  XV  | Tipo de cambio actualizado               | 3.96                      |
 
 : Plan para la Internacionalización del Nopal {#tbl-plan-internacionalizacion}
 
 |                                            |       FCA |
-|:-------------------------------------------|----------:|
+| :----------------------------------------- | --------: |
 | Total exportador                           |   167,704 |
 | Total importador                           | 1,401,434 |
 | Costo unitario exportador                  |    67.082 |
@@ -480,7 +475,7 @@ Flujo del proceso productivo de la tuna:
 La empresa ECOTUNA tendrá la modalidad de pago por adelantado del 50% y como institución intermediaria será INTERBANK, en vista de que esta forma de pago es la más segura teniendo en cuenta aspectos de riesgo.
 
 | Medio/forma de pago   | Riesgo exportador           |
-|:----------------------|:----------------------------|
+| :-------------------- | :-------------------------- |
 | Pago por adelantado   | Ninguno                     |
 | Carta de crédito      | Discrepancias documentarias |
 | Cobranza documentaria | No pago /no aceptación      |
@@ -505,35 +500,35 @@ El Seguro de Crédito a la Exportación es un mecanismo de coberturas que proteg
 
 ### Datos de Importadores
 
-| Empresa | SOUSA RIBEIRO AGRAO TRADE EXPORT |
-|:-----------------|:-----------------------------------------------------|
-| Representante | CORREA MIRANDA SOUSA ALFREDO EDUARDO |
-| Industria | Comercio de frutas y plantas medicinales |
-| Escala comercial | Empresas líderes de alto potencial |
-| Dirección | Av. Stanislas Pryl, 11145435-000 Ituberá / BA Brasil |
-| Productos | Guaraná, cacao, pimentón brasileño, pasiflora, secula de topioca, pupunha, nuez de Brasil y aceites esenciales |
-| Código HS | 020714SUDU817722700 |
-| Cantidad de empleados | 1,001 |
-| Teléfono fax | +55 73 3256-2705 |
-| Sitio web | atendimento\@sousaribeiro.com.br |
-| Ranking de mercados top | Estados Unidos, Argentina, Reino Unido |
-| Volumen de importación | USD \$125 millones |
+| Empresa                 | SOUSA RIBEIRO AGRAO TRADE EXPORT                                                                               |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------- |
+| Representante           | CORREA MIRANDA SOUSA ALFREDO EDUARDO                                                                           |
+| Industria               | Comercio de frutas y plantas medicinales                                                                       |
+| Escala comercial        | Empresas líderes de alto potencial                                                                             |
+| Dirección               | Av. Stanislas Pryl, 11145435-000 Ituberá / BA Brasil                                                           |
+| Productos               | Guaraná, cacao, pimentón brasileño, pasiflora, secula de topioca, pupunha, nuez de Brasil y aceites esenciales |
+| Código HS               | 020714SUDU817722700                                                                                            |
+| Cantidad de empleados   | 1,001                                                                                                          |
+| Teléfono fax            | +55 73 3256-2705                                                                                               |
+| Sitio web               | atendimento\@sousaribeiro.com.br                                                                               |
+| Ranking de mercados top | Estados Unidos, Argentina, Reino Unido                                                                         |
+| Volumen de importación  | USD \$125 millones                                                                                             |
 
 : Perfil Importador 1 {#tbl-importador1}
 
-| Empresa | Maripa Importacao e Exportacao |
-|:-----------------|:-----------------------------------------------------|
-| Representante | Tatiana amaral torrinha balducci 22-sócio |
-| Industria | Conservas de frutas y frutas |
-| Escala comercial | Líderes de alto potencial |
-| Dirección | Extensión Unifap Y / N KM 02 Highway jk Barrio: Jardim Marco Zero Municipio: Macapa Estado: AP |
-| Productos | Cereza, mango, manzana, kiwi, pomelos |
-| Código HS | 24.283.272/0001-04 |
-| Cantidad de empleados | 1,123 |
-| Teléfono fax | \(96\) 9181-3939 / (96) 9135-0324 |
-| Sitio web | https://cnpjs.rocks/cnpj/24283272000104/maripa-importacao-e-exportacao-ltda.html |
-| Ranking de mercados top | Argentina, Perú, México |
-| Volumen de importación | US\$ 138 millones |
+| Empresa                 | Maripa Importacao e Exportacao                                                                 |
+| :---------------------- | :--------------------------------------------------------------------------------------------- |
+| Representante           | Tatiana amaral torrinha balducci 22-sócio                                                      |
+| Industria               | Conservas de frutas y frutas                                                                   |
+| Escala comercial        | Líderes de alto potencial                                                                      |
+| Dirección               | Extensión Unifap Y / N KM 02 Highway jk Barrio: Jardim Marco Zero Municipio: Macapa Estado: AP |
+| Productos               | Cereza, mango, manzana, kiwi, pomelos                                                          |
+| Código HS               | 24.283.272/0001-04                                                                             |
+| Cantidad de empleados   | 1,123                                                                                          |
+| Teléfono fax            | \(96\) 9181-3939 / (96) 9135-0324                                                              |
+| Sitio web               | https://cnpjs.rocks/cnpj/24283272000104/maripa-importacao-e-exportacao-ltda.html               |
+| Ranking de mercados top | Argentina, Perú, México                                                                        |
+| Volumen de importación  | US\$ 138 millones                                                                              |
 
 : Perfil Importador 2 {#tbl-importador2}
 
@@ -558,7 +553,7 @@ El Exprofruit es una de las ferias más importantes en el sector de las frutas q
 ## Análisis Comparativo de Precios de Brasil
 
 | Costos                                  | Documentación       |        CPT |
-|:----------------------------------------|:--------------------|-----------:|
+| :-------------------------------------- | :------------------ | ---------: |
 | Costos de producción                    | FACTURA COMERCIAL   |     22,990 |
 | Flete terrestre 40's (17 unidades)      | CARTA PORTE         |      1,000 |
 | Derechos de trámite aduanero            | DTA-PEDIMIENTO DE X |      1,839 |
@@ -571,7 +566,7 @@ El Exprofruit es una de las ferias más importantes en el sector de las frutas q
 : Valor de Exportación con Incoterm CPT {#tbl-valor-exportacion-cpt apa-note="Cálculos basados en cotizaciones actuales"}
 
 | DESCRIPCIÓN | PRECIO UNITARIO CPT BRASIL US\$ | CANTIDADES UNIDADES |   TOTAL CPT |
-|:---------------|-----------------------:|---------------:|---------------:|
+| :---------- | ------------------------------: | ------------------: | ----------: |
 | MODELO A    |                     17.94917867 |               1,500 |   26,923.77 |
 |             |                                 |    TOTAL CPT Brasil |   26,923.77 |
 |             |                                 |         FLETE AÉREO |    1,154.74 |
@@ -581,16 +576,16 @@ El Exprofruit es una de las ferias más importantes en el sector de las frutas q
 : Valor de Exportación CIF - Costo de la Tuna en el Puerto de Sao Paulo {#tbl-valor-cif-sao-paulo}
 
 | CTM (US\$)        | \$39,959.09 |
-|:------------------|:------------|
+| :---------------- | :---------- |
 | FACTOR DE CALCULO | 1.48        |
 
 : Costos de Importación en Brasil {#tbl-costos-importacion-brasil apa-note="El costo de la tuna se incrementó en 0.48 centavos de soles"}
 
-| Factor de Distribución | Costo Unitario de Importación | P Margen de Ganancia 30% | IVA 19% | Precio Soles | Precio Dólares |
-|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| 1.48 | 26.64 | 34.63 | 6.58 | 41.21 | 10.43 |
-|  |  |  | Precio promedio | 41.21 | \$10.43 |
-| Precio internacional | 11.7721519 |  |  |  |  |
+| Factor de Distribución | Costo Unitario de Importación | P Margen de Ganancia 30% |     IVA 19%     | Precio Soles | Precio Dólares |
+| :--------------------: | :---------------------------: | :----------------------: | :-------------: | :----------: | :------------: |
+|          1.48          |             26.64             |          34.63           |      6.58       |    41.21     |     10.43      |
+|                        |                               |                          | Precio promedio |    41.21     |    \$10.43     |
+|  Precio internacional  |          11.7721519           |                          |                 |              |                |
 
 : Precio en Dólares en Brasil {#tbl-precio-dolares-brasil}
 
