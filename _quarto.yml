@@ -14,7 +14,7 @@ website:
   # Anuncio
   announcement:
     # Contenido obligatorio (puede incluir markdown)
-    content: "¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄"
+    #content: "¡Bienvenidos a mi mundo! ¡Felices fiestas! Gracias por visitar 🎄"
     # Apariencia (opcional)
     icon: gift         # Icono de Bootstrap
     type: primary               # Color del anuncio
