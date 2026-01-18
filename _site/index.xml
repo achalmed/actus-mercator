@@ -6907,5 +6907,1706 @@ arcoíris,”</span> September. <a href="https://actus-mercator.netlify.app/post
   <pubDate>Tue, 15 Sep 2020 05:00:00 GMT</pubDate>
   <media:content url="https://actus-mercator.netlify.app/posts/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
+<item>
+  <title>Sistema de Costeo por Órdenes de Producción en la Empresa DULCE DELEITE S.R.L</title>
+  <dc:creator>Edison Achalma</dc:creator>
+  <dc:creator>Edison Achalma Mendoza</dc:creator>
+  <dc:creator>Semnia Chocce Aguilar</dc:creator>
+  <dc:creator>July Miriam Durand Bendezú</dc:creator>
+  <dc:creator>Yuri David Fernández Núñez</dc:creator>
+  <dc:creator>Alejandrina Zarcila Galindo Miranda</dc:creator>
+  <dc:creator>Brenda Tehalí Gamboa Rúa</dc:creator>
+  <dc:creator>Marisol Huamán Velasque</dc:creator>
+  <link>https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/</link>
+  <description><![CDATA[ 
+
+<style>
+  :root {
+    --primary-color: ;
+  }
+
+  #title-block-header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .title-block-content {
+    position: relative;
+    padding-top: 60px;
+    /* Reducido de 130px */
+    padding-bottom: 60px;
+    /* Reducido de 130px */
+    max-width: 752px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+</style>
+
+
+
+
+<!-- Introducción: Esta sección presenta el contexto, problemática, objetivos y estructura del documento -->
+<p>El sistema de costos por órdenes de producción constituye una herramienta fundamental en la contabilidad de gestión empresarial, especialmente para organizaciones que operan bajo esquemas de producción personalizada, por lotes o por pedidos específicos. A diferencia de los sistemas de costeo por procesos, apropiados para producciones masivas y continuas, el costeo por órdenes permite una asignación precisa y diferenciada de costos a cada unidad de producción, lote o pedido individual, facilitando así una mejor toma de decisiones en materia de fijación de precios, control de costos y análisis de rentabilidad.</p>
+<p>En el contexto de la economía peruana, las pequeñas y medianas empresas (PYMES) del sector alimentario, específicamente del rubro de pastelería, representan un segmento empresarial significativo que contribuye al empleo y a la actividad económica local. Sin embargo, muchas de estas empresas carecen de sistemas formales de contabilidad de costos, lo que dificulta su capacidad para competir eficientemente en el mercado, determinar precios de venta adecuados y evaluar su verdadera rentabilidad. Esta situación se agrava en regiones como Ayacucho, donde el desarrollo empresarial enfrenta desafíos particulares relacionados con la formalización, el acceso a tecnología y la capacitación gerencial.</p>
+<p>La monografía surge de la necesidad de documentar y analizar la aplicación práctica del sistema de costeo por órdenes de producción en una empresa real del sector pastelero ayacuchano. El estudio se centra en la empresa DULCE DELEITE S.R.L, entidad dedicada a la elaboración de productos de pastelería, específicamente en la producción de pasteles (kekes). La investigación documenta el proceso completo de determinación de costos para una orden específica de producción de 2,000 unidades de pasteles, identificando y cuantificando cada uno de los tres elementos fundamentales del costo de producción: materiales directos, mano de obra directa y gastos indirectos de fabricación.</p>
+<p>El análisis de costeo se basa en información real proporcionada por la empresa, lo que confiere a este trabajo un valor práctico significativo tanto para fines académicos como para la gestión empresarial concreta. Esta característica distingue al estudio de muchos trabajos académicos que se limitan a presentar casos hipotéticos o ejemplos didácticos simplificados.</p>
+<p>La problemática central que aborda esta monografía es: ¿Cómo se estructura y cuantifica el sistema de costeo por órdenes de producción en la empresa DULCE DELEITE S.R.L para la fabricación de pasteles, y qué implicaciones tiene esta estructura de costos para la determinación del precio de venta y la rentabilidad empresarial?</p>
+<p>Problemas específicos: ¿Cuál es la composición y peso relativo de cada elemento del costo (materiales directos, mano de obra directa y gastos indirectos) en el costo total de producción? ¿Qué metodología específica utiliza la empresa para asignar y distribuir los costos indirectos de fabricación? ¿Cómo se determina el precio de venta en función de la estructura de costos identificada? ¿Qué márgenes de utilidad se obtienen con la estructura de costos y precios actual?</p>
+<p>El objetivo principal de esta monografía es <em>analizar y documentar el sistema de costeo por órdenes de producción implementado en la empresa DULCE DELEITE S.R.L para la fabricación de pasteles, identificando la estructura de costos, los métodos de asignación empleados y las implicaciones para la gestión empresarial</em>.</p>
+<p>Los objetivos específicos que guían este estudio son:</p>
+<ol type="1">
+<li><p>Identificar y cuantificar los costos de materiales directos requeridos para la producción de 2,000 unidades de pasteles, especificando consumos unitarios y costos por insumo.</p></li>
+<li><p>Determinar el costo de la mano de obra directa empleada en el proceso productivo, incluyendo las cargas laborales y sociales correspondientes según la legislación peruana vigente.</p></li>
+<li><p>Calcular los gastos indirectos de fabricación asociados a la orden de producción, identificando los rubros que los componen.</p></li>
+<li><p>Establecer el costo total de producción y el costo unitario por pastel, integrando los tres elementos del costo.</p></li>
+<li><p>Analizar la estructura de costos resultante, identificando el peso relativo de cada elemento en el costo total.</p></li>
+<li><p>Evaluar la determinación del precio de venta en función de la estructura de costos y el margen de utilidad esperado.</p></li>
+</ol>
+<p>La realización de esta monografía se justifica por múltiples razones académicas, prácticas y sociales.</p>
+<p>Desde el punto de vista académico, este trabajo contribuye a la comprensión aplicada de la contabilidad de costos, trasladando los conceptos teóricos del sistema de costeo por órdenes a un caso concreto del sector empresarial peruano. Esto permite a los estudiantes y profesionales de economía y contabilidad observar cómo los principios teóricos se materializan en la práctica empresarial real, facilitando el aprendizaje significativo y la transferencia de conocimientos.</p>
+<p>En el ámbito empresarial y práctico, la documentación sistemática del proceso de costeo en DULCE DELEITE S.R.L genera información valiosa para la propia empresa, proporcionándole herramientas para la toma de decisiones informadas en áreas como fijación de precios, control de costos, evaluación de rentabilidad y planificación de la producción. Asimismo, el estudio puede servir como modelo o referencia para otras empresas del sector pastelero o de la industria alimentaria en general que deseen implementar o mejorar sus sistemas de costeo.</p>
+<p>Desde una perspectiva social y regional, este trabajo aporta al fortalecimiento de las capacidades empresariales en Ayacucho, región que ha experimentado un importante crecimiento económico en las últimas décadas pero que aún enfrenta brechas significativas en términos de productividad y competitividad empresarial. La profesionalización de la gestión de costos en las PYMES ayacuchanas puede contribuir a su sostenibilidad económica, generación de empleo de calidad y desarrollo local.</p>
+<p>La metodología empleada en esta monografía corresponde a un análisis de experiencia práctica basado en el estudio de caso de la empresa DULCE DELEITE S.R.L. El enfoque metodológico se caracteriza por los siguientes elementos:</p>
+<p><strong>Tipo de estudio:</strong> Estudio de caso descriptivo-analítico con enfoque cuantitativo, orientado a documentar y examinar el proceso de costeo en una empresa específica.</p>
+<p><strong>Fuentes de información:</strong> Información primaria proporcionada directamente por la empresa DULCE DELEITE S.R.L, que incluye datos sobre consumos de materiales, costos de insumos, nómina de trabajadores, gastos operativos y volúmenes de producción correspondientes al año 2017.</p>
+<p><strong>Procedimiento de análisis:</strong> El análisis se estructura en cinco fases: (1) recopilación y organización de datos de costos, (2) clasificación de los costos en materiales directos, mano de obra directa y gastos indirectos de fabricación, (3) cálculo de costos unitarios para cada elemento, (4) determinación del costo total de producción y costo unitario, y (5) análisis de la estructura de costos y su relación con el precio de venta.</p>
+<p><strong>Marco conceptual:</strong> El análisis se fundamenta en los principios de la contabilidad de costos y específicamente en la metodología de costeo por órdenes de producción, tal como es presentada en la literatura especializada.</p>
+<p>El documento se organiza en las siguientes secciones principales:</p>
+<p>Primero, el Marco Teórico y Conceptual revisa los fundamentos de los sistemas de costeo, con énfasis en el costeo por órdenes de producción. Se definen los conceptos clave, se describen los elementos del costo de producción y se explica la metodología específica del costeo por órdenes, distinguiéndola de otros sistemas de costeo.</p>
+<p>Segundo, la sección de Descripción de la Empresa y del Proceso Productivo caracteriza a DULCE DELEITE S.R.L en términos de su actividad económica, estructura organizacional y proceso de elaboración de pasteles. Esta contextualización es fundamental para comprender cómo se aplica el sistema de costeo en el caso específico analizado.</p>
+<p>Tercero, la sección de Análisis de Costos de Producción constituye el núcleo del trabajo, presentando el cálculo detallado de cada elemento del costo: materiales directos (con especificación de insumos, unidades de medida, consumos y precios), mano de obra directa (incluyendo nómina de trabajadores, salarios, cargas sociales y prestaciones laborales) y gastos indirectos de fabricación (identificando rubros como arriendo, servicios públicos, depreciación, entre otros). Esta sección culmina con la determinación del costo total de producción y el costo unitario.</p>
+<p>Cuarto, en la Discusión de Resultados, se interpreta la estructura de costos obtenida, se analiza el peso relativo de cada elemento en el costo total, se evalúa la racionalidad de la determinación del precio de venta y se comparan estos hallazgos con parámetros de la industria y con la literatura especializada.</p>
+<p>Finalmente, las Conclusiones y Recomendaciones sintetizan los principales hallazgos del estudio, responden a la pregunta de investigación planteada y ofrecen sugerencias tanto para la empresa analizada como para otras organizaciones del sector que deseen implementar o mejorar sus sistemas de costeo.</p>
+<section id="marco-teórico-y-conceptual" class="level1">
+<h1>Marco Teórico y Conceptual</h1>
+<!-- Marco Teórico: Esta sección presenta los fundamentos conceptuales del costeo por órdenes y los elementos del costo de producción -->
+<section id="fundamentos-de-la-contabilidad-de-costos" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentos-de-la-contabilidad-de-costos">Fundamentos de la Contabilidad de Costos</h2>
+<section id="concepto-y-objetivos-de-la-contabilidad-de-costos" class="level3">
+<h3 class="anchored" data-anchor-id="concepto-y-objetivos-de-la-contabilidad-de-costos">Concepto y Objetivos de la Contabilidad de Costos</h3>
+<p>La contabilidad de costos es una rama especializada de la contabilidad que se dedica a la identificación, medición, acumulación, análisis, preparación, interpretación y comunicación de información sobre los costos incurridos por una organización en sus procesos productivos y operativos. A diferencia de la contabilidad financiera, que se orienta principalmente a usuarios externos y está regulada por normas contables estandarizadas, la contabilidad de costos se enfoca en proporcionar información relevante para la toma de decisiones internas de la gestión empresarial.</p>
+<p>Los objetivos principales de la contabilidad de costos incluyen: (1) la determinación del costo de los productos fabricados o servicios prestados, (2) el control de los costos mediante la comparación entre costos reales y estándares o presupuestados, (3) el suministro de información para la planeación de utilidades y la toma de decisiones de inversión, (4) la contribución a la fijación de precios de venta, y (5) la valuación de inventarios para efectos de estados financieros.</p>
+<p>En el contexto empresarial contemporáneo, la contabilidad de costos ha evolucionado más allá de su función tradicional de valuación de inventarios, convirtiéndose en una herramienta estratégica que apoya la competitividad empresarial mediante la generación de información para la gestión del valor, el análisis de rentabilidad de productos y clientes, y la optimización de procesos.</p>
+</section>
+<section id="clasificación-de-los-costos" class="level3">
+<h3 class="anchored" data-anchor-id="clasificación-de-los-costos">Clasificación de los Costos</h3>
+<p>La comprensión adecuada de los sistemas de costeo requiere el dominio de las diversas clasificaciones de costos. Los costos pueden clasificarse según múltiples criterios, siendo los más relevantes para este estudio los siguientes:</p>
+<p><strong>Por su identificación con el producto:</strong></p>
+<ul>
+<li><p><em>Costos directos</em>: aquellos que pueden identificarse y asignarse específicamente a un producto, departamento o actividad sin necesidad de prorrateo. Ejemplos típicos incluyen las materias primas utilizadas en la fabricación de un producto específico y la mano de obra de trabajadores que se dedican exclusivamente a la elaboración de dicho producto.</p></li>
+<li><p><em>Costos indirectos</em>: aquellos que no pueden identificarse directamente con un producto específico, sino que benefician a varios productos o al proceso productivo en general. Su asignación a productos individuales requiere el uso de bases de distribución o prorrateo. Ejemplos incluyen el arriendo de la planta de producción, la supervisión general, los servicios públicos y la depreciación de maquinaria de uso múltiple.</p></li>
+</ul>
+<p><strong>Por su comportamiento frente a cambios en el volumen de producción:</strong></p>
+<ul>
+<li><p><em>Costos variables</em>: aquellos que varían en proporción directa con los cambios en el nivel de actividad o volumen de producción. Un ejemplo claro son las materias primas: a mayor producción, mayor consumo de materiales.</p></li>
+<li><p><em>Costos fijos</em>: aquellos que permanecen constantes en su monto total dentro de un rango relevante de actividad, independientemente de las variaciones en el volumen de producción. Ejemplos típicos son el arriendo de instalaciones, los salarios de personal administrativo permanente y las primas de seguros anuales.</p></li>
+<li><p><em>Costos mixtos o semivariables</em>: aquellos que contienen tanto un componente fijo como uno variable. Por ejemplo, el costo de energía eléctrica puede tener una tarifa fija mensual más un cargo variable por kilowatt-hora consumido.</p></li>
+</ul>
+<p><strong>Por su función en la empresa:</strong></p>
+<ul>
+<li><p><em>Costos de producción o fabricación</em>: relacionados con la elaboración de productos. Se subdividen en materiales directos, mano de obra directa y gastos indirectos de fabricación.</p></li>
+<li><p><em>Costos de distribución o venta</em>: relacionados con la comercialización y entrega de productos a los clientes (publicidad, comisiones de ventas, transporte, etc.).</p></li>
+<li><p><em>Costos de administración</em>: relacionados con la dirección y gestión general de la empresa (salarios de gerentes, gastos de oficina, honorarios profesionales, etc.).</p></li>
+</ul>
+<p><strong>Por el momento en que se registran:</strong></p>
+<ul>
+<li><p><em>Costos históricos o reales</em>: aquellos que efectivamente se incurrieron y se registran después de realizados.</p></li>
+<li><p><em>Costos predeterminados</em>: aquellos que se calculan antes de iniciar la producción, basándose en estimaciones o estándares. Se subdividen en costos estimados y costos estándar.</p></li>
+</ul>
+</section>
+</section>
+<section id="elementos-del-costo-de-producción" class="level2">
+<h2 class="anchored" data-anchor-id="elementos-del-costo-de-producción">Elementos del Costo de Producción</h2>
+<p>El costo de producción de un bien manufacturado se compone de tres elementos fundamentales, conocidos en la literatura anglosajona como <em>prime cost</em> (costo primo, suma de materiales directos y mano de obra directa) y <em>conversion cost</em> (costo de conversión, suma de mano de obra directa y gastos indirectos de fabricación). Estos tres elementos son:</p>
+<section id="materiales-directos" class="level3">
+<h3 class="anchored" data-anchor-id="materiales-directos">Materiales Directos</h3>
+<p>Los materiales directos, también denominados materia prima directa, comprenden todos aquellos materiales que se convierten en parte integral del producto terminado y cuyos costos pueden identificarse directamente con el producto de manera económicamente factible. En el caso de una empresa pastelera como DULCE DELEITE S.R.L, los materiales directos incluirían ingredientes como harina, huevos, azúcar, margarina, leche, chocolate, entre otros insumos que se incorporan físicamente al pastel.</p>
+<p>Para que un material se considere directo, debe cumplir dos condiciones: (1) formar parte física del producto terminado, y (2) ser susceptible de medición directa en relación con el producto, de modo que el costo de rastreo sea menor que el beneficio de tener información precisa. Algunos materiales, aunque físicamente se incorporan al producto, se consideran indirectos por razones de inmaterialidad o impracticabilidad de medición (por ejemplo, el hilo utilizado en la confección de una prenda de vestir, cuyo costo unitario es tan pequeño que no justifica su seguimiento individual).</p>
+<p>El costo de los materiales directos incluye no solo el precio de compra neto de descuentos comerciales, sino también todos los costos necesarios para poner el material en condiciones de uso: fletes de compra, seguros de transporte, derechos de importación (si aplica), costos de inspección y recepción, entre otros. Sin embargo, los descuentos por pronto pago generalmente se tratan como ingresos financieros y no reducen el costo del material.</p>
+</section>
+<section id="mano-de-obra-directa" class="level3">
+<h3 class="anchored" data-anchor-id="mano-de-obra-directa">Mano de Obra Directa</h3>
+<p>La mano de obra directa representa el esfuerzo humano que puede identificarse directamente con la elaboración de un producto específico. Comprende el costo del trabajo de los empleados que manipulan directamente los materiales para convertirlos en producto terminado o que operan maquinaria de producción dedicada específicamente a un producto.</p>
+<p>El costo de la mano de obra directa incluye no solo el salario base de los trabajadores, sino también todas las cargas sociales y prestaciones laborales establecidas por la legislación vigente. En el caso peruano, estas cargas incluyen:</p>
+<ul>
+<li>Aportaciones del empleador al seguro social de salud (EsSalud): 9% de la remuneración.</li>
+<li>Seguro Complementario de Trabajo de Riesgo (SCTR): variable según el nivel de riesgo de la actividad, generalmente entre 0.51% y 1.56%.</li>
+<li>Aportaciones al Servicio Nacional de Adiestramiento en Trabajo Industrial (SENATI): 0.75% de la remuneración para empresas industriales con más de 20 trabajadores.</li>
+<li>Compensación por Tiempo de Servicios (CTS): equivalente a aproximadamente 8.33% mensual de la remuneración (una remuneración mensual dividida en 12 meses).</li>
+<li>Gratificaciones legales (Fiestas Patrias y Navidad): equivalente a aproximadamente 16.67% mensual (dos remuneraciones al año divididas en 12 meses).</li>
+<li>Vacaciones: equivalente a aproximadamente 8.33% mensual.</li>
+</ul>
+<p>Adicionalmente, los trabajadores aportan el 13% de su remuneración para el sistema de pensiones (ONP o AFP), pero este monto no constituye un costo adicional para el empleador, sino una retención que se descuenta del salario del trabajador.</p>
+<p>La distinción entre mano de obra directa e indirecta es crucial en el costeo por órdenes. Los salarios de trabajadores cuyo esfuerzo puede rastrearse a órdenes específicas (como operarios de línea de producción) se consideran costos directos, mientras que los salarios de personal de supervisión, mantenimiento o apoyo general se clasifican como costos indirectos de fabricación.</p>
+</section>
+<section id="gastos-indirectos-de-fabricación" class="level3">
+<h3 class="anchored" data-anchor-id="gastos-indirectos-de-fabricación">Gastos Indirectos de Fabricación</h3>
+<p>Los gastos indirectos de fabricación (GIF), también denominados costos indirectos de manufactura o <em>manufacturing overhead</em>, comprenden todos los costos de producción que no pueden identificarse directamente con unidades específicas de producto. Esta categoría incluye tres subgrupos:</p>
+<p><strong>Materiales indirectos:</strong> materiales necesarios para el proceso de producción pero que no se convierten en parte identificable del producto terminado, o cuyo costo de rastreo no justifica el esfuerzo. Ejemplos: lubricantes para maquinaria, combustibles, materiales de limpieza de planta, herramientas menores.</p>
+<p><strong>Mano de obra indirecta:</strong> salarios y cargas sociales del personal de producción que no trabaja directamente en la elaboración de productos específicos. Ejemplos: supervisores de planta, personal de mantenimiento, inspectores de calidad, personal de almacén de materiales y productos terminados.</p>
+<p><strong>Otros gastos indirectos de fabricación:</strong> todos los demás costos de producción no clasificables como materiales directos, mano de obra directa, materiales indirectos o mano de obra indirecta. Ejemplos: arriendo de planta, servicios públicos (electricidad, agua, gas), depreciación de maquinaria y edificios de producción, seguros de planta, impuestos sobre propiedad industrial.</p>
+<p>Una característica fundamental de los GIF es que su asignación a productos específicos requiere el uso de bases de distribución o prorrateo, ya que por definición no pueden rastrearse directamente a las unidades producidas. Las bases de distribución más comunes incluyen: horas de mano de obra directa, horas-máquina, costo de materiales directos, costo de mano de obra directa o unidades producidas. La elección de la base apropiada debe reflejar la relación causal entre el costo indirecto y el factor de actividad seleccionado.</p>
+</section>
+</section>
+<section id="sistemas-de-costeo-clasificación-general" class="level2">
+<h2 class="anchored" data-anchor-id="sistemas-de-costeo-clasificación-general">Sistemas de Costeo: Clasificación General</h2>
+<p>Existen múltiples criterios para clasificar los sistemas de costeo. Los dos criterios más relevantes para este estudio son: (1) según el método de acumulación de costos, y (2) según el tratamiento de los costos fijos de producción.</p>
+<section id="según-el-método-de-acumulación-de-costos" class="level3">
+<h3 class="anchored" data-anchor-id="según-el-método-de-acumulación-de-costos">Según el Método de Acumulación de Costos</h3>
+<p><strong>Sistema de Costeo por Órdenes de Producción</strong></p>
+<p>El sistema de costeo por órdenes de producción (también llamado costeo por órdenes específicas, por lotes o por pedidos) es apropiado para empresas que fabrican productos o prestan servicios según especificaciones de clientes individuales, o que producen en lotes identificables de productos. Cada orden, lote o pedido se trata como una unidad de costeo separada, acumulándose los costos de materiales directos, mano de obra directa y gastos indirectos de fabricación para cada orden específica.</p>
+<p>Este sistema se caracteriza por:</p>
+<ul>
+<li>La producción se realiza en función de órdenes específicas de clientes o lotes predeterminados.</li>
+<li>Cada orden de producción se identifica mediante un número o código único.</li>
+<li>Los costos se acumulan por orden de producción mediante una hoja de costos por orden.</li>
+<li>El costo unitario se calcula dividiendo el costo total de la orden entre el número de unidades producidas en esa orden.</li>
+<li>Es posible que diferentes órdenes tengan costos unitarios diferentes, incluso para productos similares, debido a variaciones en especificaciones, volumen o eficiencia de producción.</li>
+</ul>
+<p>El sistema de costeo por órdenes es el más adecuado para industrias como: construcción, imprenta, mueblería personalizada, reparaciones, consultoría profesional, y en general cualquier actividad donde cada trabajo, proyecto o pedido sea diferente de los demás.</p>
+<p><strong>Sistema de Costeo por Procesos</strong></p>
+<p>El sistema de costeo por procesos es apropiado para empresas que fabrican productos homogéneos de manera continua y masiva, donde las unidades individuales no pueden distinguirse entre sí durante el proceso de producción. Los costos se acumulan por proceso o departamento durante un período (generalmente un mes), y el costo unitario se determina dividiendo el costo total del proceso entre el número de unidades equivalentes producidas en ese período.</p>
+<p>Este sistema se caracteriza por:</p>
+<ul>
+<li>Producción continua y homogénea de productos estandarizados.</li>
+<li>Los costos se acumulan por departamento o centro de costos durante un período definido.</li>
+<li>El flujo de unidades es continuo a través de varios procesos o departamentos.</li>
+<li>Se utiliza el concepto de unidades equivalentes para manejar la producción en proceso al final del período.</li>
+<li>El costo unitario es un promedio del período, aplicable a todas las unidades producidas.</li>
+</ul>
+<p>El costeo por procesos es típico de industrias como: química, textil, alimentaria (procesamiento masivo), papel, cemento, refinación de petróleo.</p>
+<p><strong>Diferencias clave entre costeo por órdenes y costeo por procesos</strong></p>
+<p>La Tabla&nbsp;1 presenta las diferencias fundamentales entre ambos sistemas:</p>
+<div id="tbl-comparacion-sistemas" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia basada en literatura especializada en contabilidad de costos.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-comparacion-sistemas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;1: Comparación entre Sistema de Costeo por Órdenes y por Procesos
+</figcaption>
+<div aria-describedby="tbl-comparacion-sistemas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 35%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Característica</th>
+<th style="text-align: left;">Costeo por Órdenes</th>
+<th style="text-align: left;">Costeo por Procesos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tipo de producción</td>
+<td style="text-align: left;">Por pedidos, lotes o proyectos específicos</td>
+<td style="text-align: left;">Continua y masiva</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Homogeneidad del producto</td>
+<td style="text-align: left;">Productos diferentes entre órdenes</td>
+<td style="text-align: left;">Productos homogéneos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unidad de costeo</td>
+<td style="text-align: left;">Orden específica</td>
+<td style="text-align: left;">Departamento/proceso por período</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cálculo del costo unitario</td>
+<td style="text-align: left;">Costo total de orden / unidades de orden</td>
+<td style="text-align: left;">Costo total de proceso / unidades equivalentes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flexibilidad</td>
+<td style="text-align: left;">Alta (cada orden diferente)</td>
+<td style="text-align: left;">Baja (producción estandarizada)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Momento de cálculo</td>
+<td style="text-align: left;">Al terminar cada orden</td>
+<td style="text-align: left;">Al finalizar el período contable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ejemplos de industrias</td>
+<td style="text-align: left;">Construcción, imprenta, muebles</td>
+<td style="text-align: left;">Química, alimentaria, textil</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="según-el-tratamiento-de-los-costos-fijos-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="según-el-tratamiento-de-los-costos-fijos-de-producción">Según el Tratamiento de los Costos Fijos de Producción</h3>
+<p><strong>Costeo por Absorción (Costeo Total)</strong></p>
+<p>En el costeo por absorción, todos los costos de producción, tanto variables como fijos, se consideran costos del producto y se incluyen en el costo de inventarios. Bajo este método, los GIF fijos (como el arriendo de planta o la depreciación) se prorratean a las unidades producidas y forman parte del costo unitario del producto.</p>
+<p>Este método es el requerido por las Normas Internacionales de Información Financiera (NIIF) y por las normas tributarias de la mayoría de países, incluido el Perú, para la valuación de inventarios en los estados financieros de propósito general.</p>
+<p><strong>Costeo Variable (Costeo Directo)</strong></p>
+<p>En el costeo variable, solo los costos variables de producción se consideran costos del producto, mientras que los costos fijos de producción se tratan como costos del período y se cargan directamente a resultados. Este método es útil para el análisis de decisiones de corto plazo y el análisis de contribución marginal, pero no es aceptable para reportes financieros externos bajo NIIF.</p>
+<p>Para los propósitos de este estudio, que analiza la estructura de costos de una empresa específica en un contexto de gestión interna, se utiliza el enfoque de costeo por absorción, aunque sin una distinción explícita entre costos fijos y variables en la asignación de GIF, dado que el sistema implementado en DULCE DELEITE S.R.L no hace esta diferenciación.</p>
+</section>
+</section>
+<section id="el-sistema-de-costeo-por-órdenes-de-producción-aspectos-específicos" class="level2">
+<h2 class="anchored" data-anchor-id="el-sistema-de-costeo-por-órdenes-de-producción-aspectos-específicos">El Sistema de Costeo por Órdenes de Producción: Aspectos Específicos</h2>
+<section id="documentos-básicos-del-sistema" class="level3">
+<h3 class="anchored" data-anchor-id="documentos-básicos-del-sistema">Documentos Básicos del Sistema</h3>
+<p>La implementación del costeo por órdenes requiere de documentos específicos para la acumulación y control de costos:</p>
+<p><strong>Orden de Producción</strong></p>
+<p>Es el documento que autoriza la fabricación de una cantidad específica de un producto o lote. Contiene información como: número de orden, descripción del producto, cantidad a fabricar, fecha de inicio, fecha de entrega requerida, especificaciones técnicas, departamentos involucrados. Este documento inicia el proceso de acumulación de costos para la orden.</p>
+<p><strong>Hoja de Costos por Orden</strong></p>
+<p>Es el documento fundamental del sistema, donde se acumulan todos los costos incurridos en la fabricación de una orden específica. Se estructura en tres secciones principales: (1) materiales directos, (2) mano de obra directa, y (3) gastos indirectos de fabricación. Cada sección registra los costos conforme se incurren durante la ejecución de la orden.</p>
+<p>La hoja de costos por orden sirve como mayor auxiliar que sustenta los saldos de la cuenta de inventario de productos en proceso. Al finalizar la orden, el costo total acumulado en la hoja se transfiere a inventario de productos terminados.</p>
+<p><strong>Requisiciones de Materiales</strong></p>
+<p>Documento que autoriza la entrega de materiales del almacén al área de producción. Especifica: número de orden de producción, tipo de material, cantidad solicitada, fecha, firma del solicitante y del encargado de almacén. Las requisiciones de materiales directos se registran directamente en la hoja de costos de la orden correspondiente.</p>
+<p><strong>Tarjetas de Tiempo o Reportes de Horas</strong></p>
+<p>Documentos que registran el tiempo que los trabajadores dedican a cada orden de producción. Permiten asignar los costos de mano de obra directa a las órdenes específicas. En sistemas más sofisticados, se utilizan sistemas electrónicos de seguimiento de tiempo (tarjetas electrónicas, software de gestión de producción).</p>
+</section>
+<section id="proceso-de-acumulación-de-costos" class="level3">
+<h3 class="anchored" data-anchor-id="proceso-de-acumulación-de-costos">Proceso de Acumulación de Costos</h3>
+<p>El proceso de costeo por órdenes sigue una secuencia lógica:</p>
+<ol type="1">
+<li><p><strong>Emisión de la Orden de Producción</strong>: el departamento de ventas o planificación emite una orden de producción especificando qué se va a fabricar, en qué cantidad y para cuándo.</p></li>
+<li><p><strong>Apertura de la Hoja de Costos</strong>: se crea una hoja de costos para la orden, asignándole un número único de identificación.</p></li>
+<li><p><strong>Acumulación de Materiales Directos</strong>: conforme se retiran materiales del almacén mediante requisiciones, se registran en la hoja de costos de la orden correspondiente, valorándose generalmente al costo promedio, PEPS (primeras entradas, primeras salidas) o algún otro método de valuación de inventarios.</p></li>
+<li><p><strong>Acumulación de Mano de Obra Directa</strong>: con base en las tarjetas de tiempo o reportes de horas, se asigna a cada orden el costo de la mano de obra directa utilizada, incluyendo salarios base y cargas sociales.</p></li>
+<li><p><strong>Aplicación de Gastos Indirectos de Fabricación</strong>: dado que los GIF no pueden rastrearse directamente a las órdenes, se aplican mediante una tasa predeterminada de GIF. Esta tasa se calcula al inicio del período dividiendo los GIF presupuestados entre el nivel esperado de la base de asignación (ej. horas de mano de obra directa presupuestadas). Durante el período, los GIF se aplican a cada orden multiplicando la tasa predeterminada por el nivel real de la base de asignación de esa orden.</p></li>
+<li><p><strong>Cierre de la Orden</strong>: cuando la orden se completa, se suman los tres elementos del costo en la hoja de costos, obteniéndose el costo total de la orden. Este costo se divide entre el número de unidades producidas para obtener el costo unitario. La orden se transfiere de inventario de productos en proceso a inventario de productos terminados.</p></li>
+</ol>
+</section>
+<section id="métodos-de-asignación-de-gastos-indirectos-de-fabricación" class="level3">
+<h3 class="anchored" data-anchor-id="métodos-de-asignación-de-gastos-indirectos-de-fabricación">Métodos de Asignación de Gastos Indirectos de Fabricación</h3>
+<p>La asignación de GIF es uno de los aspectos más complejos del costeo por órdenes, dado que estos costos, por definición, no pueden identificarse directamente con órdenes específicas. Existen varios enfoques:</p>
+<p><strong>Tasa Única de Asignación</strong></p>
+<p>Se utiliza una sola tasa de GIF para toda la planta, calculada como:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BTasa%20de%20GIF%7D%20=%20%5Cfrac%7B%5Ctext%7BGIF%20Presupuestados%20Totales%7D%7D%7B%5Ctext%7BBase%20de%20Asignaci%C3%B3n%20Presupuestada%20Total%7D%7D%0A"></p>
+<p>Este método es simple pero puede ser impreciso si diferentes productos o departamentos consumen recursos indirectos en proporciones muy diferentes.</p>
+<p><strong>Tasas Departamentales de Asignación</strong></p>
+<p>Se calculan tasas separadas para cada departamento o centro de costos, reconociendo que diferentes áreas de producción pueden tener estructuras de costos indirectos diferentes. Por ejemplo, un departamento intensivo en maquinaria puede usar horas-máquina como base, mientras que uno intensivo en trabajo manual puede usar horas de mano de obra directa.</p>
+<p><strong>Costeo Basado en Actividades (ABC)</strong></p>
+<p>Método más sofisticado que identifica actividades que causan costos indirectos (ej. preparación de máquinas, inspección de calidad, manejo de materiales) y asigna los costos de estas actividades a los productos según el consumo de actividades. Aunque más preciso, es también más complejo y costoso de implementar.</p>
+</section>
+<section id="tratamiento-de-unidades-defectuosas-desperdicios-y-material-de-desecho" class="level3">
+<h3 class="anchored" data-anchor-id="tratamiento-de-unidades-defectuosas-desperdicios-y-material-de-desecho">Tratamiento de Unidades Defectuosas, Desperdicios y Material de Desecho</h3>
+<p>En el proceso productivo es común que se generen unidades que no cumplen los estándares de calidad, así como desperdicios o material de desecho. El tratamiento contable de estos elementos afecta el costo del producto:</p>
+<p><strong>Unidades Defectuosas</strong></p>
+<p>Unidades que no cumplen con los estándares de producción y que deben reprocesarse para poder venderse. El costo del reproceso puede tratarse de dos formas:</p>
+<ul>
+<li><em>Cargado a la orden específica</em>: si el defecto es atribuible a las especificaciones particulares de esa orden o a errores en su producción.</li>
+<li><em>Cargado a los GIF</em>: si el nivel de defectos está dentro de lo normal esperado para el proceso productivo en general.</li>
+</ul>
+<p><strong>Unidades Dañadas</strong></p>
+<p>Unidades que no cumplen los estándares y no pueden reprocesarse económicamente, por lo que se descartan o venden a precio de salvamento. El costo neto de las unidades dañadas (costo de producción incurrido menos valor de salvamento) puede:</p>
+<ul>
+<li>Cargarse a la orden específica si el daño es atribuible a esa orden.</li>
+<li>Cargarse a los GIF si es parte del deterioro normal del proceso.</li>
+</ul>
+<p><strong>Desperdicios</strong></p>
+<p>Materia prima que queda del proceso de producción y que no puede reutilizarse para el mismo propósito, pero puede venderse a terceros a valor nominal. El valor de salvamento de los desperdicios generalmente se deduce del costo de materiales directos o se acredita a los GIF, reduciendo así el costo del producto.</p>
+<p><strong>Material de Desecho</strong></p>
+<p>Parte de las materias primas que queda después de la producción sin valor de reventa. Simplemente se descarta, y su costo está implícitamente incluido en el costo de materiales directos (es decir, se compra más material del que efectivamente se incorpora al producto, para cubrir el desecho normal).</p>
+<p>En el caso de DULCE DELEITE S.R.L, aunque el sistema de costeo implementado no hace un tratamiento explícito y separado de estos conceptos, es importante reconocer que en la producción de pasteles pueden generarse mermas (por ejemplo, masa que se adhiere a los moldes, recortes al dar forma a los pasteles) que están implícitamente consideradas en los consumos de materiales directos especificados en las fórmulas de producción.</p>
+</section>
+</section>
+<section id="marco-normativo-y-regulatorio-en-el-perú" class="level2">
+<h2 class="anchored" data-anchor-id="marco-normativo-y-regulatorio-en-el-perú">Marco Normativo y Regulatorio en el Perú</h2>
+<section id="legislación-laboral-aplicable" class="level3">
+<h3 class="anchored" data-anchor-id="legislación-laboral-aplicable">Legislación Laboral Aplicable</h3>
+<p>El cálculo del costo de mano de obra en el Perú debe considerar el marco normativo establecido por el Ministerio de Trabajo y Promoción del Empleo (MTPE) y otras entidades reguladoras. Las principales normas aplicables durante el período analizado (2017) incluían:</p>
+<ul>
+<li><strong>Remuneración Mínima Vital</strong>: establecida en S/ 850.00 mensuales mediante Decreto Supremo N° 005-2016-TR (vigente hasta marzo de 2018).</li>
+<li><strong>Jornada de Trabajo</strong>: máximo 8 horas diarias o 48 horas semanales, según Decreto Legislativo N° 854.</li>
+<li><strong>Gratificaciones</strong>: dos gratificaciones legales al año (Fiestas Patrias y Navidad) equivalentes a una remuneración mensual cada una, según Ley N° 27735.</li>
+<li><strong>Compensación por Tiempo de Servicios (CTS)</strong>: depósito semestral equivalente a una remuneración mensual al año, conforme al Texto Único Ordenado del Decreto Legislativo N° 650.</li>
+<li><strong>Vacaciones</strong>: 30 días calendario por cada año completo de servicios, conforme al Decreto Legislativo N° 713.</li>
+<li><strong>EsSalud</strong>: aportación del empleador del 9% de la remuneración al Seguro Social de Salud, según Ley N° 27056.</li>
+<li><strong>ONP o AFP</strong>: aportación del trabajador del 13% (ONP) o variable según AFP elegida, que no constituye costo para el empleador sino retención del salario del trabajador.</li>
+<li><strong>SCTR</strong>: Seguro Complementario de Trabajo de Riesgo, obligatorio para actividades de riesgo, con tasas variables según nivel de riesgo, conforme a la Ley N° 26790.</li>
+</ul>
+</section>
+<section id="normas-contables-y-tributarias" class="level3">
+<h3 class="anchored" data-anchor-id="normas-contables-y-tributarias">Normas Contables y Tributarias</h3>
+<p>Para efectos de presentación de estados financieros, las empresas peruanas deben aplicar las Normas Internacionales de Información Financiera (NIIF), adoptadas en el Perú mediante resoluciones del Consejo Normativo de Contabilidad. La valuación de inventarios se rige por la NIC 2 <em>Inventarios</em>, que establece que los inventarios deben medirse al menor entre el costo y el valor neto realizable, y que el costo de los inventarios de productos manufacturados debe incluir materiales directos, mano de obra directa y una porción de los GIF fijos y variables.</p>
+<p>Para efectos tributarios, la Ley del Impuesto a la Renta (Texto Único Ordenado aprobado por Decreto Supremo N° 179-2004-EF) y su reglamento establecen que el costo de producción se determina conforme a las normas contables, siempre que estas no contravengan disposiciones tributarias específicas.</p>
+</section>
+</section>
+</section>
+<section id="descripción-de-la-empresa-y-del-proceso-productivo" class="level1">
+<h1>Descripción de la Empresa y del Proceso Productivo</h1>
+<!-- Descripción de la Empresa: Esta sección caracteriza a DULCE DELEITE S.R.L y describe su proceso de elaboración de pasteles -->
+<section id="caracterización-de-dulce-deleite-s.r.l" class="level2">
+<h2 class="anchored" data-anchor-id="caracterización-de-dulce-deleite-s.r.l">Caracterización de DULCE DELEITE S.R.L</h2>
+<section id="razón-social-y-actividad-económica" class="level3">
+<h3 class="anchored" data-anchor-id="razón-social-y-actividad-económica">Razón Social y Actividad Económica</h3>
+<p>DULCE DELEITE S.R.L es una empresa peruana constituida como Sociedad de Responsabilidad Limitada, dedicada a la elaboración y comercialización de productos de pastelería y repostería. Su actividad económica principal se clasifica dentro de la División 10 (Elaboración de productos alimenticios), Grupo 107 (Elaboración de otros productos alimenticios) de la Clasificación Industrial Internacional Uniforme (CIIU) Revisión 4, adaptada para el Perú.</p>
+<p>La empresa opera en la ciudad de Ayacucho, región que en los últimos años ha experimentado un crecimiento económico significativo impulsado por la inversión pública, el comercio y el turismo. El sector de alimentos preparados y panadería-pastelería ha crecido paralelamente, atendiendo tanto a la demanda local como a eventos especiales, celebraciones y el mercado institucional (colegios, empresas, instituciones públicas).</p>
+</section>
+<section id="estructura-organizacional-y-recursos-humanos" class="level3">
+<h3 class="anchored" data-anchor-id="estructura-organizacional-y-recursos-humanos">Estructura Organizacional y Recursos Humanos</h3>
+<p>Aunque la información proporcionada no detalla la estructura organizacional completa de la empresa, el análisis de costos de mano de obra revela que para la orden de producción analizada se emplearon cinco trabajadores de producción directa, además de al menos un trabajador administrativo (cuyo salario aparece en el cálculo de mano de obra indirecta).</p>
+<p>La estructura básica de una empresa de este tipo generalmente incluye:</p>
+<ul>
+<li><strong>Área de producción</strong>: operarios que preparan la masa, hornean, decoran y empacan los productos.</li>
+<li><strong>Área de ventas</strong>: personal encargado de atender pedidos, coordinar entregas y gestionar relaciones con clientes.</li>
+<li><strong>Área administrativa</strong>: encargada de contabilidad, compras, recursos humanos y gestión general.</li>
+</ul>
+<p>Dado que se trata de una S.R.L, la gestión está a cargo de uno o más gerentes designados por los socios, quienes toman las decisiones estratégicas del negocio.</p>
+</section>
+<section id="infraestructura-y-equipamiento" class="level3">
+<h3 class="anchored" data-anchor-id="infraestructura-y-equipamiento">Infraestructura y Equipamiento</h3>
+<p>El análisis de los gastos indirectos de fabricación proporciona indicios sobre la infraestructura y equipamiento de la empresa:</p>
+<ul>
+<li><strong>Instalaciones físicas</strong>: la empresa opera en un local arrendado (evidenciado por el rubro “ARRIENDO” en los GIF por un monto de S/ 350.00 mensuales).</li>
+<li><strong>Servicios básicos</strong>: cuenta con suministro de agua potable, energía eléctrica (con consumo significativo de S/ 300.00 mensuales, atribuible al uso de hornos y otros equipos), telefonía e internet.</li>
+<li><strong>Equipamiento de producción</strong>: aunque no se detalla específicamente, una operación de pastelería requiere hornos industriales o semi-industriales, batidoras, mesas de trabajo, moldes, utensilios diversos y equipos de refrigeración. La depreciación mensual de S/ 50.00 registrada en los GIF sugiere la existencia de maquinaria y equipo con valor contable sujeto a depreciación.</li>
+</ul>
+</section>
+<section id="mercado-y-clientes" class="level3">
+<h3 class="anchored" data-anchor-id="mercado-y-clientes">Mercado y Clientes</h3>
+<p>Si bien el estudio de caso no proporciona información detallada sobre el mercado y la cartera de clientes, puede inferirse que DULCE DELEITE S.R.L opera en un esquema de producción por pedidos o por lotes, característica que justifica precisamente la aplicación del sistema de costeo por órdenes.</p>
+<p>El tamaño de la orden analizada (2,000 unidades de pasteles) sugiere que la empresa atiende pedidos de volumen medio, posiblemente para eventos corporativos, institucionales o comerciales (distribución a tiendas minoristas), además de potencialmente atender pedidos menores de clientes individuales para eventos familiares.</p>
+<p>El precio de venta fijado en S/ 20.00 por unidad la posiciona en un segmento de mercado de precio moderado a medio, considerando que el costo de producción es de S/ 12.87 por unidad.</p>
+</section>
+</section>
+<section id="proceso-de-elaboración-de-pasteles" class="level2">
+<h2 class="anchored" data-anchor-id="proceso-de-elaboración-de-pasteles">Proceso de Elaboración de Pasteles</h2>
+<section id="descripción-general-del-proceso" class="level3">
+<h3 class="anchored" data-anchor-id="descripción-general-del-proceso">Descripción General del Proceso</h3>
+<p>La elaboración de pasteles (kekes) en una operación de pastelería sigue un proceso productivo relativamente estandarizado, aunque con posibles variaciones según el tipo específico de pastel y las preferencias del fabricante. Con base en la información de materiales directos proporcionada, puede reconstruirse el proceso seguido por DULCE DELEITE S.R.L:</p>
+<p><strong>Etapa 1: Preparación de Ingredientes y Pesado</strong></p>
+<p>Los trabajadores seleccionan y pesan los ingredientes según la fórmula establecida para el tipo de pastel a elaborar. Los ingredientes identificados en la orden analizada incluyen:</p>
+<ul>
+<li>Harina (base estructural del pastel)</li>
+<li>Huevos (proporciona estructura, humedad y sabor)</li>
+<li>Azúcar (endulzante y contribuye a textura)</li>
+<li>Margarina sin sal (aporta grasa, humedad y sabor)</li>
+<li>Leche (líquido que activa el gluten y aporta sabor)</li>
+<li>Polvo para hornear (agente leudante que hace que la masa suba)</li>
+<li>Esencia de vainilla (saborizante)</li>
+<li>Chocolate (ingrediente característico, posiblemente para cobertura o relleno)</li>
+</ul>
+<p>La precisión en el pesado es crucial para la calidad y consistencia del producto final, así como para el control de costos, ya que variaciones en las cantidades afectan tanto la calidad como el costo unitario.</p>
+<p><strong>Etapa 2: Mezclado de Ingredientes</strong></p>
+<p>Los ingredientes se mezclan siguiendo una secuencia específica para lograr la textura y consistencia adecuadas de la masa. El proceso típico incluye:</p>
+<ul>
+<li>Batido de margarina con azúcar hasta obtener una mezcla cremosa</li>
+<li>Incorporación gradual de huevos</li>
+<li>Alternancia en la adición de ingredientes secos (harina, polvo de hornear) e ingredientes líquidos (leche, esencia de vainilla)</li>
+<li>Mezclado hasta obtener una masa homogénea sin grumos</li>
+</ul>
+<p>El tiempo y método de mezclado son críticos: un mezclado insuficiente resulta en una masa grumosa e irregular, mientras que un mezclado excesivo puede desarrollar demasiado el gluten de la harina, resultando en un producto denso y duro.</p>
+<p><strong>Etapa 3: Moldeado y Llenado</strong></p>
+<p>La masa preparada se distribuye en moldes previamente engrasados o forrados. El llenado debe ser uniforme para asegurar que todos los pasteles tengan tamaño y peso similares (importante para la consistencia del producto y el control de costos unitarios).</p>
+<p><strong>Etapa 4: Horneado</strong></p>
+<p>Los moldes con la masa se introducen en hornos precalentados a la temperatura adecuada (generalmente entre 170°C y 180°C para pasteles). El tiempo de horneado depende del tamaño de los pasteles y las características del horno, típicamente entre 25 y 45 minutos para pasteles de tamaño individual a mediano.</p>
+<p>Durante el horneado, el calor hace que el polvo de hornear genere dióxido de carbono, expandiendo la masa; las proteínas del huevo y el gluten de la harina se coagulan, dando estructura; el agua se evapora parcialmente; y la superficie se dora debido a la caramelización de azúcares y la reacción de Maillard.</p>
+<p>El control de temperatura y tiempo es crucial: un horneado insuficiente resulta en un producto crudo en el centro, mientras que un horneado excesivo produce un pastel seco y duro.</p>
+<p><strong>Etapa 5: Enfriamiento</strong></p>
+<p>Una vez completado el horneado, los pasteles se retiran del horno y se dejan enfriar parcialmente en los moldes antes de desmoldarlos. Posteriormente, se enfrían completamente en rejillas que permiten la circulación de aire. El enfriamiento gradual previene el colapso de la estructura del pastel.</p>
+<p><strong>Etapa 6: Decorado y Acabado</strong></p>
+<p>Dependiendo del tipo de producto, puede incluirse una etapa de decorado con chocolate (mencionado en los materiales directos), glaseado, relleno o coberturas. En el caso analizado, la inclusión de chocolate como material directo (0.200 kg por unidad, equivalente a 200 gramos) sugiere que los pasteles llevan algún tipo de cobertura o inclusión de chocolate significativa.</p>
+<p><strong>Etapa 7: Empaque</strong></p>
+<p>Los pasteles terminados y enfriados se empacan individualmente o en grupos, dependiendo del destino final (venta individual, distribución a tiendas, entrega de pedidos institucionales). El empaque protege el producto durante el almacenamiento y transporte, y cumple funciones de presentación y marketing.</p>
+</section>
+<section id="formulación-y-consumos-unitarios" class="level3">
+<h3 class="anchored" data-anchor-id="formulación-y-consumos-unitarios">Formulación y Consumos Unitarios</h3>
+<p>La Tabla&nbsp;2 presenta la fórmula de producción y los consumos unitarios de materiales directos para la elaboración de pasteles según los datos proporcionados por DULCE DELEITE S.R.L:</p>
+<div id="tbl-formula-produccion" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Datos proporcionados por DULCE DELEITE S.R.L para el período analizado (2017).">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-formula-produccion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;2: Fórmula de Producción y Costos de Materiales Directos por Unidad
+</figcaption>
+<div aria-describedby="tbl-formula-produccion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 17%">
+<col style="width: 30%">
+<col style="width: 19%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Material</th>
+<th style="text-align: center;">Unidad de Medida</th>
+<th style="text-align: center;">Costo Unitario de Compra (S/)</th>
+<th style="text-align: center;">Consumo por Pastel</th>
+<th style="text-align: center;">Costo por Pastel (S/)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Harina</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">5.50</td>
+<td style="text-align: center;">0.30 kg</td>
+<td style="text-align: center;">1.65</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Huevo</td>
+<td style="text-align: center;">unidad</td>
+<td style="text-align: center;">0.40</td>
+<td style="text-align: center;">4.0 unidades</td>
+<td style="text-align: center;">1.60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Margarina sin sal</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">9.00</td>
+<td style="text-align: center;">0.15 kg</td>
+<td style="text-align: center;">1.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leche</td>
+<td style="text-align: center;">litro</td>
+<td style="text-align: center;">3.50</td>
+<td style="text-align: center;">0.4 litros</td>
+<td style="text-align: center;">1.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Polvo para hornear</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">15.00</td>
+<td style="text-align: center;">0.01 kg</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Esencia de vainilla</td>
+<td style="text-align: center;">litro</td>
+<td style="text-align: center;">1.00</td>
+<td style="text-align: center;">0.015 litros</td>
+<td style="text-align: center;">0.02</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Azúcar</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">0.25 kg</td>
+<td style="text-align: center;">0.20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chocolate</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">10.00</td>
+<td style="text-align: center;">0.200 kg</td>
+<td style="text-align: center;">2.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>8.37</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Analizando esta formulación, se observa que:</p>
+<ul>
+<li><p>Los ingredientes de mayor impacto en costo son el chocolate (S/ 2.00 por unidad, 23.9% del costo de materiales), la harina (S/ 1.65, 19.7%), los huevos (S/ 1.60, 19.1%) y la leche (S/ 1.40, 16.7%). Estos cuatro ingredientes representan el 79.4% del costo total de materiales directos.</p></li>
+<li><p>El consumo de 0.30 kg de harina por pastel, junto con 4 huevos, 0.25 kg de azúcar y 0.15 kg de margarina, sugiere que se trata de pasteles de tamaño individual a mediano (probablemente entre 250 y 350 gramos de peso final por unidad).</p></li>
+<li><p>La inclusión de 200 gramos de chocolate por pastel es significativa, indicando que el chocolate es un componente importante del producto (posiblemente una cobertura generosa o un pastel de chocolate propiamente).</p></li>
+<li><p>Los consumos de polvo de hornear (10 gramos por pastel) y esencia de vainilla (15 ml por pastel) son consistentes con fórmulas estándar de pastelería para productos de este tamaño.</p></li>
+</ul>
+</section>
+<section id="control-de-calidad" class="level3">
+<h3 class="anchored" data-anchor-id="control-de-calidad">Control de Calidad</h3>
+<p>Aunque no se detalla explícitamente en la información proporcionada, el proceso de producción de alimentos requiere controles de calidad en múltiples etapas:</p>
+<ul>
+<li><strong>Control de materias primas</strong>: verificación de frescura, calidad y conformidad de ingredientes recibidos.</li>
+<li><strong>Control de proceso</strong>: monitoreo de temperaturas de horneado, tiempos de mezclado, consistencia de la masa.</li>
+<li><strong>Control de producto terminado</strong>: inspección visual, verificación de peso, evaluación sensorial (sabor, textura, apariencia).</li>
+</ul>
+<p>El cumplimiento de estándares de inocuidad alimentaria y buenas prácticas de manufactura es fundamental, aunque empresas del tamaño de DULCE DELEITE S.R.L pueden no contar con certificaciones formales como HACCP o ISO 22000, típicas de empresas más grandes.</p>
+</section>
+<section id="tiempo-de-ciclo-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="tiempo-de-ciclo-de-producción">Tiempo de Ciclo de Producción</h3>
+<p>El tiempo total desde el inicio de la preparación hasta la obtención del producto empacado y listo para venta puede estimarse en aproximadamente 2 a 3 horas por lote, considerando:</p>
+<ul>
+<li>Preparación y mezclado: 30-45 minutos</li>
+<li>Horneado: 30-45 minutos</li>
+<li>Enfriamiento: 30-60 minutos</li>
+<li>Decorado y empaque: 30-45 minutos</li>
+</ul>
+<p>Para una orden de 2,000 unidades, asumiendo hornos con capacidad para 40-50 pasteles por tanda, se requerirían aproximadamente 40-50 tandas, lo que podría completarse en varios días de trabajo continuo con los cinco operarios asignados a la orden.</p>
+</section>
+</section>
+</section>
+<section id="análisis-de-costos-de-producción" class="level1">
+<h1>Análisis de Costos de Producción</h1>
+<!-- Análisis de Costos: Esta sección constituye el núcleo del trabajo, presentando el cálculo detallado de cada elemento del costo -->
+<p>Esta sección constituye el núcleo del análisis, presentando el cálculo detallado de cada elemento del costo de producción para la orden de 2,000 unidades de pasteles fabricada por DULCE DELEITE S.R.L. El análisis se estructura siguiendo los tres componentes fundamentales del costo de producción: materiales directos, mano de obra directa y gastos indirectos de fabricación.</p>
+<section id="costos-de-materiales-directos" class="level2">
+<h2 class="anchored" data-anchor-id="costos-de-materiales-directos">Costos de Materiales Directos</h2>
+<section id="metodología-de-cálculo" class="level3">
+<h3 class="anchored" data-anchor-id="metodología-de-cálculo">Metodología de Cálculo</h3>
+<p>El costo de materiales directos para la orden se determinó multiplicando el consumo unitario de cada ingrediente por el costo de adquisición por unidad de medida, y luego multiplicando el resultado por el número de unidades a producir (2,000 pasteles). La fórmula general es:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BCosto%20Total%20de%20Material%7D_i%20=%20%5Ctext%7BConsumo%20Unitario%7D_i%20%5Ctimes%20%5Ctext%7BCosto%20Unitario%7D_i%20%5Ctimes%20%5Ctext%7BUnidades%20a%20Producir%7D%0A"></p>
+<p>Los consumos unitarios fueron determinados a partir de la fórmula de producción estándar utilizada por la empresa, mientras que los costos unitarios corresponden a los precios de adquisición de materias primas vigentes en el período analizado.</p>
+</section>
+<section id="detalle-de-materiales-directos-por-insumo" class="level3">
+<h3 class="anchored" data-anchor-id="detalle-de-materiales-directos-por-insumo">Detalle de Materiales Directos por Insumo</h3>
+<p>La Tabla&nbsp;3 presenta el cálculo completo de los costos de materiales directos:</p>
+<div id="tbl-materiales-directos-detalle" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia con datos proporcionados por DULCE DELEITE S.R.L (2017).">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-materiales-directos-detalle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;3: Detalle de Costos de Materiales Directos para 2,000 Pasteles
+</figcaption>
+<div aria-describedby="tbl-materiales-directos-detalle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Insumo</th>
+<th style="text-align: center;">Unidad de Compra</th>
+<th style="text-align: center;">Costo de Compra (S/)</th>
+<th style="text-align: center;">Consumo por Pastel</th>
+<th style="text-align: center;">Costo por Pastel (S/)</th>
+<th style="text-align: center;">Consumo Total</th>
+<th style="text-align: center;">Costo Total (S/)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Harina</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">5.50</td>
+<td style="text-align: center;">0.30 kg</td>
+<td style="text-align: center;">1.65</td>
+<td style="text-align: center;">600 kg</td>
+<td style="text-align: center;">3,300.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Huevo</td>
+<td style="text-align: center;">unidad</td>
+<td style="text-align: center;">0.40</td>
+<td style="text-align: center;">4.0 unidades</td>
+<td style="text-align: center;">1.60</td>
+<td style="text-align: center;">8,000 unidades</td>
+<td style="text-align: center;">3,200.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Margarina</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">9.00</td>
+<td style="text-align: center;">0.15 kg</td>
+<td style="text-align: center;">1.35</td>
+<td style="text-align: center;">300 kg</td>
+<td style="text-align: center;">2,700.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leche</td>
+<td style="text-align: center;">litro</td>
+<td style="text-align: center;">3.50</td>
+<td style="text-align: center;">0.4 litros</td>
+<td style="text-align: center;">1.40</td>
+<td style="text-align: center;">800 litros</td>
+<td style="text-align: center;">2,800.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Polvo para hornear</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">15.00</td>
+<td style="text-align: center;">0.01 kg</td>
+<td style="text-align: center;">0.15</td>
+<td style="text-align: center;">20 kg</td>
+<td style="text-align: center;">300.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Esencia vainilla</td>
+<td style="text-align: center;">litro</td>
+<td style="text-align: center;">1.00</td>
+<td style="text-align: center;">0.015 litros</td>
+<td style="text-align: center;">0.02</td>
+<td style="text-align: center;">30 litros</td>
+<td style="text-align: center;">30.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Azúcar</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">0.25 kg</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;">500 kg</td>
+<td style="text-align: center;">400.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chocolate</td>
+<td style="text-align: center;">kg</td>
+<td style="text-align: center;">10.00</td>
+<td style="text-align: center;">0.200 kg</td>
+<td style="text-align: center;">2.00</td>
+<td style="text-align: center;">400 kg</td>
+<td style="text-align: center;">4,000.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>TOTAL</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>8.37</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>16,730.00</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="análisis-de-la-estructura-de-materiales" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-la-estructura-de-materiales">Análisis de la Estructura de Materiales</h3>
+<p>El análisis de la composición del costo de materiales revela la siguiente distribución porcentual:</p>
+<ul>
+<li><strong>Chocolate</strong>: S/ 4,000.00 (23.91%) - Es el insumo de mayor costo, reflejando su importancia como ingrediente característico y diferenciador del producto.</li>
+<li><strong>Harina</strong>: S/ 3,300.00 (19.72%) - Como ingrediente base estructural, representa el segundo costo más significativo.</li>
+<li><strong>Huevos</strong>: S/ 3,200.00 (19.13%) - El alto consumo unitario (4 huevos por pastel) y su función múltiple (estructura, sabor, color) justifican su peso en el costo.</li>
+<li><strong>Leche</strong>: S/ 2,800.00 (16.74%) - Ingrediente líquido principal, con consumo relativamente alto (0.4 litros por pastel).</li>
+<li><strong>Margarina</strong>: S/ 2,700.00 (16.14%) - Aunque el consumo unitario es moderado (0.15 kg), su precio de compra elevado (S/ 9.00/kg) la posiciona como el quinto costo más importante.</li>
+<li><strong>Azúcar</strong>: S/ 400.00 (2.39%) - A pesar de un consumo significativo (0.25 kg por pastel), su bajo precio (S/ 0.80/kg) limita su impacto en el costo total.</li>
+<li><strong>Polvo para hornear</strong>: S/ 300.00 (1.79%) - Ingrediente de alto precio unitario (S/ 15.00/kg) pero consumo mínimo (0.01 kg por pastel).</li>
+<li><strong>Esencia de vainilla</strong>: S/ 30.00 (0.18%) - Ingrediente de menor impacto económico debido a su consumo mínimo (0.015 litros por pastel) y bajo precio.</li>
+</ul>
+<p>Los cinco primeros insumos (chocolate, harina, huevos, leche y margarina) concentran el 95.64% del costo total de materiales directos, lo que sugiere que los esfuerzos de control de costos y negociación con proveedores deberían focalizarse prioritariamente en estos ingredientes.</p>
+</section>
+<section id="consideraciones-sobre-precios-de-adquisición" class="level3">
+<h3 class="anchored" data-anchor-id="consideraciones-sobre-precios-de-adquisición">Consideraciones sobre Precios de Adquisición</h3>
+<p>Los costos unitarios de adquisición reflejados corresponden a precios de mercado local en Ayacucho para el año 2017. Es importante señalar varios aspectos:</p>
+<ul>
+<li><p>Los precios de materias primas alimentarias, particularmente productos agrícolas como huevos, leche y harina, están sujetos a variabilidad estacional y de mercado. Una gestión eficiente de costos requiere monitoreo continuo de precios y, cuando sea posible, contratos de suministro que estabilicen costos.</p></li>
+<li><p>El precio del chocolate (S/ 10.00/kg) y de la margarina (S/ 9.00/kg) sugiere que se trata de productos de calidad media, no de gama premium. La calidad de estos ingredientes impacta directamente en la calidad percibida del producto final y puede justificar precios de venta más altos o más bajos.</p></li>
+<li><p>No se evidencia en los datos una diferenciación entre precios de compra al por mayor versus compras menores. Para una producción de 2,000 unidades, que requiere volúmenes significativos de materiales (600 kg de harina, 8,000 huevos, 400 kg de chocolate), sería esperable que la empresa obtuviera descuentos por volumen de compra. Si estos descuentos existen, ya están reflejados en los costos unitarios proporcionados.</p></li>
+</ul>
+</section>
+<section id="costos-no-visibilizados-en-materiales-directos" class="level3">
+<h3 class="anchored" data-anchor-id="costos-no-visibilizados-en-materiales-directos">Costos No Visibilizados en Materiales Directos</h3>
+<p>El análisis de materiales directos presentado considera únicamente el costo de adquisición de los ingredientes. Sin embargo, existen costos adicionales relacionados con materiales que pueden no estar completamente capturados:</p>
+<ul>
+<li><p><strong>Costos de empaque primario</strong>: moldes de papel o aluminio para hornear, envoltorios individuales, cajas o bolsas para presentación del producto. Estos materiales, aunque no se incorporan al pastel mismo, son necesarios para su producción y comercialización.</p></li>
+<li><p><strong>Mermas y desperdicios</strong>: en la práctica, los consumos reales pueden ser ligeramente superiores a los teóricos debido a pérdidas en el manejo (derrames, roturas de huevos, residuos que quedan en recipientes de mezcla). Si las mermas no están consideradas en la formulación de consumos unitarios, el costo real de materiales sería superior al calculado.</p></li>
+<li><p><strong>Costos de almacenamiento</strong>: aunque generalmente clasificados como costos indirectos, el mantenimiento de inventarios de materias primas (refrigeración para huevos y margarina, almacenamiento en condiciones adecuadas para harina y azúcar) implica costos que deben cubrirse.</p></li>
+</ul>
+<p>La ausencia de estos rubros en el análisis sugiere que el sistema de costeo de DULCE DELEITE S.R.L se enfoca en los costos directos más evidentes, pero podría beneficiarse de una identificación más exhaustiva de costos relacionados con materiales.</p>
+</section>
+</section>
+<section id="costos-de-mano-de-obra-directa" class="level2">
+<h2 class="anchored" data-anchor-id="costos-de-mano-de-obra-directa">Costos de Mano de Obra Directa</h2>
+<section id="estructura-de-la-nómina-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="estructura-de-la-nómina-de-producción">Estructura de la Nómina de Producción</h3>
+<p>Para la orden analizada, DULCE DELEITE S.R.L asignó cinco trabajadores de producción directa. El costo total de mano de obra directa reportado por la empresa asciende a S/ 8,192.63.</p>
+<p>Este monto incluye:</p>
+<ul>
+<li>Remuneraciones básicas de los cinco trabajadores</li>
+<li>Cargas sociales obligatorias (EsSalud, SCTR, SENATI)</li>
+<li>Beneficios laborales prorrateados (gratificaciones, CTS, vacaciones)</li>
+</ul>
+<p>El esquema de asignación de producción revela que cada trabajador fue responsable de la elaboración de 400 pasteles (equivalente al 20% de la orden total), con un costo de mano de obra directa de aproximadamente S/ 1,638.53 por trabajador.</p>
+</section>
+<section id="análisis-de-productividad-y-eficiencia" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-productividad-y-eficiencia">Análisis de Productividad y Eficiencia</h3>
+<p><strong>Productividad por trabajador:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BProductividad%7D%20=%20%5Cfrac%7B400%20%5Ctext%7B%20pasteles%7D%7D%7B%5Ctext%7Bper%C3%ADodo%20de%20trabajo%7D%7D%0A"></p>
+<p>Asumiendo que la producción se realizó en varios días (dado el tiempo requerido para horneado, enfriamiento, etc.), cada trabajador debió producir entre 40 y 80 pasteles por día, dependiendo de la cantidad de días dedicados a la orden. Esta productividad es razonable considerando que cada pastel requiere preparación individual de masa, llenado de moldes, horneado, enfriamiento y acabado.</p>
+<p><strong>Costo de mano de obra directa por pastel:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BCosto%20MOD%20unitario%7D%20=%20%5Cfrac%7B%5Ctext%7BS/%208,192.63%7D%7D%7B2,000%20%5Ctext%7B%20pasteles%7D%7D%20=%20%5Ctext%7BS/%204.10%20por%20pastel%7D%0A"></p>
+<p>Este costo unitario de S/ 4.10 representa aproximadamente el 31.8% del costo total unitario de S/ 12.87, lo que indica que la producción de pasteles es un proceso relativamente intensivo en mano de obra, característica típica de la industria de panadería y pastelería artesanal o semi-industrial.</p>
+</section>
+<section id="consideraciones-sobre-estructura-salarial" class="level3">
+<h3 class="anchored" data-anchor-id="consideraciones-sobre-estructura-salarial">Consideraciones sobre Estructura Salarial</h3>
+<p>El costo total de mano de obra directa de S/ 8,192.63 para cinco trabajadores que produjeron 400 pasteles cada uno (2,000 pasteles en total) incluye todos los componentes del costo laboral en el Perú:</p>
+<ul>
+<li>Salarios básicos</li>
+<li>Cargas sociales (EsSalud 9%, SCTR 1.04%, SENATI 0.75%)</li>
+<li>Beneficios laborales prorrateados (gratificaciones 16.67% mensual, CTS 8.33% mensual, vacaciones 8.33% mensual)</li>
+</ul>
+<p>La inclusión de estos beneficios prorrateados explica por qué el costo total de mano de obra es significativamente superior a la simple suma de los salarios básicos. Esto refleja el costo real de emplear trabajadores bajo el régimen laboral peruano.</p>
+</section>
+<section id="mano-de-obra-indirecta" class="level3">
+<h3 class="anchored" data-anchor-id="mano-de-obra-indirecta">Mano de Obra Indirecta</h3>
+<p>Adicionalmente al costo de mano de obra directa, la empresa reporta un costo de mano de obra indirecta de S/ 2,030.14, correspondiente a un trabajador administrativo. Este costo, aunque relacionado con el soporte general de las operaciones de producción, no se asigna directamente a la orden de producción sino que se trata como parte de los gastos generales de la empresa.</p>
+</section>
+</section>
+<section id="gastos-indirectos-de-fabricación-1" class="level2">
+<h2 class="anchored" data-anchor-id="gastos-indirectos-de-fabricación-1">Gastos Indirectos de Fabricación</h2>
+<section id="identificación-y-clasificación-de-rubros" class="level3">
+<h3 class="anchored" data-anchor-id="identificación-y-clasificación-de-rubros">Identificación y Clasificación de Rubros</h3>
+<p>Los gastos indirectos de fabricación (GIF) comprenden todos los costos de producción que no pueden identificarse directamente con la orden específica pero que son necesarios para el proceso productivo general. La Tabla&nbsp;4 presenta el detalle de GIF reportados por DULCE DELEITE S.R.L:</p>
+<div id="tbl-gif" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Gastos mensuales correspondientes al período de análisis (2017). Datos de DULCE DELEITE S.R.L.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-gif-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;4: Gastos Indirectos de Fabricación
+</figcaption>
+<div aria-describedby="tbl-gif-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Rubro</th>
+<th style="text-align: center;">Monto Mensual (S/)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Arriendo</td>
+<td style="text-align: center;">350.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Agua</td>
+<td style="text-align: center;">80.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Electricidad</td>
+<td style="text-align: center;">300.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Teléfono</td>
+<td style="text-align: center;">10.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Depreciación</td>
+<td style="text-align: center;">50.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Internet</td>
+<td style="text-align: center;">30.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total GIF</strong></td>
+<td style="text-align: center;"><strong>820.00</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="análisis-de-la-estructura-de-gif" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-la-estructura-de-gif">Análisis de la Estructura de GIF</h3>
+<p>El total de GIF mensuales asciende a S/ 820.00, representando apenas el 3.2% del costo total de producción (S/ 820.00 / S/ 25,742.63). Esta proporción relativamente baja de GIF es característica de empresas de producción artesanal o semi-artesanal, donde los costos de materiales y mano de obra directa predominan sobre los costos indirectos.</p>
+<p><strong>Clasificación por naturaleza:</strong></p>
+<ul>
+<li><p><strong>Costos fijos</strong>: arriendo (S/ 350.00), internet (S/ 30.00), teléfono (S/ 10.00) y depreciación (S/ 50.00) totalizan S/ 440.00, representando el 53.7% de los GIF. Estos costos no varían con el nivel de producción en el corto plazo.</p></li>
+<li><p><strong>Costos variables o semi-variables</strong>: electricidad (S/ 300.00) y agua (S/ 80.00) totalizan S/ 380.00, representando el 46.3% de los GIF. Aunque tienen un componente fijo (cargo básico mensual), varían con el nivel de uso, que a su vez está relacionado con el volumen de producción.</p></li>
+</ul>
+<p><strong>Componentes principales:</strong></p>
+<ul>
+<li><p><strong>Arriendo (42.7%)</strong>: el alquiler de las instalaciones de producción es el GIF individual más significativo. El monto de S/ 350.00 mensuales sugiere un local de tamaño pequeño a mediano en Ayacucho, consistente con una operación de PYME.</p></li>
+<li><p><strong>Electricidad (36.6%)</strong>: el alto consumo eléctrico (S/ 300.00 mensuales) se explica por el uso intensivo de hornos, batidoras y equipos de refrigeración. Este es un costo característico de la industria de panadería-pastelería.</p></li>
+<li><p><strong>Agua (9.8%)</strong>: necesaria para limpieza de equipos, higiene y preparación de algunos ingredientes.</p></li>
+<li><p><strong>Depreciación (6.1%)</strong>: el monto modesto (S/ 50.00 mensuales) sugiere que la empresa cuenta con maquinaria y equipo de valor limitado, o que gran parte del equipo ya está depreciado contablemente. Para una empresa con hornos industriales, batidoras y otros equipos, una depreciación de solo S/ 50.00 mensuales parece baja.</p></li>
+<li><p><strong>Internet (3.7%) y Teléfono (1.2%)</strong>: costos de comunicación relativamente bajos, posiblemente porque estas herramientas se usan principalmente para coordinación de pedidos y gestión administrativa básica.</p></li>
+</ul>
+</section>
+<section id="rubros-no-incluidos-en-los-gif" class="level3">
+<h3 class="anchored" data-anchor-id="rubros-no-incluidos-en-los-gif">Rubros No Incluidos en los GIF</h3>
+<p>Es notable la ausencia de varios rubros que típicamente forman parte de los GIF en empresas manufactureras:</p>
+<ul>
+<li><strong>Mantenimiento y reparaciones</strong>: de hornos, batidoras, instalaciones.</li>
+<li><strong>Materiales indirectos</strong>: lubricantes, productos de limpieza, combustibles (si se usan hornos a gas).</li>
+<li><strong>Seguros</strong>: de maquinaria, instalaciones, responsabilidad civil.</li>
+<li><strong>Impuestos</strong>: predial o arbitrios municipales sobre el local de producción.</li>
+<li><strong>Supervisión</strong>: si existiera personal de supervisión de producción, su salario sería un GIF.</li>
+</ul>
+<p>La ausencia de estos rubros puede deberse a: (1) que efectivamente no se incurre en ellos (ej. el mantenimiento se realiza esporádicamente y no mensualmente), (2) que están incluidos en otros rubros no detallados, o (3) que el sistema de costeo de la empresa tiene limitaciones en la captura completa de costos indirectos.</p>
+</section>
+<section id="asignación-de-gif-a-la-orden-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="asignación-de-gif-a-la-orden-de-producción">Asignación de GIF a la Orden de Producción</h3>
+<p>Un aspecto crítico del costeo por órdenes es determinar cómo asignar los GIF (que son costos del período, no directamente rastreables a órdenes específicas) a cada orden de producción.</p>
+<p>El análisis proporcionado indica que los GIF totales de S/ 820.00 se asignaron completamente a la orden de 2,000 pasteles. Esto implica que:</p>
+<ul>
+<li>Durante el mes en que se produjo esta orden, no se produjeron otras órdenes significativas, o</li>
+<li>La empresa utiliza un método simplificado de asignación donde todos los GIF del período se cargan a la producción de ese período.</li>
+</ul>
+<p><strong>Cálculo del GIF por unidad:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BGIF%20unitario%7D%20=%20%5Cfrac%7B%5Ctext%7BS/%20820.00%7D%7D%7B2,000%20%5Ctext%7B%20pasteles%7D%7D%20=%20%5Ctext%7BS/%200.41%20por%20pastel%7D%0A"></p>
+<p>Este costo unitario de GIF de S/ 0.41 representa apenas el 3.2% del costo total unitario, lo que confirma que la estructura de costos de esta empresa está dominada por materiales directos (65.0%) y mano de obra directa (31.8%).</p>
+<p>Si la empresa tuviera múltiples órdenes en producción simultáneamente, sería necesario utilizar una base de asignación más elaborada. Las bases típicas podrían ser:</p>
+<ul>
+<li><strong>Horas de mano de obra directa</strong>: si se registrara el tiempo dedicado a cada orden.</li>
+<li><strong>Costo de mano de obra directa</strong>: usando la proporción del costo de MOD de cada orden respecto al total.</li>
+<li><strong>Unidades producidas</strong>: si todas las órdenes fueran de productos similares.</li>
+<li><strong>Horas-máquina</strong>: si se registrara el tiempo de uso de hornos y otros equipos por orden.</li>
+</ul>
+<p>En ausencia de información sobre múltiples órdenes o bases de asignación específicas, se asume que la totalidad de los GIF del período se asigna a esta orden.</p>
+</section>
+</section>
+<section id="costo-total-de-producción-y-determinación-del-precio-de-venta" class="level2">
+<h2 class="anchored" data-anchor-id="costo-total-de-producción-y-determinación-del-precio-de-venta">Costo Total de Producción y Determinación del Precio de Venta</h2>
+<section id="integración-de-los-tres-elementos-del-costo" class="level3">
+<h3 class="anchored" data-anchor-id="integración-de-los-tres-elementos-del-costo">Integración de los Tres Elementos del Costo</h3>
+<p>La Tabla&nbsp;5 consolida los tres elementos del costo de producción calculados:</p>
+<div id="tbl-costo-total" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Elaboración propia con datos de DULCE DELEITE S.R.L (2017). El costo unitario se obtiene dividiendo el costo total entre 2,000 unidades.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-costo-total-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;5: Costo Total de Producción para 2,000 Pasteles
+</figcaption>
+<div aria-describedby="tbl-costo-total-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 18%">
+<col style="width: 19%">
+<col style="width: 21%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Elemento del Costo</th>
+<th style="text-align: center;">Monto Total (S/)</th>
+<th style="text-align: center;">% del Costo Total</th>
+<th style="text-align: center;">Costo Unitario (S/)</th>
+<th style="text-align: center;">% del Costo Unitario</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Materiales Directos</td>
+<td style="text-align: center;">16,730.00</td>
+<td style="text-align: center;">65.0%</td>
+<td style="text-align: center;">8.37</td>
+<td style="text-align: center;">65.0%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mano de Obra Directa</td>
+<td style="text-align: center;">8,192.63</td>
+<td style="text-align: center;">31.8%</td>
+<td style="text-align: center;">4.10</td>
+<td style="text-align: center;">31.8%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gastos Indirectos de Fabricación</td>
+<td style="text-align: center;">820.00</td>
+<td style="text-align: center;">3.2%</td>
+<td style="text-align: center;">0.41</td>
+<td style="text-align: center;">3.2%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>COSTO TOTAL DE PRODUCCIÓN</strong></td>
+<td style="text-align: center;"><strong>25,742.63</strong></td>
+<td style="text-align: center;"><strong>100.0%</strong></td>
+<td style="text-align: center;"><strong>12.87</strong></td>
+<td style="text-align: center;"><strong>100.0%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="análisis-de-la-estructura-de-costos" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-la-estructura-de-costos">Análisis de la Estructura de Costos</h3>
+<p>La estructura de costos de DULCE DELEITE S.R.L para la producción de pasteles muestra una clara predominancia de los costos de materiales directos (65.0%), seguidos por la mano de obra directa (31.8%), mientras que los gastos indirectos de fabricación tienen un peso marginal (3.2%).</p>
+<p>Esta estructura es típica de empresas de producción artesanal o semi-artesanal de alimentos, donde:</p>
+<ul>
+<li>Los ingredientes de calidad son fundamentales para el producto final, representando la mayor parte del costo.</li>
+<li>El proceso productivo requiere intervención manual significativa (preparación, mezclado, decorado), lo que genera costos importantes de mano de obra.</li>
+<li>La inversión en maquinaria y la infraestructura es limitada, por lo que los costos indirectos son bajos en comparación con industrias más capitalizadas.</li>
+</ul>
+<p>Comparando con estructuras típicas de otras industrias:</p>
+<ul>
+<li>Una empresa de manufactura altamente automatizada podría tener GIF del 40-60% del costo total.</li>
+<li>Una empresa de servicios profesionales tendría mano de obra como componente dominante (70-80%).</li>
+<li>Una empresa extractiva (minería, petróleo) tendría materiales relativamente bajos pero GIF muy altos.</li>
+</ul>
+<p>La estructura de DULCE DELEITE S.R.L es coherente con su naturaleza de empresa de producción de alimentos elaborados de manera semi-artesanal.</p>
+</section>
+<section id="determinación-del-precio-de-venta" class="level3">
+<h3 class="anchored" data-anchor-id="determinación-del-precio-de-venta">Determinación del Precio de Venta</h3>
+<p>El documento proporcionado indica dos cifras relacionadas con el precio:</p>
+<ul>
+<li><strong>Utilidad deseada por unidad</strong>: S/ 7.13</li>
+<li><strong>Precio de venta por unidad</strong>: S/ 20.00</li>
+</ul>
+<p><strong>Verificación de la coherencia:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Ctext%7BCosto%20unitario%7D%20&amp;=%20%5Ctext%7BS/%2012.87%7D%20%5C%5C%0A%5Ctext%7BUtilidad%20deseada%7D%20&amp;=%20%5Ctext%7BS/%207.13%7D%20%5C%5C%0A%5Ctext%7BPrecio%20de%20venta%20esperado%7D%20&amp;=%20%5Ctext%7BS/%2012.87%20+%20S/%207.13%7D%20=%20%5Ctext%7BS/%2020.00%7D%20%5Ccheckmark%0A%5Cend%7Baligned%7D%0A"></p>
+<p><strong>Margen de utilidad:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BMargen%20de%20utilidad%7D%20=%20%5Cfrac%7B%5Ctext%7BS/%207.13%7D%7D%7B%5Ctext%7BS/%2020.00%7D%7D%20%5Ctimes%20100%5C%25%20=%2035.65%5C%25%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BMargen%20sobre%20costo%7D%20=%20%5Cfrac%7B%5Ctext%7BS/%207.13%7D%7D%7B%5Ctext%7BS/%2012.87%7D%7D%20%5Ctimes%20100%5C%25%20=%2055.40%5C%25%0A"></p>
+<p>Este margen de utilidad del 35.65% sobre el precio de venta (o 55.40% sobre el costo) es relativamente saludable y consistente con márgenes típicos en la industria de panadería y pastelería, que suelen oscilar entre 30% y 60% dependiendo del segmento de mercado, el nivel de competencia y el tipo de producto.</p>
+<p><strong>Utilidad total de la orden:</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BUtilidad%20total%7D%20=%20%5Ctext%7BS/%207.13%7D%20%5Ctimes%202,000%20%5Ctext%7B%20pasteles%7D%20=%20%5Ctext%7BS/%2014,260.00%7D%0A"></p>
+<p>Esta utilidad total de S/ 14,260.00 sobre un costo de producción de S/ 25,742.63 representa un retorno significativo sobre el capital invertido en materiales y mano de obra para esta orden específica.</p>
+</section>
+<section id="análisis-del-punto-de-equilibrio" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-del-punto-de-equilibrio">Análisis del Punto de Equilibrio</h3>
+<p>Aunque no se proporcionan datos sobre costos fijos totales de la empresa (solo los GIF asociados a producción), puede realizarse un análisis simplificado del punto de equilibrio para esta orden específica.</p>
+<p>Si asumimos que los GIF de S/ 820.00 son costos fijos (o predominantemente fijos) y que los materiales directos y mano de obra directa son costos variables, el punto de equilibrio sería:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Ctext%7BCostos%20fijos%20(GIF)%7D%20&amp;=%20%5Ctext%7BS/%20820.00%7D%20%5C%5C%0A%5Ctext%7BCosto%20variable%20unitario%7D%20&amp;=%20%5Ctext%7BS/%208.37%20+%20S/%204.10%7D%20=%20%5Ctext%7BS/%2012.47%7D%20%5C%5C%0A%5Ctext%7BPrecio%20de%20venta%20unitario%7D%20&amp;=%20%5Ctext%7BS/%2020.00%7D%20%5C%5C%0A%5Ctext%7BMargen%20de%20contribuci%C3%B3n%20unitario%7D%20&amp;=%20%5Ctext%7BS/%2020.00%20-%20S/%2012.47%7D%20=%20%5Ctext%7BS/%207.53%7D%0A%5Cend%7Baligned%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BPunto%20de%20equilibrio%20(unidades)%7D%20=%20%5Cfrac%7B%5Ctext%7BS/%20820.00%7D%7D%7B%5Ctext%7BS/%207.53%7D%7D%20%5Capprox%20109%20%5Ctext%7B%20pasteles%7D%0A"></p>
+<p>Esto significa que con la estructura de costos identificada, la empresa necesitaría vender aproximadamente 109 pasteles para cubrir los costos fijos (GIF) asociados al período de producción. Cualquier venta por encima de este nivel generaría utilidades.</p>
+<p>Sin embargo, este análisis es limitado porque:</p>
+<ul>
+<li>No considera los costos fijos totales de la empresa (administrativos, financieros, comerciales).</li>
+<li>Asume que la estructura de costos variables es lineal (mismo costo por unidad independiente del volumen).</li>
+<li>No considera economías o deseconomías de escala en materiales o mano de obra.</li>
+</ul>
+</section>
+<section id="comparación-con-el-mercado" class="level3">
+<h3 class="anchored" data-anchor-id="comparación-con-el-mercado">Comparación con el Mercado</h3>
+<p>Para evaluar la competitividad del precio de S/ 20.00 por pastel, sería necesario compararlo con precios de mercado para productos similares en Ayacucho en 2017. Aunque no se dispone de información específica de mercado en este estudio, pueden hacerse algunas consideraciones generales:</p>
+<ul>
+<li>Un precio de S/ 20.00 por un pastel individual de aproximadamente 300-350 gramos con ingredientes de calidad media (chocolate incluido) parece posicionarse en el segmento medio del mercado ayacuchano.</li>
+<li>Pastelerías artesanales de gama alta podrían cobrar S/ 25.00-35.00 por productos similares.</li>
+<li>Panaderías tradicionales de barrio o productos de menor calidad podrían ofrecer productos comparables a S/ 12.00-18.00.</li>
+<li>Cadenas de supermercados con producción masiva podrían ofrecer productos más económicos (S/ 10.00-15.00) pero generalmente de calidad diferente.</li>
+</ul>
+<p>El margen de 35.65% sobre ventas deja espacio para:</p>
+<ul>
+<li><strong>Absorber variaciones en costos de materias primas</strong> sin necesidad de ajustar inmediatamente los precios de venta al público.</li>
+<li><strong>Cubrir gastos administrativos y de ventas</strong> no incluidos en el costo de producción, tales como publicidad, comisiones de vendedores, gastos de oficina, salarios de personal no productivo.</li>
+<li><strong>Ofrecer descuentos ocasionales o promociones</strong> para estimular ventas en períodos de baja demanda o para clientes institucionales con compras de gran volumen.</li>
+<li><strong>Generar rentabilidad neta después de impuestos</strong> suficiente para reinversión en equipamiento, expansión de capacidad o distribución de utilidades a socios.</li>
+</ul>
+</section>
+<section id="evaluación-de-sensibilidad-del-precio" class="level3">
+<h3 class="anchored" data-anchor-id="evaluación-de-sensibilidad-del-precio">Evaluación de Sensibilidad del Precio</h3>
+<p>Un análisis de sensibilidad permite evaluar cómo variaciones en los costos afectarían la rentabilidad si el precio de venta se mantiene constante en S/ 20.00:</p>
+<p><strong>Escenario 1: Aumento del 10% en costos de materiales</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Ctext%7BNuevo%20costo%20de%20materiales%7D%20&amp;=%20%5Ctext%7BS/%2016,730.00%7D%20%5Ctimes%201.10%20=%20%5Ctext%7BS/%2018,403.00%7D%20%5C%5C%0A%5Ctext%7BNuevo%20costo%20total%7D%20&amp;=%20%5Ctext%7BS/%2018,403.00%20+%20S/%208,192.63%20+%20S/%20820.00%7D%20=%20%5Ctext%7BS/%2027,415.63%7D%20%5C%5C%0A%5Ctext%7BNuevo%20costo%20unitario%7D%20&amp;=%20%5Ctext%7BS/%2027,415.63%20/%202,000%7D%20=%20%5Ctext%7BS/%2013.71%7D%20%5C%5C%0A%5Ctext%7BNueva%20utilidad%20unitaria%7D%20&amp;=%20%5Ctext%7BS/%2020.00%20-%20S/%2013.71%7D%20=%20%5Ctext%7BS/%206.29%7D%20%5C%5C%0A%5Ctext%7BNuevo%20margen%7D%20&amp;=%20%5Ctext%7BS/%206.29%20/%20S/%2020.00%7D%20=%2031.45%5C%25%0A%5Cend%7Baligned%7D%0A"></p>
+<p>El margen se reduciría de 35.65% a 31.45%, una caída de 4.2 puntos porcentuales, pero aún manteniéndose en niveles aceptables.</p>
+<p><strong>Escenario 2: Aumento del 10% en costos de mano de obra</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Ctext%7BNuevo%20costo%20de%20MOD%7D%20&amp;=%20%5Ctext%7BS/%208,192.63%7D%20%5Ctimes%201.10%20=%20%5Ctext%7BS/%209,011.89%7D%20%5C%5C%0A%5Ctext%7BNuevo%20costo%20total%7D%20&amp;=%20%5Ctext%7BS/%2016,730.00%20+%20S/%209,011.89%20+%20S/%20820.00%7D%20=%20%5Ctext%7BS/%2026,561.89%7D%20%5C%5C%0A%5Ctext%7BNuevo%20costo%20unitario%7D%20&amp;=%20%5Ctext%7BS/%2026,561.89%20/%202,000%7D%20=%20%5Ctext%7BS/%2013.28%7D%20%5C%5C%0A%5Ctext%7BNueva%20utilidad%20unitaria%7D%20&amp;=%20%5Ctext%7BS/%2020.00%20-%20S/%2013.28%7D%20=%20%5Ctext%7BS/%206.72%7D%20%5C%5C%0A%5Ctext%7BNuevo%20margen%7D%20&amp;=%20%5Ctext%7BS/%206.72%20/%20S/%2020.00%7D%20=%2033.60%5C%25%0A%5Cend%7Baligned%7D%0A"></p>
+<p>El impacto sería menor que en el caso de materiales, reduciéndose el margen a 33.60%, dado que la mano de obra representa una proporción menor del costo total.</p>
+<p><strong>Escenario 3: Reducción del precio de venta en 10%</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Ctext%7BNuevo%20precio%20de%20venta%7D%20&amp;=%20%5Ctext%7BS/%2020.00%7D%20%5Ctimes%200.90%20=%20%5Ctext%7BS/%2018.00%7D%20%5C%5C%0A%5Ctext%7BNueva%20utilidad%20unitaria%7D%20&amp;=%20%5Ctext%7BS/%2018.00%20-%20S/%2012.87%7D%20=%20%5Ctext%7BS/%205.13%7D%20%5C%5C%0A%5Ctext%7BNuevo%20margen%7D%20&amp;=%20%5Ctext%7BS/%205.13%20/%20S/%2018.00%7D%20=%2028.50%5C%25%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Una reducción del 10% en el precio de venta comprimiría significativamente el margen a 28.50%, lo que podría comprometer la capacidad de cubrir todos los gastos operativos no incluidos en el costo de producción.</p>
+<p>Estos análisis de sensibilidad demuestran que la empresa tiene cierta holgura para absorber incrementos moderados en costos, pero que reducciones en precios tendrían un impacto más severo en la rentabilidad.</p>
+</section>
+</section>
+</section>
+<section id="discusión" class="level1">
+<h1>Discusión</h1>
+<!-- Discusión: Esta sección interpreta los hallazgos, analiza implicaciones y compara con literatura especializada -->
+<p>La sección analiza críticamente los hallazgos del estudio de costeo, interpretando la estructura de costos identificada, evaluando sus implicaciones para la gestión empresarial y comparando los resultados con la literatura especializada y parámetros de la industria.</p>
+<section id="análisis-de-la-estructura-de-costos-1" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-de-la-estructura-de-costos-1">Análisis de la Estructura de Costos</h2>
+<p>La estructura de costos identificada en DULCE DELEITE S.R.L (65% materiales directos, 31.8% mano de obra directa, 3.2% GIF) presenta características distintivas que merecen un análisis detallado desde múltiples perspectivas.</p>
+<section id="predominancia-de-materiales-directos" class="level3">
+<h3 class="anchored" data-anchor-id="predominancia-de-materiales-directos">Predominancia de Materiales Directos</h3>
+<p>El alto peso de los materiales directos (65% del costo total) es una característica típica de la industria de alimentos elaborados, pero al mismo tiempo representa una vulnerabilidad significativa para la empresa. Esta predominancia implica que la rentabilidad de DULCE DELEITE S.R.L es altamente sensible a variaciones en los precios de los insumos, particularmente de los cinco ingredientes principales que concentran el 95.64% del costo de materiales.</p>
+<p>Como se demostró en el análisis de sensibilidad, un incremento del 10% en el costo de materiales reduce el margen de utilidad de 35.65% a 31.45%, lo que representa una pérdida de 4.2 puntos porcentuales de rentabilidad. Esta vulnerabilidad es particularmente relevante considerando la volatilidad histórica de precios de productos agrícolas como huevos y leche, que pueden experimentar fluctuaciones estacionales significativas debido a factores climáticos, variaciones en la oferta y cambios en la demanda.</p>
+<p>La teoría de gestión de costos sugiere varias estrategias para mitigar esta vulnerabilidad. Las empresas con alta dependencia de materias primas pueden implementar contratos de suministro a plazo fijo para estabilizar costos, especialmente para insumos críticos. En el caso de DULCE DELEITE S.R.L, sería particularmente beneficioso negociar acuerdos de suministro trimestral o semestral para chocolate, harina y huevos, que juntos representan el 62.74% del costo de materiales.</p>
+<p>Adicionalmente, empresas con estructuras de costos dominadas por materiales variables deben monitorear continuamente los mercados de insumos y estar preparadas para ajustar precios de venta de manera oportuna cuando los incrementos en costos de materiales excedan umbrales predeterminados. Para DULCE DELEITE S.R.L, esto implicaría establecer un sistema de alerta que dispare revisiones de precios cuando el costo de materiales por pastel exceda, por ejemplo, S/ 9.00 (un 7.5% por encima del costo actual de S/ 8.37).</p>
+</section>
+<section id="intensidad-en-mano-de-obra-y-sus-implicaciones" class="level3">
+<h3 class="anchored" data-anchor-id="intensidad-en-mano-de-obra-y-sus-implicaciones">Intensidad en Mano de Obra y sus Implicaciones</h3>
+<p>El componente de mano de obra directa (31.8% del costo total) refleja un proceso productivo semi-artesanal donde la intervención humana es fundamental en múltiples etapas: pesado de ingredientes, mezclado, llenado de moldes, control del horneado, decorado y empaque. Esta característica sitúa a DULCE DELEITE S.R.L en un punto intermedio entre la producción completamente artesanal (que tendría costos de mano de obra aún mayores) y la producción industrializada (que habría sustituido parte del trabajo humano con maquinaria automatizada).</p>
+<p>Esta estructura tiene ventajas y desventajas claramente identificables:</p>
+<p><strong>Ventajas del proceso semi-artesanal:</strong></p>
+<ol type="1">
+<li><p><strong>Flexibilidad productiva</strong>: la empresa puede adaptar fácilmente sus productos a especificaciones de clientes sin necesidad de cambios costosos en maquinaria o procesos. Esta flexibilidad es valiosa para atender pedidos personalizados o para experimentar con nuevos productos.</p></li>
+<li><p><strong>Diferenciación de calidad</strong>: la intervención artesanal permite un control más fino de la calidad en cada etapa, lo que puede traducirse en productos de mayor calidad percibida y justificar precios superiores a los de productos industriales masivos.</p></li>
+<li><p><strong>Baja inversión de capital</strong>: la empresa no requiere inversiones masivas en equipamiento automatizado, lo que reduce las barreras de entrada y los costos fijos de capital.</p></li>
+</ol>
+<p><strong>Desafíos del proceso semi-artesanal:</strong></p>
+<ol type="1">
+<li><p><strong>Vulnerabilidad a aumentos salariales</strong>: con 31.8% del costo en mano de obra, la empresa es sensible a incrementos del salario mínimo o de cargas sociales. El análisis de sensibilidad mostró que un aumento del 10% en costos de mano de obra reduciría el margen a 33.60%.</p></li>
+<li><p><strong>Limitaciones de escalabilidad</strong>: aumentar la producción requiere contratar proporcionalmente más trabajadores, lo que limita las economías de escala. Una empresa altamente automatizada, en contraste, podría duplicar producción con incrementos marginales en costos de mano de obra.</p></li>
+<li><p><strong>Dependencia de disponibilidad de trabajadores capacitados</strong>: la calidad del producto depende críticamente de las habilidades de los trabajadores. La rotación de personal puede afectar negativamente la consistencia del producto.</p></li>
+</ol>
+<p>Empresas intensivas en mano de obra directa deben evaluar cuidadosamente las decisiones de inversión en automatización mediante análisis de costo-beneficio que consideren no solo los costos directos sino también los efectos en calidad, flexibilidad y capacidad de respuesta al mercado. Para DULCE DELEITE S.R.L, inversiones en equipamiento como batidoras industriales de mayor capacidad o sistemas de horneado con control automático de temperatura podrían reducir el tiempo de trabajo manual y mejorar la consistencia, pero deben evaluarse considerando el impacto en los GIF (depreciación, mantenimiento, energía) y la potencial pérdida del carácter artesanal diferenciador del producto.</p>
+</section>
+<section id="gastos-indirectos-de-fabricación-atípicamente-bajos" class="level3">
+<h3 class="anchored" data-anchor-id="gastos-indirectos-de-fabricación-atípicamente-bajos">Gastos Indirectos de Fabricación Atípicamente Bajos</h3>
+<p>Los GIF de solo 3.2% del costo total son atípicamente bajos, incluso para empresas de producción artesanal o semi-artesanal. La literatura reporta que en la industria de panadería-pastelería artesanal, los GIF típicamente representan entre 5% y 15% del costo total, lo que sugiere que DULCE DELEITE S.R.L puede estar subregistrando costos indirectos.</p>
+<p>Varios factores pueden explicar esta situación:</p>
+<ol type="1">
+<li><p><strong>Subregistro de costos</strong>: como se identificó en el análisis, rubros típicos de GIF como mantenimiento, seguros, materiales de limpieza y herramientas menores no aparecen en los datos proporcionados. Es posible que estos costos se incurran pero no se registren sistemáticamente en el sistema contable.</p></li>
+<li><p><strong>Equipamiento mayormente depreciado</strong>: la depreciación mensual de solo S/ 50.00 sugiere que los activos fijos tienen bajo valor contable, ya sea porque fueron adquiridos hace mucho tiempo o porque la empresa opera con equipamiento de bajo costo. Esto mantiene la depreciación baja pero podría implicar riesgos de obsolescencia o ineficiencia.</p></li>
+<li><p><strong>Operación básica sin inversión en infraestructura</strong>: el arriendo de S/ 350.00 mensuales y los bajos gastos en comunicaciones sugieren que la empresa opera con infraestructura mínima, lo que limita los costos fijos pero también puede limitar la capacidad de crecimiento.</p></li>
+</ol>
+<p>Las implicaciones de esta estructura de GIF son mixtas:</p>
+<p><strong>Aspecto positivo</strong>: los bajos costos fijos dan a la empresa una estructura de costos predominantemente variable (96.8% del costo total es variable), lo que implica un punto de equilibrio bajo y menor riesgo operativo. En períodos de baja demanda, la empresa puede reducir producción sin cargar con costos fijos elevados.</p>
+<p><strong>Aspecto negativo</strong>: la baja inversión en infraestructura, equipamiento y sistemas puede limitar la eficiencia operativa, la capacidad de escala y la competitividad a largo plazo. La ausencia de seguros de responsabilidad civil o de activos expone a la empresa a riesgos financieros significativos en caso de siniestros.</p>
+<p>Desde la perspectiva de la gestión estratégica de costos, las empresas deben equilibrar la minimización de costos con la inversión en capacidades que generen valor a largo plazo. Para DULCE DELEITE S.R.L, esto podría implicar inversiones selectivas en áreas como:</p>
+<ul>
+<li>Control de calidad e inocuidad alimentaria (análisis de laboratorio, certificaciones)</li>
+<li>Mantenimiento preventivo de equipos para evitar fallas costosas</li>
+<li>Seguros de responsabilidad civil y de activos para mitigar riesgos</li>
+<li>Sistemas de información para gestión de inventarios y costos</li>
+</ul>
+</section>
+</section>
+<section id="evaluación-del-precio-de-venta-y-estrategia-de-pricing" class="level2">
+<h2 class="anchored" data-anchor-id="evaluación-del-precio-de-venta-y-estrategia-de-pricing">Evaluación del Precio de Venta y Estrategia de Pricing</h2>
+<p>El precio de S/ 20.00 por pastel, que genera un margen de 35.65% sobre ventas, merece una evaluación desde múltiples perspectivas: competitividad, estrategia de posicionamiento y sostenibilidad.</p>
+<section id="adecuación-del-margen" class="level3">
+<h3 class="anchored" data-anchor-id="adecuación-del-margen">Adecuación del Margen</h3>
+<p>El margen de 35.65% sobre el precio de venta es consistente con los rangos típicos reportados en la literatura para la industria de panadería-pastelería. Los márgenes brutos (utilidad bruta / ventas) en la industria alimentaria varían entre 25% y 50%, dependiendo del segmento de mercado, ubicación geográfica y nivel de diferenciación del producto.</p>
+<p>Sin embargo, es crucial reconocer que este margen bruto de 35.65% debe cubrir no solo la utilidad neta sino también gastos operativos no incluidos en el costo de producción:</p>
+<ul>
+<li><strong>Gastos de ventas</strong>: publicidad, promociones, comisiones de vendedores, gastos de distribución y entrega</li>
+<li><strong>Gastos administrativos</strong>: salarios de gerencia, contabilidad, gastos de oficina</li>
+<li><strong>Gastos financieros</strong>: intereses sobre préstamos, comisiones bancarias</li>
+<li><strong>Impuestos</strong>: Impuesto General a las Ventas (IGV) e Impuesto a la Renta</li>
+</ul>
+<p>Si asumimos conservadoramente que estos gastos adicionales representan el 15-20% del precio de venta (S/ 3.00 - S/ 4.00 por pastel), el margen neto real estaría en el rango de 15.65% a 20.65%, lo que sigue siendo aceptable pero deja menos holgura de lo que el margen bruto sugiere.</p>
+</section>
+<section id="estrategia-de-precio-basada-en-costos-versus-precio-de-mercado" class="level3">
+<h3 class="anchored" data-anchor-id="estrategia-de-precio-basada-en-costos-versus-precio-de-mercado">Estrategia de Precio Basada en Costos versus Precio de Mercado</h3>
+<p>El análisis revela que DULCE DELEITE S.R.L utiliza una estrategia de fijación de precios basada en costos (cost-plus pricing), donde el precio de venta se determina agregando un margen de utilidad deseado al costo de producción. Esta estrategia es común en empresas pequeñas y medianas debido a su simplicidad, pero tiene limitaciones importantes:</p>
+<ol type="1">
+<li><p><strong>Ignora la disposición a pagar de los clientes</strong>: el precio óptimo desde la perspectiva del cliente puede ser mayor o menor que costo más margen, dependiendo del valor percibido del producto.</p></li>
+<li><p><strong>No considera precios de competidores</strong>: si los competidores ofrecen productos similares a precios significativamente menores, un precio basado solo en costos puede resultar en pérdida de participación de mercado.</p></li>
+<li><p><strong>Puede perpetuar ineficiencias</strong>: si los costos son altos debido a ineficiencias operativas, una estrategia de cost-plus simplemente transfiere esas ineficiencias al cliente vía precios más altos, lo que puede no ser sostenible.</p></li>
+</ol>
+<p>Una estrategia más robusta combinaría el análisis de costos con investigación de mercado sobre precios de competidores y valor percibido por clientes. Para DULCE DELEITE S.R.L, esto implicaría:</p>
+<ul>
+<li>Realizar un estudio de precios de pasteles similares en Ayacucho (pastelerías locales, panaderías, supermercados)</li>
+<li>Evaluar mediante encuestas o pruebas de concepto la disposición a pagar de clientes objetivo</li>
+<li>Considerar estrategias de precio diferenciado por canal (precio mayorista para distribuidores vs.&nbsp;precio minorista para clientes finales)</li>
+</ul>
+</section>
+<section id="posicionamiento-en-el-mercado" class="level3">
+<h3 class="anchored" data-anchor-id="posicionamiento-en-el-mercado">Posicionamiento en el Mercado</h3>
+<p>El precio de S/ 20.00 por un pastel de aproximadamente 300-350 gramos con inclusión significativa de chocolate (200 gramos) posiciona al producto en el segmento medio del mercado ayacuchano. Esta posición tiene implicaciones estratégicas:</p>
+<p><strong>Ventajas del posicionamiento medio:</strong></p>
+<ul>
+<li>Mercado objetivo más amplio que el segmento premium</li>
+<li>Menor vulnerabilidad a competencia de productos de bajo precio</li>
+<li>Flexibilidad para ajustar precios hacia arriba o hacia abajo según condiciones de mercado</li>
+</ul>
+<p><strong>Riesgos del posicionamiento medio:</strong></p>
+<ul>
+<li>Competencia desde ambos extremos: productos premium que justifican precios más altos con calidad superior, y productos económicos que compiten por precio</li>
+<li>Dificultad para diferenciarse sin un claro posicionamiento de valor</li>
+</ul>
+<p>Para fortalecer su posicionamiento, DULCE DELEITE S.R.L podría considerar estrategias de diferenciación como:</p>
+<ul>
+<li>Certificaciones de calidad o inocuidad alimentaria (ej. HACCP, Digesa)</li>
+<li>Énfasis en insumos de origen local o natural</li>
+<li>Personalización de productos para eventos especiales</li>
+<li>Desarrollo de marca con historia y valores reconocibles</li>
+</ul>
+</section>
+</section>
+<section id="limitaciones-del-sistema-de-costeo-implementado" class="level2">
+<h2 class="anchored" data-anchor-id="limitaciones-del-sistema-de-costeo-implementado">Limitaciones del Sistema de Costeo Implementado</h2>
+<p>El análisis realizado ha identificado varias limitaciones significativas en el sistema de costeo por órdenes implementado por DULCE DELEITE S.R.L:</p>
+<section id="ausencia-de-costeo-estándar-y-control-de-variaciones" class="level3">
+<h3 class="anchored" data-anchor-id="ausencia-de-costeo-estándar-y-control-de-variaciones">Ausencia de Costeo Estándar y Control de Variaciones</h3>
+<p>La empresa trabaja exclusivamente con costos históricos o reales, sin utilizar costos estándar o presupuestados como herramienta de control. Los sistemas de costeo estándar permiten:</p>
+<ol type="1">
+<li><p><strong>Establecer objetivos de costos</strong>: los estándares sirven como metas de eficiencia para trabajadores y gestores</p></li>
+<li><p><strong>Identificar variaciones</strong>: la comparación entre costos reales y estándares permite detectar ineficiencias, desperdicios o cambios en precios de insumos</p></li>
+<li><p><strong>Facilitar la toma de decisiones</strong>: los estándares proporcionan una base más estable para cotizar nuevos pedidos que los costos históricos, que pueden estar afectados por ineficiencias temporales</p></li>
+</ol>
+<p>Para DULCE DELEITE S.R.L, implementar un sistema básico de costeo estándar implicaría:</p>
+<ul>
+<li>Establecer consumos estándar de materiales por pastel basados en la fórmula de producción (ya existente)</li>
+<li>Definir tiempos estándar de mano de obra por unidad o por lote</li>
+<li>Calcular tasas estándar de GIF</li>
+<li>Comparar mensualmente costos reales vs.&nbsp;estándares e investigar variaciones significativas</li>
+</ul>
+</section>
+<section id="asignación-simplificada-de-gastos-indirectos" class="level3">
+<h3 class="anchored" data-anchor-id="asignación-simplificada-de-gastos-indirectos">Asignación Simplificada de Gastos Indirectos</h3>
+<p>El método actual de asignar la totalidad de los GIF mensuales a la producción del período es excesivamente simplista. Este enfoque solo es apropiado si:</p>
+<ol type="1">
+<li>La empresa produce un solo tipo de producto</li>
+<li>No hay producción en proceso al inicio o fin del período</li>
+<li>No hay inventarios significativos de productos terminados</li>
+</ol>
+<p>Si DULCE DELEITE S.R.L produce múltiples tipos de pasteles o tiene otras líneas de productos (lo cual es probable en una pastelería), este método podría estar distorsionando los costos de productos individuales.</p>
+<p>Un método más robusto requeriría:</p>
+<ul>
+<li>Calcular una tasa predeterminada de GIF al inicio del período</li>
+<li>Seleccionar una base de asignación apropiada (horas de MOD, costo de MOD, unidades producidas)</li>
+<li>Aplicar GIF a cada orden según su consumo de la base de asignación</li>
+<li>Conciliar al final del período los GIF aplicados con los GIF reales incurridos, reconociendo sobre/subaplicación</li>
+</ul>
+</section>
+<section id="falta-de-diferenciación-entre-costos-fijos-y-variables" class="level3">
+<h3 class="anchored" data-anchor-id="falta-de-diferenciación-entre-costos-fijos-y-variables">Falta de Diferenciación entre Costos Fijos y Variables</h3>
+<p>El sistema no distingue explícitamente entre costos fijos y variables, lo que limita significativamente el análisis gerencial. Esta distinción es fundamental para:</p>
+<ol type="1">
+<li><p><strong>Análisis de contribución marginal</strong>: entender cuánto contribuye cada unidad vendida a cubrir costos fijos y generar utilidad</p></li>
+<li><p><strong>Decisiones sobre pedidos especiales</strong>: evaluar si aceptar pedidos a precios reducidos que cubran costos variables y contribuyan parcialmente a costos fijos</p></li>
+<li><p><strong>Análisis de punto de equilibrio preciso</strong>: determinar el volumen de ventas necesario para cubrir todos los costos</p></li>
+<li><p><strong>Planificación de utilidades</strong>: modelar cómo diferentes escenarios de volumen afectan la rentabilidad</p></li>
+</ol>
+<p>Para DULCE DELEITE S.R.L, una reclasificación de costos sería relativamente sencilla:</p>
+<p><strong>Costos variables:</strong></p>
+<ul>
+<li>Materiales directos: S/ 16,730.00 (100% variable)</li>
+<li>Mano de obra directa: S/ 8,192.63 (variable si el pago es por producción; si es salario fijo, sería costo fijo)</li>
+<li>GIF variables: Electricidad y agua (estimado S/ 380.00, aunque con componente fijo)</li>
+</ul>
+<p><strong>Costos fijos:</strong></p>
+<ul>
+<li>GIF fijos: Arriendo, internet, teléfono, depreciación (S/ 440.00)</li>
+</ul>
+<p>Esta reclasificación permitiría calcular un margen de contribución más preciso y realizar análisis más sofisticados de rentabilidad.</p>
+</section>
+<section id="probable-subregistro-de-costos-indirectos" class="level3">
+<h3 class="anchored" data-anchor-id="probable-subregistro-de-costos-indirectos">Probable Subregistro de Costos Indirectos</h3>
+<p>Como se discutió anteriormente, la ausencia de rubros típicos de GIF como mantenimiento, seguros, materiales indirectos y herramientas sugiere que el costo real de producción puede ser superior al calculado. Este subregistro puede generar decisiones erróneas de fijación de precios o aceptación de pedidos.</p>
+<p>Se recomienda que las empresas implementen sistemas de captura exhaustiva de costos, incluyendo:</p>
+<ul>
+<li>Registros de mantenimiento preventivo y correctivo</li>
+<li>Control de consumo de materiales indirectos (productos de limpieza, lubricantes, herramientas menores)</li>
+<li>Registro de tiempos de personal indirecto (supervisión, control de calidad)</li>
+<li>Inventarios de repuestos y materiales auxiliares</li>
+</ul>
+</section>
+</section>
+<section id="comparación-con-literatura-y-estándares-de-la-industria" class="level2">
+<h2 class="anchored" data-anchor-id="comparación-con-literatura-y-estándares-de-la-industria">Comparación con Literatura y Estándares de la Industria</h2>
+<p>Los resultados de este estudio pueden compararse con hallazgos de investigaciones similares sobre costeo en la industria de panadería y pastelería.</p>
+<p>Estudios sobre pequeñas panaderías artesanales en México encontraron estructuras de costos con rangos de:</p>
+<ul>
+<li>Materiales: 55-70% del costo total</li>
+<li>Mano de obra: 25-35%</li>
+<li>GIF: 5-15%</li>
+</ul>
+<p>DULCE DELEITE S.R.L se ubica dentro de estos rangos en materiales (65%) y mano de obra (31.8%), pero en el límite inferior de GIF (3.2%), reforzando la hipótesis de subregistro de costos indirectos.</p>
+<p>En cuanto a márgenes de utilidad, la literatura reporta que pastelerías artesanales en América Latina generalmente operan con márgenes brutos entre 30% y 50%. El margen de 35.65% de DULCE DELEITE S.R.L se sitúa cómodamente dentro de este rango, sugiriendo que la empresa tiene un precio competitivo sin estar en los extremos de precio bajo o premium.</p>
+<p>Un aspecto interesante es la comparación de productividad de mano de obra. Con 5 trabajadores produciendo 2,000 pasteles, la productividad es de 400 pasteles por trabajador. Sin datos de tiempo exacto de producción, es difícil calcular pasteles por hora-hombre, pero asumiendo una semana de producción (40 horas por trabajador), la productividad sería de 10 pasteles por hora-hombre. Esta cifra es consistente con procesos semi-artesanales que requieren preparación individualizada de cada pastel.</p>
+</section>
+</section>
+<section id="conclusiones" class="level1">
+<h1>Conclusiones</h1>
+<!-- Conclusiones: Esta sección sintetiza los principales hallazgos y responde a la pregunta de investigación -->
+<p>Con base en el análisis exhaustivo del sistema de costeo por órdenes de producción implementado en la empresa DULCE DELEITE S.R.L, se establecen las siguientes conclusiones:</p>
+<ol type="1">
+<li><p><strong>Estructura de Costos Identificada</strong>: El costo total de producción para una orden de 2,000 pasteles asciende a S/ 25,742.63, equivalente a un costo unitario de S/ 12.87. La estructura se caracteriza por una marcada predominancia de materiales directos (65.0% del costo total), seguida por mano de obra directa (31.8%) y gastos indirectos de fabricación marginales (3.2%). Esta estructura es típica de empresas de producción semi-artesanal de alimentos, donde los ingredientes de calidad y el trabajo manual son fundamentales para el producto final.</p></li>
+<li><p><strong>Costos de Materiales Directos y su Concentración</strong>: Los materiales directos totalizan S/ 16,730.00 para la orden completa. Los cinco insumos principales (chocolate, harina, huevos, leche y margarina) concentran el 95.64% del costo de materiales, lo que sugiere que los esfuerzos de control de costos, negociación con proveedores y gestión de inventarios deberían focalizarse prioritariamente en estos ingredientes críticos.</p></li>
+<li><p><strong>Costos de Mano de Obra y Cargas Sociales</strong>: El costo de mano de obra directa de S/ 8,192.63 incluye remuneraciones básicas de cinco trabajadores más todas las cargas sociales y beneficios laborales exigidos por la legislación peruana vigente (EsSalud, SCTR, SENATI, gratificaciones prorrateadas, CTS y vacaciones). El costo unitario de mano de obra de S/ 4.10 por pastel (31.8% del costo total) refleja un proceso productivo intensivo en trabajo manual, característico de la pastelería artesanal o semi-artesanal.</p></li>
+<li><p><strong>Gastos Indirectos Atípicamente Bajos</strong>: Los GIF de S/ 820.00 mensuales (S/ 0.41 por pastel, 3.2% del costo total) son atípicamente bajos en comparación con estándares de la industria (5-15%). Esto sugiere infraestructura básica, bajo nivel de inversión en equipamiento y posible subregistro de costos indirectos como mantenimiento, seguros, materiales de limpieza y herramientas menores. Esta situación, si bien mantiene costos fijos bajos, puede limitar la capacidad de crecimiento y exponer a la empresa a riesgos operativos.</p></li>
+<li><p><strong>Rentabilidad y Precio de Venta</strong>: Con un precio de venta de S/ 20.00 por pastel, la empresa obtiene un margen de utilidad bruto de 35.65% sobre el precio de venta (55.40% sobre el costo), generando una utilidad total de S/ 14,260.00 para la orden de 2,000 unidades. Este margen es saludable y consistente con rangos típicos de la industria (30-50%), pero debe cubrir gastos administrativos, de ventas, financieros e impuestos no incluidos en el costo de producción.</p></li>
+<li><p><strong>Viabilidad del Sistema de Costeo por Órdenes</strong>: El sistema de costeo por órdenes es apropiado y funcional para DULCE DELEITE S.R.L dado su esquema de producción por pedidos o lotes específicos. Permite identificar costos por orden, calcular rentabilidad por producto y proporcionar información para decisiones de fijación de precios. Sin embargo, el sistema actual es básico y podría beneficiarse significativamente de mejoras en la captura de costos indirectos, diferenciación entre costos fijos y variables, e implementación de costeo estándar.</p></li>
+<li><p><strong>Vulnerabilidad a Variaciones de Costos</strong>: La alta proporción de materiales directos (65%) hace que la rentabilidad de la empresa sea altamente sensible a variaciones en precios de insumos. El análisis de sensibilidad demostró que un incremento del 10% en costos de materiales reduciría el margen de utilidad de 35.65% a 31.45%. Esta vulnerabilidad requiere estrategias proactivas de gestión de riesgos como contratos de suministro a plazo fijo, monitoreo de mercados de insumos y mecanismos ágiles de ajuste de precios.</p></li>
+<li><p><strong>Punto de Equilibrio Favorable</strong>: Considerando solo los GIF como costos fijos (S/ 820.00) y clasificando materiales y mano de obra como costos variables, el punto de equilibrio se ubica en aproximadamente 109 pasteles, muy por debajo de la producción de la orden analizada (2,000 unidades). Esto indica una estructura de costos predominantemente variable (96.8%), lo que reduce el riesgo operativo en períodos de baja demanda pero también limita las economías de escala.</p></li>
+<li><p><strong>Limitaciones Identificadas del Sistema</strong>: El análisis reveló varias limitaciones significativas: (1) ausencia de costeo estándar para control de eficiencia y variaciones, (2) asignación simplificada de GIF que no diferencia entre órdenes cuando hay producción múltiple, (3) falta de distinción explícita entre costos fijos y variables que limita el análisis de contribución marginal, (4) probable subregistro de costos indirectos que podría subestimar el costo real de producción, y (5) ausencia de sistemas de control de mermas y desperdicios.</p></li>
+<li><p><strong>Contribución al Conocimiento y Aplicabilidad</strong>: Esta investigación demuestra empíricamente la viabilidad y utilidad del sistema de costeo por órdenes en pequeñas y medianas empresas del sector alimentario peruano, específicamente en el rubro de pastelería. El estudio proporciona un caso real documentado que puede servir como referencia para otras empresas del sector que deseen implementar o mejorar sus sistemas de costeo. Las conclusiones resaltan la importancia crítica de una correcta determinación de costos para la toma de decisiones empresariales informadas en áreas como fijación de precios competitivos, control de costos operativos, evaluación de rentabilidad por producto y planificación de la producción.</p></li>
+</ol>
+</section>
+<section id="referencias" class="level1">
+<h1>Referencias</h1>
+<div id="refs">
+
+</div>
+</section>
+<section id="apéndices" class="level1">
+<h1>Apéndices</h1>
+<section id="apx-hoja-costos" class="level2">
+<h2 class="anchored" data-anchor-id="apx-hoja-costos">Hoja de Costos por Orden de Producción</h2>
+<p>A continuación se presenta un modelo de hoja de costos por orden que podría implementarse de manera más formal en DULCE DELEITE S.R.L:</p>
+<p><strong>HOJA DE COSTOS POR ORDEN DE PRODUCCIÓN</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Información</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">N° de Orden</td>
+<td style="text-align: left;">001-2017</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Producto</td>
+<td style="text-align: left;">Pasteles con cobertura de chocolate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cantidad</td>
+<td style="text-align: left;">2,000 unidades</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cliente/Destino</td>
+<td style="text-align: left;">[Especificar]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fecha de inicio</td>
+<td style="text-align: left;">[DD/MM/AAAA]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fecha de terminación</td>
+<td style="text-align: left;">[DD/MM/AAAA]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fecha de entrega</td>
+<td style="text-align: left;">[DD/MM/AAAA]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>MATERIALES DIRECTOS</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 22%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 22%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fecha</th>
+<th style="text-align: left;">Requisición N°</th>
+<th style="text-align: left;">Material</th>
+<th style="text-align: center;">Cantidad</th>
+<th style="text-align: center;">Costo Unitario</th>
+<th style="text-align: center;">Costo Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Harina</td>
+<td style="text-align: center;">600 kg</td>
+<td style="text-align: center;">5.50</td>
+<td style="text-align: center;">3,300.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Huevos</td>
+<td style="text-align: center;">8,000 u</td>
+<td style="text-align: center;">0.40</td>
+<td style="text-align: center;">3,200.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Margarina</td>
+<td style="text-align: center;">300 kg</td>
+<td style="text-align: center;">9.00</td>
+<td style="text-align: center;">2,700.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Leche</td>
+<td style="text-align: center;">800 L</td>
+<td style="text-align: center;">3.50</td>
+<td style="text-align: center;">2,800.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Polvo hornear</td>
+<td style="text-align: center;">20 kg</td>
+<td style="text-align: center;">15.00</td>
+<td style="text-align: center;">300.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Esencia vainilla</td>
+<td style="text-align: center;">30 L</td>
+<td style="text-align: center;">1.00</td>
+<td style="text-align: center;">30.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Azúcar</td>
+<td style="text-align: center;">500 kg</td>
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">400.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Chocolate</td>
+<td style="text-align: center;">400 kg</td>
+<td style="text-align: center;">10.00</td>
+<td style="text-align: center;">4,000.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>TOTAL MATERIALES DIRECTOS</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>16,730.00</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>MANO DE OBRA DIRECTA</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trabajador</th>
+<th style="text-align: center;">Horas</th>
+<th style="text-align: center;">Tasa Horaria</th>
+<th style="text-align: center;">Costo Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Trabajador 1</td>
+<td style="text-align: center;">[horas]</td>
+<td style="text-align: center;">[tasa]</td>
+<td style="text-align: center;">1,638.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Trabajador 2</td>
+<td style="text-align: center;">[horas]</td>
+<td style="text-align: center;">[tasa]</td>
+<td style="text-align: center;">1,638.53</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Trabajador 3</td>
+<td style="text-align: center;">[horas]</td>
+<td style="text-align: center;">[tasa]</td>
+<td style="text-align: center;">1,638.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Trabajador 4</td>
+<td style="text-align: center;">[horas]</td>
+<td style="text-align: center;">[tasa]</td>
+<td style="text-align: center;">1,638.53</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Trabajador 5</td>
+<td style="text-align: center;">[horas]</td>
+<td style="text-align: center;">[tasa]</td>
+<td style="text-align: center;">1,638.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>TOTAL MANO DE OBRA DIRECTA</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>8,192.63</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>GASTOS INDIRECTOS DE FABRICACIÓN</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Base de Asignación</th>
+<th style="text-align: center;">Tasa</th>
+<th style="text-align: center;">Monto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">[Base seleccionada]</td>
+<td style="text-align: center;">[Tasa predeterminada]</td>
+<td style="text-align: center;">820.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>TOTAL GIF</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>820.00</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>RESUMEN DE COSTOS</strong></p>
+<div id="tbl-hoja-costos" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Modelo propuesto para implementación formal en DULCE DELEITE S.R.L.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hoja-costos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6: Modelo de Hoja de Costos por Orden
+</figcaption>
+<div aria-describedby="tbl-hoja-costos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Elemento</th>
+<th style="text-align: center;">Monto (S/)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Materiales Directos</td>
+<td style="text-align: center;">16,730.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mano de Obra Directa</td>
+<td style="text-align: center;">8,192.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gastos Indirectos de Fabricación</td>
+<td style="text-align: center;">820.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>COSTO TOTAL</strong></td>
+<td style="text-align: center;"><strong>25,742.63</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>COSTO UNITARIO</strong> (÷ 2,000)</td>
+<td style="text-align: center;"><strong>12.87</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Utilidad deseada por unidad</td>
+<td style="text-align: center;">7.13</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>PRECIO DE VENTA UNITARIO</strong></td>
+<td style="text-align: center;"><strong>20.00</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="apx-requisicion" class="level2">
+<h2 class="anchored" data-anchor-id="apx-requisicion">Formulario de Requisición de Materiales</h2>
+<p><strong>REQUISICIÓN DE MATERIALES</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Información</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">N° de Requisición</td>
+<td style="text-align: left;">[Número correlativo]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fecha</td>
+<td style="text-align: left;">[DD/MM/AAAA]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Orden de Producción N°</td>
+<td style="text-align: left;">[Número de orden]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Departamento solicitante</td>
+<td style="text-align: left;">Producción</td>
+</tr>
+</tbody>
+</table>
+<p><strong>MATERIALES SOLICITADOS</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 15%">
+<col style="width: 9%">
+<col style="width: 24%">
+<col style="width: 23%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Código</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: center;">Unidad</th>
+<th style="text-align: center;">Cantidad Solicitada</th>
+<th style="text-align: center;">Cantidad Entregada</th>
+<th style="text-align: left;">Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<div id="tbl-requisicion" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Documento para control de salida de materiales del almacén hacia producción.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-requisicion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;7: Formulario de Requisición de Materiales
+</figcaption>
+<div aria-describedby="tbl-requisicion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Solicitado por</th>
+<th style="text-align: left;">Autorizado por</th>
+<th style="text-align: left;">Entregado por</th>
+<th style="text-align: left;">Recibido por</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Firma:</td>
+<td style="text-align: left;">Firma:</td>
+<td style="text-align: left;">Firma:</td>
+<td style="text-align: left;">Firma:</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nombre:</td>
+<td style="text-align: left;">Nombre:</td>
+<td style="text-align: left;">Nombre:</td>
+<td style="text-align: left;">Nombre:</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fecha:</td>
+<td style="text-align: left;">Fecha:</td>
+<td style="text-align: left;">Fecha:</td>
+<td style="text-align: left;">Fecha:</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="apx-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="apx-tiempo">Registro de Tiempo de Mano de Obra</h2>
+<p><strong>TARJETA DE TIEMPO - MANO DE OBRA DIRECTA</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Información</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Trabajador</td>
+<td style="text-align: left;">[Nombre completo]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Semana</td>
+<td style="text-align: left;">Del [DD/MM/AAAA] al [DD/MM/AAAA]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DISTRIBUCIÓN DE HORAS POR ORDEN</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fecha</th>
+<th style="text-align: left;">Orden N°</th>
+<th style="text-align: center;">Hora Inicio</th>
+<th style="text-align: center;">Hora Término</th>
+<th style="text-align: center;">Total Horas</th>
+<th style="text-align: left;">Actividad</th>
+<th style="text-align: left;">Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>TOTAL HORAS DE LA SEMANA</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<div id="tbl-tiempo" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Documento para registro de horas trabajadas por orden de producción.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tiempo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;8: Tarjeta de Tiempo de Mano de Obra Directa
+</figcaption>
+<div aria-describedby="tbl-tiempo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trabajador</th>
+<th style="text-align: left;">Supervisor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Firma:</td>
+<td style="text-align: left;">Firma:</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fecha:</td>
+<td style="text-align: left;">Fecha:</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="publicaciones-similares" class="level1">
+<h1>Publicaciones Similares</h1>
+<p>Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:</p>
+<ol type="1">
+<li><a href="https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires">Plan De Negocio Exportacion De Trucha Arcoires</a></li>
+<li><a href="https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna">Plan De Negocio Exportacion De Tuna</a></li>
+<li><a href="https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf"><i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> <a href="https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros">Cadena De Suministros</a></li>
+</ol>
+<p>Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-achalma2017" class="csl-entry quarto-appendix-citeas">
+Achalma, Edison. 2017. <span>“Sistema de Costeo por Órdenes de
+Producción en la Empresa DULCE DELEITE S.R.L,”</span> October. <a href="https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/">https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/</a>.
+</div></div></section></div> ]]></description>
+  <category>Costos y presupuestos</category>
+  <guid>https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/</guid>
+  <pubDate>Mon, 23 Oct 2017 05:00:00 GMT</pubDate>
+  <media:content url="https://actus-mercator.netlify.app/posts/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
 </channel>
 </rss>
