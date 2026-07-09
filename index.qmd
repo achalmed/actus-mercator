@@ -34,16 +34,16 @@ citation: false
 toc: false
 search: false
 comments: false
-draft: false  # Modo de borrador solo esta pagina (false = final, true = borrador)
+draft: false  # Modo de borrador solo esta página (false = final, true = borrador)
 format: 
   html: 
     page-layout: full
 title-block-banner: false
 
 header-includes: >
-  <link rel="stylesheet" href="assets/listing-default.css">
+  <link rel="stylesheet" href="assets/css/pages/listing.css">
 resources:
-  - assets/listing-default.css
+  - assets/css/pages/listing.css
 # include-after-body: ../assets/silvia/subscribe.html
 ---
 
