@@ -62,6 +62,7 @@ website:
       label: utterances
       theme: body-light
       issue-term: title
+  # cookie-consent: true
   site-url: https://actus-mercator.netlify.app/
   repo-url: https://github.com/achalmed/actus-mercator
   navbar:
