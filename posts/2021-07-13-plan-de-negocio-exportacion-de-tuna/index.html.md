@@ -596,9 +596,10 @@ Si sería rentable pues nuestro precio promedio es 10.43 dólares el cual es men
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
-1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
-2. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
-3. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf) [Cadena De Suministros](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros)
+1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf) [Costeo De La Empresa Dulce Deleite Srl](https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl)
+2. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
+3. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
+4. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf) [Cadena De Suministros](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros)
 
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!

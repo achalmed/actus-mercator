@@ -6,7 +6,7 @@ duedate: "15/12/2017"
 copyrightnotice: 2017
 copyrightext: All rights reserved
 title: Sistema de Costeo por Órdenes de Producción en la Empresa DULCE DELEITE S.R.L
-subtittle: Análisis Aplicado al Sector Pastelero
+subtitle: Análisis Aplicado al Sector Pastelero
 shorttitle: "Costeo por Órdenes: DULCE DELEITE"
 
 author:
@@ -69,8 +69,15 @@ author:
       - writing
       - review & editing
 abstract: |
-   El sistema de costeo por órdenes constituye una herramienta esencial para empresas que operan bajo esquemas de producción personalizada o por lotes. Este estudio analiza la implementación del sistema de costeo por órdenes en DULCE DELEITE S.R.L, empresa ayacuchana dedicada a la elaboración de productos de pastelería. Se documenta el proceso completo de determinación de costos para una orden de 2,000 unidades de pasteles, identificando y cuantificando los tres elementos fundamentales del costo de producción: materiales directos (S/ 16,730.00), mano de obra directa (S/ 8,192.63) y gastos indirectos de fabricación (S/ 820.00). Los resultados muestran un costo total de producción de S/ 25,742.63, equivalente a S/ 12.87 por unidad, con un margen de utilidad bruta de 35.65% sobre el precio de venta de S/ 20.00. Los materiales directos representan el 65% del costo total, la mano de obra directa el 32% y los gastos indirectos el 3%. El análisis revela que cinco insumos principales (chocolate, harina, huevos, leche y margarina) concentran el 95.64% del costo de materiales, lo que implica alta sensibilidad a variaciones de precios en estos insumos críticos. El estudio demuestra la viabilidad del sistema de costeo por órdenes en pequeñas y medianas empresas del sector alimentario, proporcionando información relevante para la fijación de precios competitivos y la optimización de la rentabilidad empresarial en contextos de producción por pedidos.
-keywords: [costeo por órdenes, costos de producción, contabilidad de costos, industria pastelera, gestión empresarial]
+  El sistema de costeo por órdenes constituye una herramienta esencial para empresas que operan bajo esquemas de producción personalizada o por lotes. Este estudio analiza la implementación del sistema de costeo por órdenes en DULCE DELEITE S.R.L, empresa ayacuchana dedicada a la elaboración de productos de pastelería. Se documenta el proceso completo de determinación de costos para una orden de 2,000 unidades de pasteles, identificando y cuantificando los tres elementos fundamentales del costo de producción: materiales directos (S/ 16,730.00), mano de obra directa (S/ 8,192.63) y gastos indirectos de fabricación (S/ 820.00). Los resultados muestran un costo total de producción de S/ 25,742.63, equivalente a S/ 12.87 por unidad, con un margen de utilidad bruta de 35.65% sobre el precio de venta de S/ 20.00. Los materiales directos representan el 65% del costo total, la mano de obra directa el 32% y los gastos indirectos el 3%. El análisis revela que cinco insumos principales (chocolate, harina, huevos, leche y margarina) concentran el 95.64% del costo de materiales, lo que implica alta sensibilidad a variaciones de precios en estos insumos críticos. El estudio demuestra la viabilidad del sistema de costeo por órdenes en pequeñas y medianas empresas del sector alimentario, proporcionando información relevante para la fijación de precios competitivos y la optimización de la rentabilidad empresarial en contextos de producción por pedidos.
+keywords:
+  [
+    costeo por órdenes,
+    costos de producción,
+    contabilidad de costos,
+    industria pastelera,
+    gestión empresarial,
+  ]
 categories:
   - Costos y presupuestos
 tags:
@@ -110,7 +117,7 @@ La problemática central que aborda esta monografía es: ¿Cómo se estructura y
 
 Problemas específicos: ¿Cuál es la composición y peso relativo de cada elemento del costo (materiales directos, mano de obra directa y gastos indirectos) en el costo total de producción? ¿Qué metodología específica utiliza la empresa para asignar y distribuir los costos indirectos de fabricación? ¿Cómo se determina el precio de venta en función de la estructura de costos identificada? ¿Qué márgenes de utilidad se obtienen con la estructura de costos y precios actual?
 
-El objetivo principal de esta monografía es *analizar y documentar el sistema de costeo por órdenes de producción implementado en la empresa DULCE DELEITE S.R.L para la fabricación de pasteles, identificando la estructura de costos, los métodos de asignación empleados y las implicaciones para la gestión empresarial*.
+El objetivo principal de esta monografía es _analizar y documentar el sistema de costeo por órdenes de producción implementado en la empresa DULCE DELEITE S.R.L para la fabricación de pasteles, identificando la estructura de costos, los métodos de asignación empleados y las implicaciones para la gestión empresarial_.
 
 Los objetivos específicos que guían este estudio son:
 
@@ -125,7 +132,6 @@ Los objetivos específicos que guían este estudio son:
 5. Analizar la estructura de costos resultante, identificando el peso relativo de cada elemento en el costo total.
 
 6. Evaluar la determinación del precio de venta en función de la estructura de costos y el margen de utilidad esperado.
-
 
 La realización de esta monografía se justifica por múltiples razones académicas, prácticas y sociales.
 
@@ -177,35 +183,35 @@ La comprensión adecuada de los sistemas de costeo requiere el dominio de las di
 
 **Por su identificación con el producto:**
 
-- *Costos directos*: aquellos que pueden identificarse y asignarse específicamente a un producto, departamento o actividad sin necesidad de prorrateo. Ejemplos típicos incluyen las materias primas utilizadas en la fabricación de un producto específico y la mano de obra de trabajadores que se dedican exclusivamente a la elaboración de dicho producto.
+- _Costos directos_: aquellos que pueden identificarse y asignarse específicamente a un producto, departamento o actividad sin necesidad de prorrateo. Ejemplos típicos incluyen las materias primas utilizadas en la fabricación de un producto específico y la mano de obra de trabajadores que se dedican exclusivamente a la elaboración de dicho producto.
 
-- *Costos indirectos*: aquellos que no pueden identificarse directamente con un producto específico, sino que benefician a varios productos o al proceso productivo en general. Su asignación a productos individuales requiere el uso de bases de distribución o prorrateo. Ejemplos incluyen el arriendo de la planta de producción, la supervisión general, los servicios públicos y la depreciación de maquinaria de uso múltiple.
+- _Costos indirectos_: aquellos que no pueden identificarse directamente con un producto específico, sino que benefician a varios productos o al proceso productivo en general. Su asignación a productos individuales requiere el uso de bases de distribución o prorrateo. Ejemplos incluyen el arriendo de la planta de producción, la supervisión general, los servicios públicos y la depreciación de maquinaria de uso múltiple.
 
 **Por su comportamiento frente a cambios en el volumen de producción:**
 
-- *Costos variables*: aquellos que varían en proporción directa con los cambios en el nivel de actividad o volumen de producción. Un ejemplo claro son las materias primas: a mayor producción, mayor consumo de materiales.
+- _Costos variables_: aquellos que varían en proporción directa con los cambios en el nivel de actividad o volumen de producción. Un ejemplo claro son las materias primas: a mayor producción, mayor consumo de materiales.
 
-- *Costos fijos*: aquellos que permanecen constantes en su monto total dentro de un rango relevante de actividad, independientemente de las variaciones en el volumen de producción. Ejemplos típicos son el arriendo de instalaciones, los salarios de personal administrativo permanente y las primas de seguros anuales.
+- _Costos fijos_: aquellos que permanecen constantes en su monto total dentro de un rango relevante de actividad, independientemente de las variaciones en el volumen de producción. Ejemplos típicos son el arriendo de instalaciones, los salarios de personal administrativo permanente y las primas de seguros anuales.
 
-- *Costos mixtos o semivariables*: aquellos que contienen tanto un componente fijo como uno variable. Por ejemplo, el costo de energía eléctrica puede tener una tarifa fija mensual más un cargo variable por kilowatt-hora consumido.
+- _Costos mixtos o semivariables_: aquellos que contienen tanto un componente fijo como uno variable. Por ejemplo, el costo de energía eléctrica puede tener una tarifa fija mensual más un cargo variable por kilowatt-hora consumido.
 
 **Por su función en la empresa:**
 
-- *Costos de producción o fabricación*: relacionados con la elaboración de productos. Se subdividen en materiales directos, mano de obra directa y gastos indirectos de fabricación.
+- _Costos de producción o fabricación_: relacionados con la elaboración de productos. Se subdividen en materiales directos, mano de obra directa y gastos indirectos de fabricación.
 
-- *Costos de distribución o venta*: relacionados con la comercialización y entrega de productos a los clientes (publicidad, comisiones de ventas, transporte, etc.).
+- _Costos de distribución o venta_: relacionados con la comercialización y entrega de productos a los clientes (publicidad, comisiones de ventas, transporte, etc.).
 
-- *Costos de administración*: relacionados con la dirección y gestión general de la empresa (salarios de gerentes, gastos de oficina, honorarios profesionales, etc.).
+- _Costos de administración_: relacionados con la dirección y gestión general de la empresa (salarios de gerentes, gastos de oficina, honorarios profesionales, etc.).
 
 **Por el momento en que se registran:**
 
-- *Costos históricos o reales*: aquellos que efectivamente se incurrieron y se registran después de realizados.
+- _Costos históricos o reales_: aquellos que efectivamente se incurrieron y se registran después de realizados.
 
-- *Costos predeterminados*: aquellos que se calculan antes de iniciar la producción, basándose en estimaciones o estándares. Se subdividen en costos estimados y costos estándar.
+- _Costos predeterminados_: aquellos que se calculan antes de iniciar la producción, basándose en estimaciones o estándares. Se subdividen en costos estimados y costos estándar.
 
 ## Elementos del Costo de Producción
 
-El costo de producción de un bien manufacturado se compone de tres elementos fundamentales, conocidos en la literatura anglosajona como *prime cost* (costo primo, suma de materiales directos y mano de obra directa) y *conversion cost* (costo de conversión, suma de mano de obra directa y gastos indirectos de fabricación). Estos tres elementos son:
+El costo de producción de un bien manufacturado se compone de tres elementos fundamentales, conocidos en la literatura anglosajona como _prime cost_ (costo primo, suma de materiales directos y mano de obra directa) y _conversion cost_ (costo de conversión, suma de mano de obra directa y gastos indirectos de fabricación). Estos tres elementos son:
 
 ### Materiales Directos
 
@@ -234,7 +240,7 @@ La distinción entre mano de obra directa e indirecta es crucial en el costeo po
 
 ### Gastos Indirectos de Fabricación
 
-Los gastos indirectos de fabricación (GIF), también denominados costos indirectos de manufactura o *manufacturing overhead*, comprenden todos los costos de producción que no pueden identificarse directamente con unidades específicas de producto. Esta categoría incluye tres subgrupos:
+Los gastos indirectos de fabricación (GIF), también denominados costos indirectos de manufactura o _manufacturing overhead_, comprenden todos los costos de producción que no pueden identificarse directamente con unidades específicas de producto. Esta categoría incluye tres subgrupos:
 
 **Materiales indirectos:** materiales necesarios para el proceso de producción pero que no se convierten en parte identificable del producto terminado, o cuyo costo de rastreo no justifica el esfuerzo. Ejemplos: lubricantes para maquinaria, combustibles, materiales de limpieza de planta, herramientas menores.
 
@@ -282,15 +288,15 @@ El costeo por procesos es típico de industrias como: química, textil, alimenta
 
 La @tbl-comparacion-sistemas presenta las diferencias fundamentales entre ambos sistemas:
 
-| Característica | Costeo por Órdenes | Costeo por Procesos |
-|:---------------|:-------------------|:--------------------|
-| Tipo de producción | Por pedidos, lotes o proyectos específicos | Continua y masiva |
-| Homogeneidad del producto | Productos diferentes entre órdenes | Productos homogéneos |
-| Unidad de costeo | Orden específica | Departamento/proceso por período |
-| Cálculo del costo unitario | Costo total de orden / unidades de orden | Costo total de proceso / unidades equivalentes |
-| Flexibilidad | Alta (cada orden diferente) | Baja (producción estandarizada) |
-| Momento de cálculo | Al terminar cada orden | Al finalizar el período contable |
-| Ejemplos de industrias | Construcción, imprenta, muebles | Química, alimentaria, textil |
+| Característica             | Costeo por Órdenes                         | Costeo por Procesos                            |
+| :------------------------- | :----------------------------------------- | :--------------------------------------------- |
+| Tipo de producción         | Por pedidos, lotes o proyectos específicos | Continua y masiva                              |
+| Homogeneidad del producto  | Productos diferentes entre órdenes         | Productos homogéneos                           |
+| Unidad de costeo           | Orden específica                           | Departamento/proceso por período               |
+| Cálculo del costo unitario | Costo total de orden / unidades de orden   | Costo total de proceso / unidades equivalentes |
+| Flexibilidad               | Alta (cada orden diferente)                | Baja (producción estandarizada)                |
+| Momento de cálculo         | Al terminar cada orden                     | Al finalizar el período contable               |
+| Ejemplos de industrias     | Construcción, imprenta, muebles            | Química, alimentaria, textil                   |
 
 : Comparación entre Sistema de Costeo por Órdenes y por Procesos {#tbl-comparacion-sistemas apa-note="Elaboración propia basada en literatura especializada en contabilidad de costos."}
 
@@ -378,8 +384,8 @@ En el proceso productivo es común que se generen unidades que no cumplen los es
 
 Unidades que no cumplen con los estándares de producción y que deben reprocesarse para poder venderse. El costo del reproceso puede tratarse de dos formas:
 
-- *Cargado a la orden específica*: si el defecto es atribuible a las especificaciones particulares de esa orden o a errores en su producción.
-- *Cargado a los GIF*: si el nivel de defectos está dentro de lo normal esperado para el proceso productivo en general.
+- _Cargado a la orden específica_: si el defecto es atribuible a las especificaciones particulares de esa orden o a errores en su producción.
+- _Cargado a los GIF_: si el nivel de defectos está dentro de lo normal esperado para el proceso productivo en general.
 
 **Unidades Dañadas**
 
@@ -415,7 +421,7 @@ El cálculo del costo de mano de obra en el Perú debe considerar el marco norma
 
 ### Normas Contables y Tributarias
 
-Para efectos de presentación de estados financieros, las empresas peruanas deben aplicar las Normas Internacionales de Información Financiera (NIIF), adoptadas en el Perú mediante resoluciones del Consejo Normativo de Contabilidad. La valuación de inventarios se rige por la NIC 2 *Inventarios*, que establece que los inventarios deben medirse al menor entre el costo y el valor neto realizable, y que el costo de los inventarios de productos manufacturados debe incluir materiales directos, mano de obra directa y una porción de los GIF fijos y variables.
+Para efectos de presentación de estados financieros, las empresas peruanas deben aplicar las Normas Internacionales de Información Financiera (NIIF), adoptadas en el Perú mediante resoluciones del Consejo Normativo de Contabilidad. La valuación de inventarios se rige por la NIC 2 _Inventarios_, que establece que los inventarios deben medirse al menor entre el costo y el valor neto realizable, y que el costo de los inventarios de productos manufacturados debe incluir materiales directos, mano de obra directa y una porción de los GIF fijos y variables.
 
 Para efectos tributarios, la Ley del Impuesto a la Renta (Texto Único Ordenado aprobado por Decreto Supremo N° 179-2004-EF) y su reglamento establecen que el costo de producción se determina conforme a las normas contables, siempre que estas no contravengan disposiciones tributarias específicas.
 
@@ -519,17 +525,17 @@ Los pasteles terminados y enfriados se empacan individualmente o en grupos, depe
 
 La @tbl-formula-produccion presenta la fórmula de producción y los consumos unitarios de materiales directos para la elaboración de pasteles según los datos proporcionados por DULCE DELEITE S.R.L:
 
-| Material | Unidad de Medida | Costo Unitario de Compra (S/) | Consumo por Pastel | Costo por Pastel (S/) |
-|:---------|:----------------:|:-----------------------------:|:------------------:|:---------------------:|
-| Harina | kg | 5.50 | 0.30 kg | 1.65 |
-| Huevo | unidad | 0.40 | 4.0 unidades | 1.60 |
-| Margarina sin sal | kg | 9.00 | 0.15 kg | 1.35 |
-| Leche | litro | 3.50 | 0.4 litros | 1.40 |
-| Polvo para hornear | kg | 15.00 | 0.01 kg | 0.15 |
-| Esencia de vainilla | litro | 1.00 | 0.015 litros | 0.02 |
-| Azúcar | kg | 0.80 | 0.25 kg | 0.20 |
-| Chocolate | kg | 10.00 | 0.200 kg | 2.00 |
-| **Total** | | | | **8.37** |
+| Material            | Unidad de Medida | Costo Unitario de Compra (S/) | Consumo por Pastel | Costo por Pastel (S/) |
+| :------------------ | :--------------: | :---------------------------: | :----------------: | :-------------------: |
+| Harina              |        kg        |             5.50              |      0.30 kg       |         1.65          |
+| Huevo               |      unidad      |             0.40              |    4.0 unidades    |         1.60          |
+| Margarina sin sal   |        kg        |             9.00              |      0.15 kg       |         1.35          |
+| Leche               |      litro       |             3.50              |     0.4 litros     |         1.40          |
+| Polvo para hornear  |        kg        |             15.00             |      0.01 kg       |         0.15          |
+| Esencia de vainilla |      litro       |             1.00              |    0.015 litros    |         0.02          |
+| Azúcar              |        kg        |             0.80              |      0.25 kg       |         0.20          |
+| Chocolate           |        kg        |             10.00             |      0.200 kg      |         2.00          |
+| **Total**           |                  |                               |                    |       **8.37**        |
 
 : Fórmula de Producción y Costos de Materiales Directos por Unidad {#tbl-formula-produccion apa-note="Datos proporcionados por DULCE DELEITE S.R.L para el período analizado (2017)."}
 
@@ -586,17 +592,17 @@ Los consumos unitarios fueron determinados a partir de la fórmula de producció
 
 La @tbl-materiales-directos-detalle presenta el cálculo completo de los costos de materiales directos:
 
-| Insumo | Unidad de Compra | Costo de Compra (S/) | Consumo por Pastel | Costo por Pastel (S/) | Consumo Total | Costo Total (S/) |
-|:-------|:----------------:|:--------------------:|:------------------:|:---------------------:|:-------------:|:----------------:|
-| Harina | kg | 5.50 | 0.30 kg | 1.65 | 600 kg | 3,300.00 |
-| Huevo | unidad | 0.40 | 4.0 unidades | 1.60 | 8,000 unidades | 3,200.00 |
-| Margarina | kg | 9.00 | 0.15 kg | 1.35 | 300 kg | 2,700.00 |
-| Leche | litro | 3.50 | 0.4 litros | 1.40 | 800 litros | 2,800.00 |
-| Polvo para hornear | kg | 15.00 | 0.01 kg | 0.15 | 20 kg | 300.00 |
-| Esencia vainilla | litro | 1.00 | 0.015 litros | 0.02 | 30 litros | 30.00 |
-| Azúcar | kg | 0.80 | 0.25 kg | 0.20 | 500 kg | 400.00 |
-| Chocolate | kg | 10.00 | 0.200 kg | 2.00 | 400 kg | 4,000.00 |
-| **TOTAL** | | | | **8.37** | | **16,730.00** |
+| Insumo             | Unidad de Compra | Costo de Compra (S/) | Consumo por Pastel | Costo por Pastel (S/) | Consumo Total  | Costo Total (S/) |
+| :----------------- | :--------------: | :------------------: | :----------------: | :-------------------: | :------------: | :--------------: |
+| Harina             |        kg        |         5.50         |      0.30 kg       |         1.65          |     600 kg     |     3,300.00     |
+| Huevo              |      unidad      |         0.40         |    4.0 unidades    |         1.60          | 8,000 unidades |     3,200.00     |
+| Margarina          |        kg        |         9.00         |      0.15 kg       |         1.35          |     300 kg     |     2,700.00     |
+| Leche              |      litro       |         3.50         |     0.4 litros     |         1.40          |   800 litros   |     2,800.00     |
+| Polvo para hornear |        kg        |        15.00         |      0.01 kg       |         0.15          |     20 kg      |      300.00      |
+| Esencia vainilla   |      litro       |         1.00         |    0.015 litros    |         0.02          |   30 litros    |      30.00       |
+| Azúcar             |        kg        |         0.80         |      0.25 kg       |         0.20          |     500 kg     |      400.00      |
+| Chocolate          |        kg        |        10.00         |      0.200 kg      |         2.00          |     400 kg     |     4,000.00     |
+| **TOTAL**          |                  |                      |                    |       **8.37**        |                |  **16,730.00**   |
 
 : Detalle de Costos de Materiales Directos para 2,000 Pasteles {#tbl-materiales-directos-detalle apa-note="Elaboración propia con datos proporcionados por DULCE DELEITE S.R.L (2017)."}
 
@@ -689,15 +695,15 @@ Adicionalmente al costo de mano de obra directa, la empresa reporta un costo de 
 
 Los gastos indirectos de fabricación (GIF) comprenden todos los costos de producción que no pueden identificarse directamente con la orden específica pero que son necesarios para el proceso productivo general. La @tbl-gif presenta el detalle de GIF reportados por DULCE DELEITE S.R.L:
 
-| Rubro | Monto Mensual (S/) |
-|:------|:------------------:|
-| Arriendo | 350.00 |
-| Agua | 80.00 |
-| Electricidad | 300.00 |
-| Teléfono | 10.00 |
-| Depreciación | 50.00 |
-| Internet | 30.00 |
-| **Total GIF** | **820.00** |
+| Rubro         | Monto Mensual (S/) |
+| :------------ | :----------------: |
+| Arriendo      |       350.00       |
+| Agua          |       80.00        |
+| Electricidad  |       300.00       |
+| Teléfono      |       10.00        |
+| Depreciación  |       50.00        |
+| Internet      |       30.00        |
+| **Total GIF** |     **820.00**     |
 
 : Gastos Indirectos de Fabricación {#tbl-gif apa-note="Gastos mensuales correspondientes al período de análisis (2017). Datos de DULCE DELEITE S.R.L."}
 
@@ -767,12 +773,12 @@ En ausencia de información sobre múltiples órdenes o bases de asignación esp
 
 La @tbl-costo-total consolida los tres elementos del costo de producción calculados:
 
-| Elemento del Costo | Monto Total (S/) | % del Costo Total | Costo Unitario (S/) | % del Costo Unitario |
-|:-------------------|:----------------:|:-----------------:|:-------------------:|:--------------------:|
-| Materiales Directos | 16,730.00 | 65.0% | 8.37 | 65.0% |
-| Mano de Obra Directa | 8,192.63 | 31.8% | 4.10 | 31.8% |
-| Gastos Indirectos de Fabricación | 820.00 | 3.2% | 0.41 | 3.2% |
-| **COSTO TOTAL DE PRODUCCIÓN** | **25,742.63** | **100.0%** | **12.87** | **100.0%** |
+| Elemento del Costo               | Monto Total (S/) | % del Costo Total | Costo Unitario (S/) | % del Costo Unitario |
+| :------------------------------- | :--------------: | :---------------: | :-----------------: | :------------------: |
+| Materiales Directos              |    16,730.00     |       65.0%       |        8.37         |        65.0%         |
+| Mano de Obra Directa             |     8,192.63     |       31.8%       |        4.10         |        31.8%         |
+| Gastos Indirectos de Fabricación |      820.00      |       3.2%        |        0.41         |         3.2%         |
+| **COSTO TOTAL DE PRODUCCIÓN**    |  **25,742.63**   |    **100.0%**     |      **12.87**      |      **100.0%**      |
 
 : Costo Total de Producción para 2,000 Pasteles {#tbl-costo-total apa-note="Elaboración propia con datos de DULCE DELEITE S.R.L (2017). El costo unitario se obtiene dividiendo el costo total entre 2,000 unidades."}
 
@@ -1161,8 +1167,6 @@ Con base en el análisis exhaustivo del sistema de costeo por órdenes de produc
 
 10. **Contribución al Conocimiento y Aplicabilidad**: Esta investigación demuestra empíricamente la viabilidad y utilidad del sistema de costeo por órdenes en pequeñas y medianas empresas del sector alimentario peruano, específicamente en el rubro de pastelería. El estudio proporciona un caso real documentado que puede servir como referencia para otras empresas del sector que deseen implementar o mejorar sus sistemas de costeo. Las conclusiones resaltan la importancia crítica de una correcta determinación de costos para la toma de decisiones empresariales informadas en áreas como fijación de precios competitivos, control de costos operativos, evaluación de rentabilidad por producto y planificación de la producción.
 
-
-
 # Referencias
 
 ::: {#refs}
@@ -1176,59 +1180,59 @@ A continuación se presenta un modelo de hoja de costos por orden que podría im
 
 **HOJA DE COSTOS POR ORDEN DE PRODUCCIÓN**
 
-| Campo | Información |
-|:------|:------------|
-| N° de Orden | 001-2017 |
-| Producto | Pasteles con cobertura de chocolate |
-| Cantidad | 2,000 unidades |
-| Cliente/Destino | [Especificar] |
-| Fecha de inicio | [DD/MM/AAAA] |
-| Fecha de terminación | [DD/MM/AAAA] |
-| Fecha de entrega | [DD/MM/AAAA] |
+| Campo                | Información                         |
+| :------------------- | :---------------------------------- |
+| N° de Orden          | 001-2017                            |
+| Producto             | Pasteles con cobertura de chocolate |
+| Cantidad             | 2,000 unidades                      |
+| Cliente/Destino      | [Especificar]                       |
+| Fecha de inicio      | [DD/MM/AAAA]                        |
+| Fecha de terminación | [DD/MM/AAAA]                        |
+| Fecha de entrega     | [DD/MM/AAAA]                        |
 
 **MATERIALES DIRECTOS**
 
-| Fecha | Requisición N° | Material | Cantidad | Costo Unitario | Costo Total |
-|:------|:---------------|:---------|:--------:|:--------------:|:-----------:|
-| | | Harina | 600 kg | 5.50 | 3,300.00 |
-| | | Huevos | 8,000 u | 0.40 | 3,200.00 |
-| | | Margarina | 300 kg | 9.00 | 2,700.00 |
-| | | Leche | 800 L | 3.50 | 2,800.00 |
-| | | Polvo hornear | 20 kg | 15.00 | 300.00 |
-| | | Esencia vainilla | 30 L | 1.00 | 30.00 |
-| | | Azúcar | 500 kg | 0.80 | 400.00 |
-| | | Chocolate | 400 kg | 10.00 | 4,000.00 |
-| | | **TOTAL MATERIALES DIRECTOS** | | | **16,730.00** |
+| Fecha | Requisición N° | Material                      | Cantidad | Costo Unitario |  Costo Total  |
+| :---- | :------------- | :---------------------------- | :------: | :------------: | :-----------: |
+|       |                | Harina                        |  600 kg  |      5.50      |   3,300.00    |
+|       |                | Huevos                        | 8,000 u  |      0.40      |   3,200.00    |
+|       |                | Margarina                     |  300 kg  |      9.00      |   2,700.00    |
+|       |                | Leche                         |  800 L   |      3.50      |   2,800.00    |
+|       |                | Polvo hornear                 |  20 kg   |     15.00      |    300.00     |
+|       |                | Esencia vainilla              |   30 L   |      1.00      |     30.00     |
+|       |                | Azúcar                        |  500 kg  |      0.80      |    400.00     |
+|       |                | Chocolate                     |  400 kg  |     10.00      |   4,000.00    |
+|       |                | **TOTAL MATERIALES DIRECTOS** |          |                | **16,730.00** |
 
 **MANO DE OBRA DIRECTA**
 
-| Trabajador | Horas | Tasa Horaria | Costo Total |
-|:-----------|:-----:|:------------:|:-----------:|
-| Trabajador 1 | [horas] | [tasa] | 1,638.53 |
-| Trabajador 2 | [horas] | [tasa] | 1,638.53 |
-| Trabajador 3 | [horas] | [tasa] | 1,638.53 |
-| Trabajador 4 | [horas] | [tasa] | 1,638.53 |
-| Trabajador 5 | [horas] | [tasa] | 1,638.53 |
-| **TOTAL MANO DE OBRA DIRECTA** | | | **8,192.63** |
+| Trabajador                     |  Horas  | Tasa Horaria | Costo Total  |
+| :----------------------------- | :-----: | :----------: | :----------: |
+| Trabajador 1                   | [horas] |    [tasa]    |   1,638.53   |
+| Trabajador 2                   | [horas] |    [tasa]    |   1,638.53   |
+| Trabajador 3                   | [horas] |    [tasa]    |   1,638.53   |
+| Trabajador 4                   | [horas] |    [tasa]    |   1,638.53   |
+| Trabajador 5                   | [horas] |    [tasa]    |   1,638.53   |
+| **TOTAL MANO DE OBRA DIRECTA** |         |              | **8,192.63** |
 
 **GASTOS INDIRECTOS DE FABRICACIÓN**
 
-| Base de Asignación | Tasa | Monto |
-|:-------------------|:----:|:-----:|
-| [Base seleccionada] | [Tasa predeterminada] | 820.00 |
-| **TOTAL GIF** | | **820.00** |
+| Base de Asignación  |         Tasa          |   Monto    |
+| :------------------ | :-------------------: | :--------: |
+| [Base seleccionada] | [Tasa predeterminada] |   820.00   |
+| **TOTAL GIF**       |                       | **820.00** |
 
 **RESUMEN DE COSTOS**
 
-| Elemento | Monto (S/) |
-|:---------|:----------:|
-| Materiales Directos | 16,730.00 |
-| Mano de Obra Directa | 8,192.63 |
-| Gastos Indirectos de Fabricación | 820.00 |
-| **COSTO TOTAL** | **25,742.63** |
-| **COSTO UNITARIO** (÷ 2,000) | **12.87** |
-| Utilidad deseada por unidad | 7.13 |
-| **PRECIO DE VENTA UNITARIO** | **20.00** |
+| Elemento                         |  Monto (S/)   |
+| :------------------------------- | :-----------: |
+| Materiales Directos              |   16,730.00   |
+| Mano de Obra Directa             |   8,192.63    |
+| Gastos Indirectos de Fabricación |    820.00     |
+| **COSTO TOTAL**                  | **25,742.63** |
+| **COSTO UNITARIO** (÷ 2,000)     |   **12.87**   |
+| Utilidad deseada por unidad      |     7.13      |
+| **PRECIO DE VENTA UNITARIO**     |   **20.00**   |
 
 : Modelo de Hoja de Costos por Orden {#tbl-hoja-costos apa-note="Modelo propuesto para implementación formal en DULCE DELEITE S.R.L."}
 
@@ -1236,25 +1240,25 @@ A continuación se presenta un modelo de hoja de costos por orden que podría im
 
 **REQUISICIÓN DE MATERIALES**
 
-| Campo | Información |
-|:------|:------------|
-| N° de Requisición | [Número correlativo] |
-| Fecha | [DD/MM/AAAA] |
-| Orden de Producción N° | [Número de orden] |
-| Departamento solicitante | Producción |
+| Campo                    | Información          |
+| :----------------------- | :------------------- |
+| N° de Requisición        | [Número correlativo] |
+| Fecha                    | [DD/MM/AAAA]         |
+| Orden de Producción N°   | [Número de orden]    |
+| Departamento solicitante | Producción           |
 
 **MATERIALES SOLICITADOS**
 
 | Código | Descripción | Unidad | Cantidad Solicitada | Cantidad Entregada | Observaciones |
-|:------:|:------------|:------:|:-------------------:|:------------------:|:--------------|
-| | | | | | |
-| | | | | | |
+| :----: | :---------- | :----: | :-----------------: | :----------------: | :------------ |
+|        |             |        |                     |                    |               |
+|        |             |        |                     |                    |               |
 
 | Solicitado por | Autorizado por | Entregado por | Recibido por |
-|:---------------|:---------------|:--------------|:-------------|
-| Firma: | Firma: | Firma: | Firma: |
-| Nombre: | Nombre: | Nombre: | Nombre: |
-| Fecha: | Fecha: | Fecha: | Fecha: |
+| :------------- | :------------- | :------------ | :----------- |
+| Firma:         | Firma:         | Firma:        | Firma:       |
+| Nombre:        | Nombre:        | Nombre:       | Nombre:      |
+| Fecha:         | Fecha:         | Fecha:        | Fecha:       |
 
 : Formulario de Requisición de Materiales {#tbl-requisicion apa-note="Documento para control de salida de materiales del almacén hacia producción."}
 
@@ -1262,36 +1266,35 @@ A continuación se presenta un modelo de hoja de costos por orden que podría im
 
 **TARJETA DE TIEMPO - MANO DE OBRA DIRECTA**
 
-| Campo | Información |
-|:------|:------------|
-| Trabajador | [Nombre completo] |
-| Semana | Del [DD/MM/AAAA] al [DD/MM/AAAA] |
+| Campo      | Información                      |
+| :--------- | :------------------------------- |
+| Trabajador | [Nombre completo]                |
+| Semana     | Del [DD/MM/AAAA] al [DD/MM/AAAA] |
 
 **DISTRIBUCIÓN DE HORAS POR ORDEN**
 
-| Fecha | Orden N° | Hora Inicio | Hora Término | Total Horas | Actividad | Observaciones |
-|:------|:---------|:-----------:|:------------:|:-----------:|:----------|:--------------|
-| | | | | | | |
-| | | | | | | |
-| **TOTAL HORAS DE LA SEMANA** | | | | | | |
+| Fecha                        | Orden N° | Hora Inicio | Hora Término | Total Horas | Actividad | Observaciones |
+| :--------------------------- | :------- | :---------: | :----------: | :---------: | :-------- | :------------ |
+|                              |          |             |              |             |           |               |
+|                              |          |             |              |             |           |               |
+| **TOTAL HORAS DE LA SEMANA** |          |             |              |             |           |               |
 
 | Trabajador | Supervisor |
-|:-----------|:-----------|
-| Firma: | Firma: |
-| Fecha: | Fecha: |
+| :--------- | :--------- |
+| Firma:     | Firma:     |
+| Fecha:     | Fecha:     |
 
 : Tarjeta de Tiempo de Mano de Obra Directa {#tbl-tiempo apa-note="Documento para registro de horas trabajadas por orden de producción."}
-
-
 
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
-1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
-2. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
-3. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf) [Cadena De Suministros](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros)
+1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf) [Costeo De La Empresa Dulce Deleite Srl](https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl)
+2. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf) [Plan De Negocio Exportacion De Trucha Arcoires](https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires)
+3. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf) [Plan De Negocio Exportacion De Tuna](https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna)
+4. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.pdf) [Cadena De Suministros](https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros)
 
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!

@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -205,6 +206,10 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
+\hypersetup{
+  pdftitle={Exportaci\'{o}n de tuna},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -237,8 +242,8 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listados}}
 \makeatother
 \makeatletter
 \makeatother
@@ -555,6 +560,7 @@ Marketing}\label{capuxedtulo-3.-estudio-de-mercado-internacional-y-plan-de-marke
 {\caption{{Principales Países
 Exportadores}{\label{tbl-paises-exportadores}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ccccc@{}}
 \toprule\noalign{}
 Nº & País & \%Var 18-17 & \%Part 18 & Total Exp. 2018 (millon US\$) \\
@@ -565,6 +571,7 @@ Nº & País & \%Var 18-17 & \%Part 18 & Total Exp. 2018 (millon US\$) \\
 1 & México & 106\% & 79\% & 200.22 \\
 2 & Italia & 29\% & 12\% & 272.47 \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} COMTRADE
 
@@ -593,6 +600,7 @@ nuestra empresa.
 {\caption{{Principales Empresas
 Exportadoras}{\label{tbl-empresas-exportadoras}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcc@{}}
 \toprule\noalign{}
 Empresa & \%Var 20-19 & \%Part. 20 \\
@@ -604,6 +612,7 @@ Empresa Mexbest Mexico & 20\% & 17\% \\
 Empresa TunaMex & & \\
 Pomica Perú sociedad anónima cerrada & 7\% & 7\% \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -623,6 +632,7 @@ anual.
 {\caption{{Información General del País
 Objetivo}{\label{tbl-ficha-pais}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0786}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9214}}@{}}
@@ -659,6 +669,7 @@ Días Festivos & 01 de enero, El día de año nuevo \\
 & El 21 de septiembre, Festival de mediados de otoño \\
 & De 1-7 de octubre, Día nacional de la semana dorada \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1049,6 +1060,7 @@ limpieza.
 {\caption{{Estructura de Costos de
 Producción}{\label{tbl-costos-produccion}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lr@{}}
 \toprule\noalign{}
 Costo Variable & Soles \\
@@ -1067,6 +1079,7 @@ Margen de ganancia 80\% & 6.8117 \\
 Precio & 15.33 \\
 Precio exportador & 22,989.6 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1108,6 +1121,7 @@ Exportación}\label{anuxe1lisis-de-costos-y-precios-de-exportaciuxf3n}
 {\caption{{Plan para la Internacionalización del
 Nopal}{\label{tbl-plan-internacionalizacion}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3100}}
   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0400}}
@@ -1147,6 +1161,7 @@ Otra información de importancia & XIII & Valor total mercancía &
 & XIV & Forma de pago y tiempo & Anticipado giro directo \\
 & XV & Tipo de cambio actualizado & 3.96 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1154,6 +1169,7 @@ Otra información de importancia & XIII & Valor total mercancía &
 
 {\caption{{Cotización FCA}{\label{tbl-cotizacion-fca}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lr@{}}
 \toprule\noalign{}
 & FCA \\
@@ -1167,6 +1183,7 @@ Costo unitario exportador & 67.082 \\
 Precio unitario al importador & 134.163 \\
 Precio total al importador (Valor Factura) & 335,408 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1183,6 +1200,7 @@ forma de pago es la más segura teniendo en cuenta aspectos de riesgo.
 {\caption{{Evaluación de Riesgos por Modalidad de
 Pago}{\label{tbl-riesgos-pago}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 Medio/forma de pago & Riesgo exportador \\
@@ -1196,6 +1214,7 @@ Cobranza documentaria & No pago /no aceptación \\
 Cobranza simple & Solvencia del importador \\
 Cuenta & Máximo \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1232,6 +1251,7 @@ rescisión o resolución del contrato y el riesgo de impago.
 
 {\caption{{Perfil Importador 1}{\label{tbl-importador1}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1729}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8271}}@{}}
@@ -1258,6 +1278,7 @@ Sitio web & atendimento@sousaribeiro.com.br \\
 Ranking de mercados top & Estados Unidos, Argentina, Reino Unido \\
 Volumen de importación & USD \$125 millones \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1265,6 +1286,7 @@ Volumen de importación & USD \$125 millones \\
 
 {\caption{{Perfil Importador 2}{\label{tbl-importador2}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1966}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8034}}@{}}
@@ -1292,6 +1314,7 @@ https://cnpjs.rocks/cnpj/24283272000104/maripa-importacao-e-exportacao-ltda.html
 Ranking de mercados top & Argentina, Perú, México \\
 Volumen de importación & US\$ 138 millones \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1338,6 +1361,7 @@ Brasil}\label{anuxe1lisis-comparativo-de-precios-de-brasil}
 {\caption{{Valor de Exportación con Incoterm
 CPT}{\label{tbl-valor-exportacion-cpt}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5735}}
   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2794}}
@@ -1363,6 +1387,7 @@ Maniobras de carga & TICKET DE MANIOBRAS & 700 \\
 Costo unitario exportador & & 17.9491787 \\
 Precio total al importador precio total & & 35.8983573 \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Cálculos~basados en cotizaciones actuales
 
@@ -1373,6 +1398,7 @@ Precio total al importador precio total & & 35.8983573 \\
 {\caption{{Valor de Exportación CIF - Costo de la Tuna en el Puerto de
 Sao Paulo}{\label{tbl-valor-cif-sao-paulo}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1528}}
   >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4306}}
@@ -1398,6 +1424,7 @@ MODELO A & 17.94917867 & 1,500 & 26,923.77 \\
 & & SEGURO & 592.5 \\
 & & TOTAL CIF & \$28,671.01 \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1406,6 +1433,7 @@ MODELO A & 17.94917867 & 1,500 & 26,923.77 \\
 {\caption{{Costos de Importación en
 Brasil}{\label{tbl-costos-importacion-brasil}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 CTM (US\$) & \$39,959.09 \\
@@ -1415,6 +1443,7 @@ CTM (US\$) & \$39,959.09 \\
 \endlastfoot
 FACTOR DE CALCULO & 1.48 \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} El~costo de la tuna se incrementó en 0.48
 centavos de soles
@@ -1426,6 +1455,7 @@ centavos de soles
 {\caption{{Precio en Dólares en
 Brasil}{\label{tbl-precio-dolares-brasil}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1897}}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2500}}
@@ -1455,6 +1485,7 @@ Precio Dólares
 & & & Precio promedio & 41.21 & \$10.43 \\
 Precio internacional & 11.7721519 & & & & \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -1472,6 +1503,10 @@ algunas sugerencias:
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
+\item
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf}{\faIcon{file-pdf}}
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl}{Costeo
+  De La Empresa Dulce Deleite Srl}
 \item
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf}{\faIcon{file-pdf}}
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires}{Plan

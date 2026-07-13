@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -179,9 +180,14 @@ processes, logistics, enterprise types, global coordination}
 \par{   El autor no tiene conflictos de interés que revelar.    Los
 roles de autor se clasificaron utilizando la taxonomía de roles de
 colaborador (CRediT; https://credit.niso.org/) de la siguiente
-manera:  Edison Achalma:   conceptualización, redacción}
+manera:  Edison Achalma:   conceptualización, metodología, análisis
+formal, investigación, recursos, curación de
+datos, redacción, visualización, supervisión, administración del
+proyecto}
 \par{La correspondencia relativa a este artículo debe dirigirse a Edison
-Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
+Achalma, Escuela Profesional de Economía, Universidad Nacional de San
+Cristóbal de Huamanga, Portal Independencia N°
+57, Ayacucho, AYA 5001, Perú, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@unsch.edu.pe}}
 }
 
 \usepackage{pbalance}
@@ -229,6 +235,10 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
+\hypersetup{
+  pdftitle={Gesti\'{o}n eficiente de cadenas de suministro},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -261,8 +271,8 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listados}}
 \makeatother
 \makeatletter
 \makeatother
@@ -321,9 +331,7 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
-\section{Cadena de suministros}\label{cadena-de-suministros}
-
-\subsection{Conceptos básicos}\label{conceptos-buxe1sicos}
+\section{Conceptos básicos}\label{conceptos-buxe1sicos}
 
 Según Lambert (1998), la administración de la cadena de suministro (SCM,
 por sus siglas en inglés), se introdujo originalmente por consultores a
@@ -346,7 +354,7 @@ menor costo de las actividades de valor de los integrantes de la cadena
 y satisfacer los requerimientos de los consumidores. Lambert y Pohlen,
 (2001).
 
-\subsection{Etapas de la Cadena de
+\section{Etapas de la Cadena de
 Suministro}\label{etapas-de-la-cadena-de-suministro}
 
 \begin{figure}[!htbp]
@@ -354,13 +362,13 @@ Suministro}\label{etapas-de-la-cadena-de-suministro}
 {\caption{{Etapas de la cadena de
 Abastecimiento}{\label{fig-myimportedimage}}}}
 
-\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/image-20250330132806207.png}}
+\pandocbounded{\includegraphics[keepaspectratio,alt={Etapas de la cadena de Abastecimiento}]{index_files/figure-html/image-20250330132806207.png}}
 
 \noindent \emph{Nota.} Adaptación~de acuerdo a Chopra y Meindel (2008)
 
 \end{figure}
 
-\subsubsection{Abastecimiento o
+\subsection{Abastecimiento o
 suministro:}\label{abastecimiento-o-suministro}
 
 Se encarga del cómo y dónde obtener las materias primas, dónde
@@ -373,7 +381,7 @@ adquisición o abastecimiento de materias primas, insumos y soluciones
 complejas para el desarrollo de las actividades de fabricación o
 producción Bowersox et al., (2007).
 
-\subsubsection{Fabricación:}\label{fabricaciuxf3n}
+\subsection{Fabricación:}\label{fabricaciuxf3n}
 
 Es el momento en sí de hacer físico el producto. Producirlo y hacerlo
 real.
@@ -389,7 +397,7 @@ ABASTECIMIENTO FABRICACIÓN DISTRIBUCIÓN CONSUMIDOR Cadenas de Suministro
 abastecimiento requiera, las cuales se pueden consolidar en las etapas
 Cala, (2005).
 
-\subsubsection{Distribución:}\label{distribuciuxf3n}
+\subsection{Distribución:}\label{distribuciuxf3n}
 
 Con el producto ya acabado es el momento de almacenarlo a la espera de
 que pase por el control de calidad.
@@ -401,7 +409,7 @@ transportado hasta su destino final, de acuerdo con el acuerdo realizado
 entre el productor y el cliente, quienes determinan el lugar de entrega
 y el medio de transporte para su llegada Díaz et al., (2008).
 
-\subsubsection{Consumidor:}\label{consumidor}
+\subsection{Consumidor:}\label{consumidor}
 
 Con la mercadería ya acabada y controlado ahora queda distribuirlo a los
 diferentes puntos de venta.
@@ -411,10 +419,10 @@ proporcionados por el productor o el proveedor de bienes o servicios. Es
 decir, es cualquiera que se ve afectado por el servicio, el producto o
 el proceso Juran J. (2007).
 
-\subsection{Tipos de cadenas de
+\section{Tipos de cadenas de
 suministros}\label{tipos-de-cadenas-de-suministros}
 
-\subsubsection{Empresas industriales:}\label{empresas-industriales}
+\subsection{Empresas industriales:}\label{empresas-industriales}
 
 Tienen una \textbf{cadena de suministro} con mucha logística, que
 dependerán del tamaño de la empresa, de las líneas de producción con que
@@ -423,7 +431,7 @@ incluye funciones como, desarrollo de nuevos productos, la
 mercadotecnia, importación, fabricación, la distribución, las finanzas y
 el servicio al cliente.
 
-\subsubsection{Empresas
+\subsection{Empresas
 comercializadoras:}\label{empresas-comercializadoras}
 
 En este caso son menos elaboradas, no maneja la parte productiva, maneja
@@ -431,12 +439,12 @@ mayormente la obtención y venta de productos. Abarca funciones
 destinadas a la recepción de una solicitud del cliente y el cumplimiento
 de dicha solicitud.
 
-\subsubsection{Empresas de servicios:}\label{empresas-de-servicios}
+\subsection{Empresas de servicios:}\label{empresas-de-servicios}
 
 Estas cuentan con cadenas muy cortas. Es más, una cadena jerárquica y
 depende del recurso humano.
 
-\subsection{Ejemplo de las cadenas de suministro del
+\section{Ejemplo de las cadenas de suministro del
 atún}\label{ejemplo-de-las-cadenas-de-suministro-del-atuxfan}
 
 La gran mayoría del atún en lata se produce para los mercados de Europa
@@ -447,12 +455,12 @@ participan:
 \begin{itemize}
 \tightlist
 \item
-  Las flotas encargadas de la pesca.\\
+  Las flotas encargadas de la pesca.
 \item
   Los comerciantes que actúan como intermediarios entre las flotas
-  pesqueras y los fabricantes.\\
+  pesqueras y los fabricantes.
 \item
-  Los fabricantes que procesan y envasan el pescado.\\
+  Los fabricantes que procesan y envasan el pescado.
 \item
   Los minoristas que venden el pescado al consumidor final
 \end{itemize}
@@ -472,7 +480,7 @@ en estas cadenas de suministro. Estas etapas están conectadas entre sí
 por trabajadores/as del transporte que trasladan el atún por carretera,
 ferrocarril, mar y aire entre empresas y ubicaciones.
 
-\subsection{Bibliografías}\label{bibliografuxedas}
+\section{Bibliografías}\label{bibliografuxedas}
 
 Bowersox , D.J.(2007): \emph{Administración y logística en la cadena de
 suministros, adquisición y fabricación Bixby.} Mc Graw Hill, México.
@@ -509,6 +517,10 @@ algunas sugerencias:
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
+\item
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf}{\faIcon{file-pdf}}
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl}{Costeo
+  De La Empresa Dulce Deleite Srl}
 \item
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf}{\faIcon{file-pdf}}
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires}{Plan

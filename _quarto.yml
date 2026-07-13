@@ -5,6 +5,7 @@ project:
   pre-render: scripts/build-page-css.sh
   resources:
     - assets/img/sidebar.jpg
+    - assets/css/pages/listing.css
 
 website:
   title: "Edison Achalma B.Sc. Econ."

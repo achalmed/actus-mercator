@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -205,6 +206,10 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 
 
 
+\hypersetup{
+  pdftitle={Plan de exportaci\'{o}n de trucha arco\'{\i}ris},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -237,8 +242,8 @@ Achalma, Email: \href{mailto:elmer.achalma.09@unsch.edu.pe}{elmer.achalma.09@uns
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listing}
-\newcommand*\listoflistings{\listof{codelisting}{Lista de Listings}}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listados}}
 \makeatother
 \makeatletter
 \makeatother
@@ -1066,7 +1071,7 @@ internacional}\label{estudio-de-mercado-internacional}
 {\caption{{Mercado mundial de salmónidos 2017-2022 (Miles de
 toneladas)}{\label{fig-myimportedimage}}}}
 
-\includegraphics[width=5in,height=\textheight,keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_71aa4fe1.png}
+\includegraphics[width=5in,height=\textheight,keepaspectratio,alt={Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)}]{index_files/figure-html/lu137401d6rd_tmp_71aa4fe1.png}
 
 \noindent \emph{Nota.} Inteligencia~de Mercados-PROMPERU, 2018
 
@@ -1183,6 +1188,7 @@ país objetivo & 1 & 1 & 1 \\
 {\caption{{Medición de la intensidad de la
 competencia}{\label{tbl-mytable}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.5500}}
   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1500}}
@@ -1212,6 +1218,7 @@ la actualidad un posicionamiento superior al de mi empresa en este
 mercado & 3 & 3 & 3 \\
 \textbf{Total} & \textbf{8} & \textbf{8} & \textbf{6} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
@@ -1221,6 +1228,7 @@ mercado & 3 & 3 & 3 \\
 
 {\caption{{Medición de riesgo}{\label{tbl-mytable}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3014}}
   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2329}}
@@ -1248,6 +1256,7 @@ La percepción de la comunidad empresarial respecto a la calidad de buen
 pagador de las empresas del país es buena & 3 & 3 & 3 \\
 \textbf{Total} & \textbf{9} & \textbf{9} & \textbf{9} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
@@ -1257,6 +1266,7 @@ pagador de las empresas del país es buena & 3 & 3 & 3 \\
 
 {\caption{{Medición de la distancia sicológica}{\label{tbl-mytable}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3014}}
   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2329}}
@@ -1285,6 +1295,7 @@ Mi producto puede ser adaptado a los requerimientos del mercado, de ser
 necesario, sin mayor dificultad & 3 & 2 & 3 \\
 \textbf{Total} & \textbf{9} & \textbf{7} & \textbf{9} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} No/Nunca~= 1; Algunos/A veces = 2; Si/Siempre = 3
 
@@ -1358,6 +1369,7 @@ mercado.
 {\caption{{Ficha país de Estados Unidos de
 Norteamérica}{\label{tbl-mytable}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2917}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7083}}@{}}
@@ -1395,6 +1407,7 @@ marzo, 5 de mayo, 26 de mayo, 4 de julio, 1 de setiembre, 13 de octubre,
 11 de noviembre, 27 de noviembre y 25 de diciembre. \\
 \textbf{Códigos telefónicos:} & 00 + 1 + Ciudad + Número \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} The~World Fatbook-CIA
 
@@ -1406,6 +1419,7 @@ marzo, 5 de mayo, 26 de mayo, 4 de julio, 1 de setiembre, 13 de octubre,
 
 {\caption{{Exigencias del producto a exportar}{\label{tbl-mytable}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3333}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6667}}@{}}
@@ -1429,6 +1443,7 @@ origen. \\
 \textbf{Normas de empaque:} & Se aplicará la ley sobre etiquetado de
 productos nutritivos y educación (NLEA) \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Ministerio~de Comercio Exterior y Turismo (2019),
 Ministerio de La Producción (2019), FDA.
@@ -1547,7 +1562,7 @@ El flete por kilogramo de filete de trucha será de \$ 3.
 \caption{Mapa aéreo desde el lugar de origen (Aeropuerto Jorge Chávez)
 hasta el lugar de destino (Aeropuerto de Atlanta-EE. UU)}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_a545a4f3.png}}
+{\centering \pandocbounded{\includegraphics[keepaspectratio,alt={Mapa aéreo desde el lugar de origen (Aeropuerto Jorge Chávez) hasta el lugar de destino (Aeropuerto de Atlanta-EE. UU)}]{index_files/figure-html/lu137401d6rd_tmp_a545a4f3.png}}
 
 }
 
@@ -1889,6 +1904,7 @@ operación}\label{capuxedtulo-iv-plan-de-operaciuxf3n}
 
 {\caption{{Ficha de insumo producto}{\label{tbl-mytable2}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2917}}
   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7083}}@{}}
@@ -1918,6 +1934,7 @@ hipertensión arterial ya que tiene poca sal, y además es perfecta para
 una dieta siempre y cuando esta sea combinada con un poco de ejercicios
 diarios. \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Ministerio~de comercio exterior y turismo
 
@@ -2285,6 +2302,7 @@ exportación}\label{costos-y-gastos-de-exportaciuxf3n}
 {\caption{{Cálculo de costos estimados y precio FCA en
 USD}{\label{tbl-mytable2}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4930}}
   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2535}}
@@ -2314,6 +2332,7 @@ Costos Operativos & \$ 277.01.00 & S/.1000 \\
 FCA Total & \$5,766.89 & S/.20818.47 \\
 \textbf{FCA Unitario} & \textbf{\$8.40} & \textbf{30.32} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} LATE-Simulador~financiero (Promperú)
 
@@ -2355,6 +2374,7 @@ muestran en la Tabla 5.3.
 {\caption{{Precio FOB promedio de las exportaciones de PERÚ en los
 últimos 2 años hacia EE. UU}{\label{tbl-mytable2}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lclc@{}}
 \toprule\noalign{}
 \textbf{2018} & & \textbf{2019} & \\
@@ -2376,6 +2396,7 @@ NOVIEMBRE & 6.44 & NOVIEMBRE & 7.15 \\
 DICIEMBRE & 6.19 & DICIEMBRE & 7.15 \\
 \textbf{TOTAL PROMEDIO} & \textbf{8.398} & & \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} SIICEX~SUNAT
 
@@ -2426,7 +2447,7 @@ a través de la carta de crédito a través del Banco de Crédito del Perú.
 \caption{Costos de Carta de Crédito de Exportación de los distintos
 entes bancarios peruanos.}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_7f771699.png}}
+{\centering \pandocbounded{\includegraphics[keepaspectratio,alt={Costos de Carta de Crédito de Exportación de los distintos entes bancarios peruanos.}]{index_files/figure-html/lu137401d6rd_tmp_7f771699.png}}
 
 }
 
@@ -2452,6 +2473,7 @@ Descripción del envase: bolsa de polietileno
 
 Cantidad de productos: 1000 g en una bolsa
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ccc@{}}
 \toprule\noalign{}
 LARGO CM & ANCHO CM & ALTO CM \\
@@ -2461,6 +2483,7 @@ LARGO CM & ANCHO CM & ALTO CM \\
 \endlastfoot
 30 & 20 & 5 \\
 \end{longtable}
+}
 
 \textbf{b. Envase secundario}
 
@@ -2468,6 +2491,7 @@ Descripción del envase: Caja de tecnoport.
 
 Cantidad de productos: 40 kg en una caja.
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ccc@{}}
 \toprule\noalign{}
 LARGO CM & ANCHO CM & ALTO CM \\
@@ -2477,6 +2501,7 @@ LARGO CM & ANCHO CM & ALTO CM \\
 \endlastfoot
 60 & 80 & 33 \\
 \end{longtable}
+}
 
 \textbf{c.~Paletización}
 
@@ -2485,6 +2510,7 @@ Descripción del envase: Paletas de madera
 Cantidad de productos: 200 Kg de filete de trucha congelada en cada
 pallet
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ccc@{}}
 \toprule\noalign{}
 LARGO CM & ANCHO CM & ALTO CM \\
@@ -2494,6 +2520,7 @@ LARGO CM & ANCHO CM & ALTO CM \\
 \endlastfoot
 120 & 80 & 0.15 \\
 \end{longtable}
+}
 
 \textbf{d.~Contenedor}
 
@@ -2584,7 +2611,7 @@ tasa aumentará a 10,4\% en 2020 y bajará ligeramente a 9,1\% en 2021.
 
 \caption{Principales Indicadores Macroeconómicos.}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_75d8738e.png}}
+{\centering \pandocbounded{\includegraphics[keepaspectratio,alt={Principales Indicadores Macroeconómicos.}]{index_files/figure-html/lu137401d6rd_tmp_75d8738e.png}}
 
 }
 
@@ -2594,7 +2621,7 @@ tasa aumentará a 10,4\% en 2020 y bajará ligeramente a 9,1\% en 2021.
 
 \caption{Perspectivas económicas mundiales-Pronósticos.}
 
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-html/lu137401d6rd_tmp_f1548be1.png}}
+{\centering \pandocbounded{\includegraphics[keepaspectratio,alt={Principales Indicadores Macroeconómicos.}]{index_files/figure-html/lu137401d6rd_tmp_f1548be1.png}}
 
 }
 
@@ -2675,6 +2702,7 @@ modalidad es aplicable solo para estos países).
 
 \subsection{Modelo de cotización}\label{modelo-de-cotizaciuxf3n}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3000}}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3400}}
@@ -2710,6 +2738,7 @@ Fecha De Embarque & 30/05/21 & Medio De Transporte & Aéreo \\
 Aeropuerto De Embarque & Puerto internacional Callao-LimaPerú. &
 Aeropuerto De Llegada & Nueva York \\
 \end{longtable}
+}
 
 \section{Capítulo VI Análisis financiero y plan
 financiero}\label{capuxedtulo-vi-anuxe1lisis-financiero-y-plan-financiero}
@@ -3401,6 +3430,7 @@ construcción.}\label{presupuesto-de-construcciuxf3n}
 {\caption{{Presupuesto de construcción para la planta
 procesadora}{\label{tbl-mytable2-apa-notediario-el-peruano-valores-unitarios-data-quarto-disable-processingtrue-tbl-colwidths221422141414}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1667}}
@@ -3441,6 +3471,7 @@ Instalación de tanque elevado. & m3 & Sistema de agua & 140 m2 & 634 &
 Revestimientos & m2 & Tarrajeo y pintado & 140 m2 & 65 & 9100 \\
 \textbf{TOTAL, DE CONSTRUCCIONES} & & & & & \textbf{78240} \\
 \end{longtable}
+}
 
 \end{table}
 
@@ -3549,6 +3580,7 @@ Intereses, amortización y cuota
 
 {\caption{{Tabla de Amortizaciones}{\label{tbl-mytable2}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lccc@{}}
 \toprule\noalign{}
 CAPITAL & 107,139.00 & & \\
@@ -3568,6 +3600,7 @@ NÚMERO DE PAGOS & 5 & & \\
 4 & S/32,746.48 & S/27,338.71 & S/60,085.18 \\
 5 & S/19,555.55 & S/40,529.64 & S/60,085.18 \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Elaboración~Propia, a partir del simulador de
 crédito ProEmpresa
@@ -4309,6 +4342,10 @@ algunas sugerencias:
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
+\item
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf}{\faIcon{file-pdf}}
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl}{Costeo
+  De La Empresa Dulce Deleite Srl}
 \item
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf}{\faIcon{file-pdf}}
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires}{Plan

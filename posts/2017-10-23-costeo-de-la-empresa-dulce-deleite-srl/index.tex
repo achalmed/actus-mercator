@@ -82,6 +82,7 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -124,7 +125,7 @@
 
 
 \title{Sistema de Costeo por Órdenes de Producción en la Empresa DULCE
-DELEITE S.R.L}
+DELEITE S.R.L: Análisis Aplicado al Sector Pastelero}
 
 
 \shorttitle{Costeo por Órdenes: DULCE DELEITE}
@@ -231,6 +232,10 @@ de San Cristóbal de Huamanga, Portal Independencia N°
 
 
 
+\hypersetup{
+  pdftitle={Sistema de Costeo por \'{O}rdenes de Producci\'{o}n en la Empresa DULCE DELEITE S.R.L},
+  pdfauthor={Autor}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -364,21 +369,19 @@ Esta característica distingue al estudio de muchos trabajos académicos
 que se limitan a presentar casos hipotéticos o ejemplos didácticos
 simplificados.
 
-La problemática central que aborda esta monografía puede formularse
-mediante la siguiente pregunta de investigación: ¿Cómo se estructura y
-cuantifica el sistema de costeo por órdenes de producción en la empresa
-DULCE DELEITE S.R.L para la fabricación de pasteles, y qué implicaciones
-tiene esta estructura de costos para la determinación del precio de
-venta y la rentabilidad empresarial?
+La problemática central que aborda esta monografía es: ¿Cómo se
+estructura y cuantifica el sistema de costeo por órdenes de producción
+en la empresa DULCE DELEITE S.R.L para la fabricación de pasteles, y qué
+implicaciones tiene esta estructura de costos para la determinación del
+precio de venta y la rentabilidad empresarial?
 
-Esta pregunta se desglosa en interrogantes específicas: ¿Cuál es la
-composición y peso relativo de cada elemento del costo (materiales
-directos, mano de obra directa y gastos indirectos) en el costo total de
-producción? ¿Qué metodología específica utiliza la empresa para asignar
-y distribuir los costos indirectos de fabricación? ¿Cómo se determina el
-precio de venta en función de la estructura de costos identificada? ¿Qué
-márgenes de utilidad se obtienen con la estructura de costos y precios
-actual?
+Problemas específicos: ¿Cuál es la composición y peso relativo de cada
+elemento del costo (materiales directos, mano de obra directa y gastos
+indirectos) en el costo total de producción? ¿Qué metodología específica
+utiliza la empresa para asignar y distribuir los costos indirectos de
+fabricación? ¿Cómo se determina el precio de venta en función de la
+estructura de costos identificada? ¿Qué márgenes de utilidad se obtienen
+con la estructura de costos y precios actual?
 
 El objetivo principal de esta monografía es \emph{analizar y documentar
 el sistema de costeo por órdenes de producción implementado en la
@@ -507,14 +510,6 @@ implementar o mejorar sus sistemas de costeo.
 \section{Marco Teórico y
 Conceptual}\label{marco-teuxf3rico-y-conceptual}
 
-El análisis de costos de producción en empresas manufactureras requiere
-de un sólido fundamento conceptual que permita comprender los
-principios, metodologías y herramientas empleadas en la contabilidad de
-gestión. Esta sección presenta los conceptos fundamentales del costeo
-por órdenes de producción, los elementos del costo, las diferencias con
-otros sistemas de costeo y el marco teórico específico aplicable al caso
-de estudio.
-
 \subsection{Fundamentos de la Contabilidad de
 Costos}\label{fundamentos-de-la-contabilidad-de-costos}
 
@@ -624,11 +619,6 @@ producción:}
   iniciar la producción, basándose en estimaciones o estándares. Se
   subdividen en costos estimados y costos estándar.
 \end{itemize}
-
-Esta taxonomía de costos es fundamental para la implementación de
-cualquier sistema de costeo, ya que determina cómo se acumulan, asignan
-y reportan los diferentes tipos de costos en el proceso de determinación
-del costo de producción.
 
 \subsection{Elementos del Costo de
 Producción}\label{elementos-del-costo-de-producciuxf3n}
@@ -849,10 +839,11 @@ fundamentales entre ambos sistemas:
 {\caption{{Comparación entre Sistema de Costeo por Órdenes y por
 Procesos}{\label{tbl-comparacion-sistemas}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2807}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3509}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2281}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4035}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Característica
@@ -880,6 +871,7 @@ contable \\
 Ejemplos de industrias & Construcción, imprenta, muebles & Química,
 alimentaria, textil \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Elaboración~propia basada en literatura
 especializada en contabilidad de costos.
@@ -1396,12 +1388,13 @@ pasteles según los datos proporcionados por DULCE DELEITE S.R.L:
 {\caption{{Fórmula de Producción y Costos de Materiales Directos por
 Unidad}{\label{tbl-formula-produccion}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0980}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1765}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3039}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1961}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2255}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1845}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1553}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2816}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1748}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2039}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Material
@@ -1428,6 +1421,7 @@ Azúcar & kg & 0.80 & 0.25 kg & 0.20 \\
 Chocolate & kg & 10.00 & 0.200 kg & 2.00 \\
 \textbf{Total} & & & & \textbf{8.37} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Datos~proporcionados por DULCE DELEITE S.R.L para
 el período analizado (2017).
@@ -1549,14 +1543,15 @@ completo de los costos de materiales directos:
 {\caption{{Detalle de Costos de Materiales Directos para 2,000
 Pasteles}{\label{tbl-materiales-directos-detalle}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0645}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1452}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1774}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1613}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1855}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1210}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1452}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1463}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1301}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1626}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1463}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1707}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1138}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1301}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Insumo
@@ -1589,6 +1584,7 @@ Azúcar & kg & 0.80 & 0.25 kg & 0.20 & 500 kg & 400.00 \\
 Chocolate & kg & 10.00 & 0.200 kg & 2.00 & 400 kg & 4,000.00 \\
 \textbf{TOTAL} & & & & \textbf{8.37} & & \textbf{16,730.00} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Elaboración~propia con datos proporcionados por
 DULCE DELEITE S.R.L (2017).
@@ -1807,6 +1803,7 @@ DELEITE S.R.L:
 
 {\caption{{Gastos Indirectos de Fabricación}{\label{tbl-gif}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lc@{}}
 \toprule\noalign{}
 Rubro & Monto Mensual (S/) \\
@@ -1822,6 +1819,7 @@ Depreciación & 50.00 \\
 Internet & 30.00 \\
 \textbf{Total GIF} & \textbf{820.00} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Gastos~mensuales correspondientes al período de
 análisis (2017). Datos de DULCE DELEITE S.R.L.
@@ -1982,12 +1980,13 @@ producción calculados:
 {\caption{{Costo Total de Producción para 2,000
 Pasteles}{\label{tbl-costo-total}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1800}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1900}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2100}}
-  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2200}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3077}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1538}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1635}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1827}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1923}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Elemento del Costo
@@ -2010,6 +2009,7 @@ Gastos Indirectos de Fabricación & 820.00 & 3.2\% & 0.41 & 3.2\% \\
 \textbf{COSTO TOTAL DE PRODUCCIÓN} & \textbf{25,742.63} &
 \textbf{100.0\%} & \textbf{12.87} & \textbf{100.0\%} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Elaboración~propia con datos de DULCE DELEITE
 S.R.L (2017). El costo unitario se obtiene dividiendo el costo total
@@ -2902,6 +2902,7 @@ podría implementarse de manera más formal en DULCE DELEITE S.R.L:
 
 \textbf{HOJA DE COSTOS POR ORDEN DE PRODUCCIÓN}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 Campo & Información \\
@@ -2917,16 +2918,18 @@ Fecha de inicio & {[}DD/MM/AAAA{]} \\
 Fecha de terminación & {[}DD/MM/AAAA{]} \\
 Fecha de entrega & {[}DD/MM/AAAA{]} \\
 \end{longtable}
+}
 
 \textbf{MATERIALES DIRECTOS}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0972}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2222}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1389}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1389}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2222}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1806}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0602}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1687}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.3494}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0964}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1687}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1566}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Fecha
@@ -2955,12 +2958,26 @@ Costo Total
 & & Chocolate & 400 kg & 10.00 & 4,000.00 \\
 & & \textbf{TOTAL MATERIALES DIRECTOS} & & & \textbf{16,730.00} \\
 \end{longtable}
+}
 
 \textbf{MANO DE OBRA DIRECTA}
 
-\begin{longtable}[]{@{}lccc@{}}
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4918}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1148}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1967}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1967}}@{}}
 \toprule\noalign{}
-Trabajador & Horas & Tasa Horaria & Costo Total \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Trabajador
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Horas
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Tasa Horaria
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Costo Total
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -2972,9 +2989,11 @@ Trabajador 4 & {[}horas{]} & {[}tasa{]} & 1,638.53 \\
 Trabajador 5 & {[}horas{]} & {[}tasa{]} & 1,638.53 \\
 \textbf{TOTAL MANO DE OBRA DIRECTA} & & & \textbf{8,192.63} \\
 \end{longtable}
+}
 
 \textbf{GASTOS INDIRECTOS DE FABRICACIÓN}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lcc@{}}
 \toprule\noalign{}
 Base de Asignación & Tasa & Monto \\
@@ -2985,6 +3004,7 @@ Base de Asignación & Tasa & Monto \\
 {[}Base seleccionada{]} & {[}Tasa predeterminada{]} & 820.00 \\
 \textbf{TOTAL GIF} & & \textbf{820.00} \\
 \end{longtable}
+}
 
 \textbf{RESUMEN DE COSTOS}
 
@@ -2993,6 +3013,7 @@ Base de Asignación & Tasa & Monto \\
 {\caption{{Modelo de Hoja de Costos por
 Orden}{\label{tbl-hoja-costos}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lc@{}}
 \toprule\noalign{}
 Elemento & Monto (S/) \\
@@ -3008,6 +3029,7 @@ Gastos Indirectos de Fabricación & 820.00 \\
 Utilidad deseada por unidad & 7.13 \\
 \textbf{PRECIO DE VENTA UNITARIO} & \textbf{20.00} \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Modelo~propuesto para implementación formal en
 DULCE DELEITE S.R.L.
@@ -3021,6 +3043,7 @@ Materiales}\label{apx-requisicion}
 
 \textbf{REQUISICIÓN DE MATERIALES}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 Campo & Información \\
@@ -3033,16 +3056,18 @@ Fecha & {[}DD/MM/AAAA{]} \\
 Orden de Producción N° & {[}Número de orden{]} \\
 Departamento solicitante & Producción \\
 \end{longtable}
+}
 
 \textbf{MATERIALES SOLICITADOS}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0941}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1529}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0941}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2471}}
-  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2353}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1765}}@{}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0822}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1507}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0822}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2603}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2466}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1781}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 Código
@@ -3064,12 +3089,14 @@ Observaciones
 & & & & & \\
 & & & & & \\
 \end{longtable}
+}
 
 \begin{table}
 
 {\caption{{Formulario de Requisición de
 Materiales}{\label{tbl-requisicion}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}llll@{}}
 \toprule\noalign{}
 Solicitado por & Autorizado por & Entregado por & Recibido por \\
@@ -3081,6 +3108,7 @@ Firma: & Firma: & Firma: & Firma: \\
 Nombre: & Nombre: & Nombre: & Nombre: \\
 Fecha: & Fecha: & Fecha: & Fecha: \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Documento~para control de salida de materiales
 del almacén hacia producción.
@@ -3093,6 +3121,7 @@ del almacén hacia producción.
 
 \textbf{TARJETA DE TIEMPO - MANO DE OBRA DIRECTA}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 Campo & Información \\
@@ -3103,17 +3132,19 @@ Campo & Información \\
 Trabajador & {[}Nombre completo{]} \\
 Semana & Del {[}DD/MM/AAAA{]} al {[}DD/MM/AAAA{]} \\
 \end{longtable}
+}
 
 \textbf{DISTRIBUCIÓN DE HORAS POR ORDEN}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0843}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1205}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1566}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1687}}
-  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1566}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1325}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1807}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.3043}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0870}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1196}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1304}}
+  >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1196}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0978}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1413}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Fecha
@@ -3138,12 +3169,14 @@ Observaciones
 & & & & & & \\
 \textbf{TOTAL HORAS DE LA SEMANA} & & & & & & \\
 \end{longtable}
+}
 
 \begin{table}
 
 {\caption{{Tarjeta de Tiempo de Mano de Obra
 Directa}{\label{tbl-tiempo}}}}
 
+{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
 \toprule\noalign{}
 Trabajador & Supervisor \\
@@ -3154,6 +3187,7 @@ Trabajador & Supervisor \\
 Firma: & Firma: \\
 Fecha: & Fecha: \\
 \end{longtable}
+}
 
 \noindent \emph{Nota.} Documento~para registro de horas trabajadas por
 orden de producción.
@@ -3169,6 +3203,10 @@ algunas sugerencias:
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
+\item
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf}{\faIcon{file-pdf}}
+  \href{https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl}{Costeo
+  De La Empresa Dulce Deleite Srl}
 \item
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf}{\faIcon{file-pdf}}
   \href{https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires}{Plan
