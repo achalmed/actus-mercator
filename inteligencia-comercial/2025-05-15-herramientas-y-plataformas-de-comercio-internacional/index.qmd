@@ -51,6 +51,7 @@ citation:
 date: 05/15/2025
 draft: false
 image: ../featured.jpg
+curso: investigacion_de_mercados
 ---
 
 # Plataformas de Inteligencia Comercial

@@ -87,6 +87,7 @@ author:
       - editing
       - funding acquistion
 image: ../featured.jpg
+curso: formulacion_de_proyectos
 ---
 
 # Capítulo 1. Antecedentes de la Empresa

@@ -101,6 +101,7 @@ draft: false
 image: ../featured.jpg
 bibliography: referencias.bib
 floatsintext: true
+curso: formulacion_de_proyectos
 ---
 
 <!-- Introducción: Esta sección presenta el contexto, problemática, objetivos y estructura del documento -->

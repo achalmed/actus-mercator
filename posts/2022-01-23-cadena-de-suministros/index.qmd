@@ -53,6 +53,7 @@ citation:
 date: 01/23/2022
 draft: false
 image: ../featured.jpg
+curso: formulacion_de_proyectos
 ---
 
 # Conceptos básicos
