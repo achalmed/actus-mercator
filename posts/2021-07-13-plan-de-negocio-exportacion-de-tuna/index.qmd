@@ -58,7 +58,7 @@ citation:
     - Brenda Gamboa
     - Alejandrina Galindo
   pdf-url: https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf
-date: 07/13/2021
+date: 2021-07-13
 draft: false
 author:
   - name: Edison Achalma

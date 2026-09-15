@@ -57,7 +57,7 @@ citation:
   - Diana Gutierrez
   - Brenda Huiza
   pdf-url: https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf
-date: 09/15/2020
+date: 2020-09-15
 draft: false
 author:
 - name: Edison Achalma

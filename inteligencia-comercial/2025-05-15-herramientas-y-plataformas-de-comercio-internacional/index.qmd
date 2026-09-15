@@ -48,7 +48,7 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf
-date: 05/15/2025
+date: 2025-05-15
 draft: false
 image: ../featured.jpg
 curso: investigacion_de_mercados

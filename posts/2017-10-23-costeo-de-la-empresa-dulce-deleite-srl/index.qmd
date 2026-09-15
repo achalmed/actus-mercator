@@ -96,7 +96,7 @@ citation:
   author:
     - Edison Achalma
   pdf-url: https://aequilibria.netlify.app/posts/2025-05-11-teoria-y-politica-monetaria-bcrp/index.pdf
-date: 10/23/2017
+date: 2017-10-23
 draft: false
 image: ../featured.jpg
 bibliography: referencias.bib

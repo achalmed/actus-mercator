@@ -48,9 +48,10 @@ citation:
   author:
   - Edison Achalma
   pdf-url: https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf
-date: 05/15/2025
+date: 2025-05-15
 draft: false
 image: ../featured.jpg
+curso: investigacion_de_mercados
 ---
 
 # Plataformas de Inteligencia Comercial
@@ -112,13 +113,28 @@ image: ../featured.jpg
 - [MRL Global - LMR Internacionales](https://www.mrlglobal.com/)
 
 
+---
+tipo: fragmento
+titulo: texto de apertura del bloque «Publicaciones similares» (incluido en cada post)
+---
+
 # Publicaciones Similares
 
 Si te interesó este artículo, te recomendamos que explores otros blogs y recursos relacionados que pueden ampliar tus conocimientos. Aquí te dejo algunas sugerencias:
 
 
+---
+tipo: fragmento
+titulo: índice de publicaciones de inteligencia-comercial; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf) [Herramientas Y Plataformas De Comercio Internacional](https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional)
 
+
+---
+tipo: fragmento
+titulo: texto de cierre del bloque «Publicaciones similares» (incluido en cada post)
+---
 
 Esperamos que encuentres estas publicaciones igualmente interesantes y útiles. ¡Disfruta de la lectura!
 

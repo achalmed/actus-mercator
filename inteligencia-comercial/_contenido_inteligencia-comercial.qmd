@@ -1,1 +1,6 @@
+---
+tipo: fragmento
+titulo: índice de publicaciones de inteligencia-comercial; lo genera script_generador_publicacion_similar
+---
+
 1. [{{< fa regular file-pdf >}}](https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf) [Herramientas Y Plataformas De Comercio Internacional](https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional)
