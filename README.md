@@ -4,7 +4,7 @@ estado: activo
 ---
 # pub_actus-mercator/ — Gestión empresarial: blog satélite del hub `04 index` (repo actus-mercator, actus-mercator.netlify.app)
 
-<!-- GENERADO por `04 index/scripts/pubs.py readme --aplicar` desde `04 index/_pubs/pubs.yml` (2026-09-20); no editar aquí: se regenera desde el hub -->
+<!-- GENERADO por `04 index/scripts/pubs.py readme --aplicar` desde `04 index/_pubs/pubs.yml` (2026-10-04); no editar aquí: se regenera desde el hub -->
 
 ## Qué es
 
@@ -15,14 +15,15 @@ GitHub `achalmed/actus-mercator` y dominio `actus-mercator.netlify.app`; el regi
 
 El tema visual (SCSS, JS, extensiones, filtros, `scripts/build-page-css.sh`) **no se edita aquí**: vive en el hub y
 llega por `04 index/scripts/sync-theme-pubs.sh`. Lo propio de este blog es `_quarto.yml`, `index.qmd`, `_contenido-*.qmd`,
-`assets/img/` y las entradas.
+`assets/img/` y las entradas; los índices `_contenido_<sección>.qmd` los genera `scripts_quarto_studio`
+(`script_generador_publicacion_similar`) y no se editan a mano.
 
 ## Uso
 
 ```bash
 quarto preview                              # vista previa local
 quarto render                               # regenera _site/ (freeze: true: el código no se re-ejecuta)
-git add -A && git commit -m "post: …"       # confirmar AQUÍ primero…
+git add -- <carpeta del post> _contenido_*.qmd _site && git commit -m "post: …"   # confirmar AQUÍ primero…
 git push                                    # …al remoto propio (ssh git@github.com:achalmed/actus-mercator.git)
 cd ../.. && git add _pubs/pub_actus-mercator && git commit -m "pubs: actus-mercator al último commit"   # y mover el puntero en el hub
 ```
@@ -35,7 +36,7 @@ cd ../.. && git add _pubs/pub_actus-mercator && git commit -m "pubs: actus-merca
 | `posts/` | entradas sin sección temática | 4 |
 | `_quarto.yml`, `index.qmd`, `404.qmd`, `_contenido-inicio.qmd`, `_contenido-final.qmd` | configuración y portada propias del blog | |
 | `assets/`, `_extensions/`, `_filters/`, `_partials/`, `scripts/` | tema propagado desde el hub (salvo `assets/img/`) | |
-| `_site/` | sitio generado por `quarto render`; versionado mientras Netlify lo publique tal cual (D1) | |
+| `_site/` | sitio generado por `quarto render`; versionado a propósito: su push es el despliegue (`04 index/docs/decisiones.md` §4.1) | |
 
 5 entradas. Cada entrada es `<sección>/AAAA-MM-DD-slug/index.qmd` con frontmatter apaquarto y fecha ISO;
 sus metadatos se editan en masa desde `scripts_quarto_studio` (`metadata_manager`).
@@ -49,5 +50,5 @@ principio a fin), `04 index/docs/despliegue-netlify.md` (cómo publica cada siti
 ## Límite honesto
 
 - Este README es el único documento propio del blog y se regenera desde el hub: lo escrito aquí a mano se pierde.
-- `_site/` sigue en git: Netlify publica _site/ empujado (sin build); D1 pendiente. 
+- `_site/` sigue en git: Netlify publica el _site/ empujado, sin build (decisiones §4.1 del hub). 
 - Licencia: código MPL-2.0 (`LICENSE`), contenido CC-BY-SA-4.0 según `license.qmd` del hub; unificarlas en los 12 sitios es la decisión D9.
