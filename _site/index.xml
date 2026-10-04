@@ -2309,7 +2309,7 @@ Alejandrina Galindo. 2021. <em>Exportación de tuna</em>. accepted, July
 <h1 data-number="4"><span class="header-section-number">4</span> Capítulo III Estudio de mercado internacional y plan de marketing</h1>
 <section id="estudio-de-mercado-internacional" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="estudio-de-mercado-internacional"><span class="header-section-number">4.1</span> Estudio de mercado internacional</h2>
-<div id="fig-myimportedimage" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)" data-apa-note="Inteligencia de Mercados-PROMPERU, 2018">
+<div id="fig-myimportedimage" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Inteligencia de Mercados-PROMPERU, 2018" alt="Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-myimportedimage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="index_files/figure-html/lu137401d6rd_tmp_71aa4fe1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figura&nbsp;1: Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)"><img src="https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index_files/figure-html/lu137401d6rd_tmp_71aa4fe1.png" class="img-fluid figure-img" style="width:5in" data-apa-note="Inteligencia de Mercados-PROMPERU, 2018" alt="Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)"></a>
@@ -2402,7 +2402,7 @@ Figura&nbsp;1: Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)
 </tr>
 </tbody>
 </table>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[55,15,15,15]" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true" data-tbl-colwidths="[55,15,15,15]">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;1: Medición de la intensidad de la competencia

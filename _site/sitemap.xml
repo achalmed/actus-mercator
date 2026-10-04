@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://actus-mercator.netlify.app/SECURITY.html</loc>
-    <lastmod>2026-06-20T16:43:04.736Z</lastmod>
+    <loc>https://actus-mercator.netlify.app/index.html</loc>
+    <lastmod>2026-07-02T20:05:41.352Z</lastmod>
   </url>
   <url>
-    <loc>https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.html</loc>
-    <lastmod>2026-06-20T16:46:15.386Z</lastmod>
+    <loc>https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.html</loc>
+    <lastmod>2026-09-15T12:41:23.066Z</lastmod>
   </url>
   <url>
-    <loc>https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.html</loc>
-    <lastmod>2026-06-20T16:46:15.383Z</lastmod>
+    <loc>https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.html</loc>
+    <lastmod>2026-09-15T12:41:23.061Z</lastmod>
   </url>
   <url>
     <loc>https://actus-mercator.netlify.app/inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.html</loc>
     <lastmod>2026-09-15T12:41:23.050Z</lastmod>
   </url>
   <url>
-    <loc>https://actus-mercator.netlify.app/posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.html</loc>
-    <lastmod>2026-07-13T11:03:38.128Z</lastmod>
+    <loc>https://actus-mercator.netlify.app/posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.html</loc>
+    <lastmod>2026-09-15T12:41:23.074Z</lastmod>
   </url>
   <url>
-    <loc>https://actus-mercator.netlify.app/posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.html</loc>
-    <lastmod>2026-06-20T16:46:15.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://actus-mercator.netlify.app/index.html</loc>
-    <lastmod>2026-07-02T20:05:41.352Z</lastmod>
+    <loc>https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index.html</loc>
+    <lastmod>2026-09-15T12:41:23.078Z</lastmod>
   </url>
 </urlset>
