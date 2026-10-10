@@ -2411,7 +2411,7 @@ Figura&nbsp;1: Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)
 </tr>
 </tbody>
 </table>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true" data-tbl-colwidths="[55,15,15,15]">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-tbl-colwidths="[55,15,15,15]" data-quarto-disable-processing="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;1: Medición de la intensidad de la competencia
