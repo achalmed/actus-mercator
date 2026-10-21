@@ -1,0 +1,16 @@
+# _documentos.tsv — GENERADO por scripts/documentos.py; no editar
+# Caché del modo documentos (render.sh --documentos): una fila por página y formato; la clave es el sha256 de la
+# fuente y de la fecha de la página; sha256 es el de la salida en _site/. Ver web/docs/decisiones.md §4.5.
+fuente	formato	salida	clave	sha256
+404.qmd	-	-	57a39053a9a1a4204e42552a2228f278149a77a5bbb504f38d3f18a67937ca75	-
+index.qmd	-	-	b9e17304738a739a324fd8a39287d8dc5a6044424e6aea458cdc3a7272b83cd0	-
+inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.qmd	apaquarto-docx	inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.docx	47b848c716261c5515cb6a231c29e8572dceeb2f46fbba2bbcaa9853fdff7d59	f4cc88e2b87b82df3f13f2927d8e4819e9e2e3f6a5355a4b05399d55ddd67087
+inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.qmd	apaquarto-pdf	inteligencia-comercial/2025-05-15-herramientas-y-plataformas-de-comercio-internacional/index.pdf	47b848c716261c5515cb6a231c29e8572dceeb2f46fbba2bbcaa9853fdff7d59	fc6a7cc8313b08066002f8fa2dc9d08612736cfc7ff6b62b8e36d475c4199f78
+posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.qmd	apaquarto-docx	posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.docx	6f0dc953a8aebd296dad457912c91b6f61067abc1ef593d2ad124cab73a61404	75427429492a314f483c617fad1d1e5447a801a7e67b2c38c05660552dea3427
+posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.qmd	apaquarto-pdf	posts/2017-10-23-costeo-de-la-empresa-dulce-deleite-srl/index.pdf	6f0dc953a8aebd296dad457912c91b6f61067abc1ef593d2ad124cab73a61404	76251bfb60ce46167b2daa9052fbe7e8ec0565c2897adde4475a563308065942
+posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.qmd	apaquarto-docx	posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.docx	0d1ad18323d5206e1b0e44648041e39c30263b622d2bb255e5ee2b625f329bc6	c5a7b81cb46d294cd7c8551d785d08a82d18bb7f60ee80b18c0faa1a7ac798af
+posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.qmd	apaquarto-pdf	posts/2020-09-15-plan-de-negocio-exportacion-de-trucha-arcoires/index.pdf	0d1ad18323d5206e1b0e44648041e39c30263b622d2bb255e5ee2b625f329bc6	9c141e97a945e93c3919b9d832f8aa19704d50ee8ab491768babce4f0473dbb1
+posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.qmd	apaquarto-docx	posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.docx	ec8e370764d6a5a5c2dd12440150bbfd43adfa335a6ccc46cadde4547dc7ba37	3f48b7f01d7584b39beaf2a768d9cd7648c9e0d2f7eabbebc151680f283af935
+posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.qmd	apaquarto-pdf	posts/2021-07-13-plan-de-negocio-exportacion-de-tuna/index.pdf	ec8e370764d6a5a5c2dd12440150bbfd43adfa335a6ccc46cadde4547dc7ba37	23d351110de87d7370970a70433fec9e94978311e2cb14f3cf0e0b0606ccbe8e
+posts/2022-01-23-cadena-de-suministros/index.qmd	apaquarto-docx	posts/2022-01-23-cadena-de-suministros/index.docx	18c293fdfb78a962595c157f5437cd3e7fe9887d202f3e218eaef8bb04058fc9	5d5f3c4e54f489fd9e67d96848630aee3d22802fa9ce033edd489a662e5b47a2
+posts/2022-01-23-cadena-de-suministros/index.qmd	apaquarto-pdf	posts/2022-01-23-cadena-de-suministros/index.pdf	18c293fdfb78a962595c157f5437cd3e7fe9887d202f3e218eaef8bb04058fc9	1a6a5ca3b467650db12bf5899d7d37526ca7730a3b02fce9acbeb611dee027bb
