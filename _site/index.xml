@@ -222,7 +222,7 @@ internacional</em>. accepted, May 15. <a href="https://actus-mercator.netlify.ap
 </section>
 <section id="etapas-de-la-cadena-de-suministro" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Etapas de la Cadena de Suministro</h1>
-<div id="fig-myimportedimage" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="Adaptación de acuerdo a Chopra y Meindel (2008)" alt="Etapas de la cadena de Abastecimiento">
+<div id="fig-myimportedimage" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Etapas de la cadena de Abastecimiento" data-apa-note="Adaptación de acuerdo a Chopra y Meindel (2008)">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-myimportedimage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="index_files/figure-html/image-20250330132806207.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Etapas de la cadena de Abastecimiento"><img src="https://actus-mercator.netlify.app/posts/2022-01-23-cadena-de-suministros/index_files/figure-html/image-20250330132806207.png" class="img-fluid figure-img" data-apa-note="Adaptación de acuerdo a Chopra y Meindel (2008)" alt="Etapas de la cadena de Abastecimiento"></a>
@@ -2411,7 +2411,7 @@ Figura&nbsp;1: Mercado mundial de salmónidos 2017-2022 (Miles de toneladas)
 </tr>
 </tbody>
 </table>
-<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-quarto-disable-processing="true" data-tbl-colwidths="[55,15,15,15]">
+<div id="tbl-mytable" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-disable-processing="true" data-apa-note="No/Nunca = 1; Algunos/A veces = 2; Si/Siempre = 3" data-tbl-colwidths="[55,15,15,15]">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabla&nbsp;1: Medición de la intensidad de la competencia
